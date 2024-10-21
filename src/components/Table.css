@@ -1,0 +1,47 @@
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+  }
+  
+  /* Adding gridlines */
+  .styled-table td {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  /* Shading every other row */
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    color: #000000;
+  }
+  
+  /* Hover effect for table rows */
+  .styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Optional life improvements for mobile responsiveness */
+  @media screen and (max-width: 600px) {
+    .styled-table {
+      font-size: 14px;
+    }
+    .styled-table th, .styled-table td {
+      padding: 8px 10px;
+    }
+  }
+  

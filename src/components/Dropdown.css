@@ -1,0 +1,13 @@
+.dropdown {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 30vw;
+
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    padding: 5vw;
+}

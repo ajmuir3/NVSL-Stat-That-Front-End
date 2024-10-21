@@ -1,0 +1,87 @@
+/*Header Section*/
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-image: url("../assets/teal_water.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 25vw; 
+  max-width: 400px; 
+  height: auto;
+  margin-bottom: 30px;
+}  
+
+.page-header {
+  font-family: 'Impact', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 7vw;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 2px 2px 3px black;
+}
+
+/*Media*/
+.media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-img {
+  max-height: 50vw;
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
+.row-video{
+  max-height: 45vw;
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
+/*Odd Row*/
+.row-odd{
+  background-color: #00AFAA;
+  padding: 20px;
+}
+
+/*Even Row*/
+.row-even{
+  background-color: #11549B;
+  padding: 20px;
+}
+
+/*Other Text*/
+.section-header{
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 4vw;
+  text-align: left;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.section-text{
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 3vw;
+  text-align: left;
+  margin-top: 10px;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
+
+
+
+  

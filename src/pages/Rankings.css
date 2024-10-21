@@ -1,0 +1,16 @@
+.section-header-container {
+    display: flex;  /* Use flexbox to place them side by side */
+    justify-content: space-between; /* Space them out, adjust as needed */
+    align-items: center; /* Aligns items vertically in the center */
+  }
+  
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Align items vertically */
+    align-items: center;     /* Align items horizontally */
+    display: grid;
+    place-items: center;  /* Center items both vertically and horizontally */
+    height: 10vh;
+}
+  

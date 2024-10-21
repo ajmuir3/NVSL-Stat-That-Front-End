@@ -1,0 +1,26 @@
+div #container {
+    display: flex;
+    flex-direction: column; /* This stacks the items vertically*/
+    align-items: center;
+    background-image: url("../assets/teal_water.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#section-img {
+    width: 50vw; 
+    max-width: 400px; 
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+#section-title{
+    font-family: 'Impact', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 10px;
+    z-index: -1;
+}

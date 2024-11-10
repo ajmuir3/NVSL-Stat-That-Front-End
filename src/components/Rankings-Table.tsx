@@ -1,7 +1,7 @@
 import './Table.css';
 
-function StripedRowExample() {
-  return (
+const RankingsTable: React.FC< {title: string; url: string} > = ({ title, url }) => {
+    return (
     <table className="styled-table">
         <thead>
             <tr>
@@ -61,4 +61,4 @@ function StripedRowExample() {
   );
 }
 
-export default StripedRowExample;
+export default RankingsTable;

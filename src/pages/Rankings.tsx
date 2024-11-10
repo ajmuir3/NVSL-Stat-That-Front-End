@@ -3,7 +3,7 @@ import ExploreContainer from '../components/ExploreContainer';
 import './Rankings.css';
 import Dropdown from '../components/Dropdown';
 import Buttons from '../components/Button';
-import StripedRowExample from '../components/Table';
+import StripedRowExample from '../components/Rankings-Table';
 import logo from '../assets/nvsl-logo.png'
  
 const RankingsPage: React.FC = () => {

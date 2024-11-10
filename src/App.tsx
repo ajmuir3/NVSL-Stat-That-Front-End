@@ -1,6 +1,6 @@
-import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel, setupIonicReact, IonHeader, IonToolbar, IonTitle } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
+import { BrowserRouter as Router, Redirect, Route } from 'react-router-dom';
 import './App.css';
 
 //* Pages
@@ -9,6 +9,7 @@ import ResultsPage from './pages/Results';
 import TimesPage from './pages/Times';
 import RankingsPage from './pages/Rankings';
 import TeamsPage from './pages/Teams';
+import TeamProfile from './pages/TeamProfile';
 
 //* Icons
 import { home, newspaper, body, cellular, trophy } from 'ionicons/icons';
@@ -67,6 +68,7 @@ const App: React.FC = () => (
           <Route path="/top-times" render={() => <TimesPage />} exact={true} />
           <Route path="/rankings" render={() => <RankingsPage />} exact={true} />
           <Route path="/teams" render={() => <TeamsPage />} exact={true} />
+          <Route path="/teams/team-profile" render={() => <TeamProfile />} exact={true} /> {/* Route for TeamProfile */}
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">

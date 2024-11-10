@@ -1,10 +1,10 @@
-import { IonCol, IonGrid, IonItem, IonList, IonRoute, IonRow, IonSelect, IonSelectOption } from '@ionic/react';
+import { IonSelect, IonSelectOption } from '@ionic/react';
 import './Dropdown.css';
 
 function Dropdown() {
   return (
     <div className='dropdowns'>
-        <IonSelect label="Select a Year" labelPlacement="floating" className='dropdown'>
+        <IonSelect label="Select a Year" labelPlacement="floating" className='dropdown' value="year">
             <IonSelectOption value="All-Years">All Years</IonSelectOption>
             <IonSelectOption value="2024">2024</IonSelectOption>
             <IonSelectOption value="2023">2023</IonSelectOption>
@@ -12,7 +12,7 @@ function Dropdown() {
             <IonSelectOption value="2021">2021</IonSelectOption>
         </IonSelect>
     
-        <IonSelect label="Select a Team" labelPlacement="floating" className='dropdown'>
+        <IonSelect label="Select a Team" labelPlacement="floating" className='dropdown' value="name">
             <IonSelectOption value="All-Teams">All Teams</IonSelectOption>
             <IonSelectOption value="Annandale">Annandale</IonSelectOption>
             <IonSelectOption value="Arlington-Forest">Arlington Forest</IonSelectOption>
@@ -95,7 +95,7 @@ function Dropdown() {
             <IonSelectOption value="Woodley">Woodley</IonSelectOption>
         </IonSelect>
     
-        <IonSelect label="Select a Division" labelPlacement="floating" className='dropdown'>
+        <IonSelect label="Select a Division" labelPlacement="floating" className='dropdown' value="division">
             <IonSelectOption value="All-Divisions">All Divisions</IonSelectOption>
             <IonSelectOption value="1">1</IonSelectOption>
             <IonSelectOption value="2">2</IonSelectOption>

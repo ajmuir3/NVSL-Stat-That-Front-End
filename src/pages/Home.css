@@ -12,7 +12,7 @@
 }
 
 .logo {
-  width: 25vw; 
+  width: 15vw; 
   max-width: 400px; 
   height: auto;
   margin-bottom: 30px;
@@ -22,7 +22,7 @@
   font-family: 'Impact', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #FFFFFF;
-  font-size: 7vw;
+  font-size: 5vw;
   text-align: center;
   margin-top: 10px;
   text-shadow: 2px 2px 3px black;
@@ -42,7 +42,7 @@
 }
 
 .row-video{
-  max-height: 45vw;
+  max-height: 25vw;
   border: 10px solid white;
   border-radius: 10px;
 }
@@ -64,7 +64,7 @@
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #FFFFFF;
-  font-size: 4vw;
+  font-size: 3vw;
   text-align: left;
   margin-top: 10px;
   text-shadow: 1px 1px 3px black;
@@ -73,7 +73,7 @@
 .section-text{
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #FFFFFF;
-  font-size: 3vw;
+  font-size: 2vw;
   text-align: left;
   margin-top: 10px;
   text-shadow: 1px 1px 1px black;

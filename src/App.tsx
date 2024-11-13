@@ -5,7 +5,7 @@ import './App.css';
 
 //* Pages
 import HomePage from './pages/Home';
-import ResultsPage from './pages/Results';
+import MeetResults from './pages/Results2';
 import TimesPage from './pages/Times';
 import RankingsPage from './pages/Rankings';
 import TeamsPage from './pages/Teams';
@@ -64,7 +64,7 @@ const App: React.FC = () => (
           Use the component prop when your component depends on the RouterComponentProps passed in automatically.
         */}
           <Route path="/home" render={() => <HomePage />} exact={true} />
-          <Route path="/results" render={() => <ResultsPage />} exact={true} />
+          <Route path="/results" render={() => <MeetResults />} exact={true} />
           <Route path="/top-times" render={() => <TimesPage />} exact={true} />
           <Route path="/rankings" render={() => <RankingsPage />} exact={true} />
           <Route path="/teams" render={() => <TeamsPage />} exact={true} />

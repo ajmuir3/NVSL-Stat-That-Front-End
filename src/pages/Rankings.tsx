@@ -1,5 +1,4 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Rankings.css';
 import Dropdown from '../components/Dropdown';
 import Buttons from '../components/Button';
@@ -24,9 +23,7 @@ const RankingsPage: React.FC = () => {
           <Dropdown />
         
           <Buttons />
-        
-          <StripedRowExample />
-        </div>
+                </div>
       </IonContent>
     </IonPage>
   );

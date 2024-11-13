@@ -1,7 +1,5 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
-import Nav from '../components/Nav';
 
 const TimesPage: React.FC = () => {
   return (
@@ -12,7 +10,6 @@ const TimesPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonContent fullscreen>
-          <ExploreContainer />
         </IonContent>
     </IonPage>
   );

@@ -1,6 +1,18 @@
-import { IonApp, IonRouterOutlet, IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel, setupIonicReact, IonHeader, IonToolbar, IonTitle } from '@ionic/react';
+import {
+  IonApp,
+  IonRouterOutlet,
+  IonTabs,
+  IonTabBar,
+  IonTabButton,
+  IonIcon,
+  IonLabel,
+  setupIonicReact,
+  IonHeader,
+  IonToolbar,
+  IonTitle,
+} from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { BrowserRouter as Router, Redirect, Route } from 'react-router-dom';
+import { Redirect, Route } from 'react-router-dom';
 import './App.css';
 
 //* Pages
@@ -13,7 +25,6 @@ import TeamProfile from './pages/TeamProfile';
 
 //* Icons
 import { home, newspaper, body, cellular, trophy } from 'ionicons/icons';
-
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -31,17 +42,6 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
-/**
- * Ionic Dark Mode
- * -----------------------------------------------------
- * For more info, please see:
- * https://ionicframework.com/docs/theming/dark-mode
- */
-
-/* import '@ionic/react/css/palettes/dark.always.css'; */
-/* import '@ionic/react/css/palettes/dark.class.css'; */
-import '@ionic/react/css/palettes/dark.system.css';
-
 /* Theme variables */
 import './theme/variables.css';
 
@@ -51,26 +51,23 @@ const App: React.FC = () => (
   <IonApp>
     <IonHeader>
       <IonToolbar>
-        <IonTitle className='header'>NVSL-Stat-That</IonTitle>
+        <IonTitle className="header">NVSL-Stat-That</IonTitle>
       </IonToolbar>
     </IonHeader>
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Redirect exact path="/" to="/home" />
-          {/*
-          Use the render method to reduce the number of renders your component will have due to a route change.
-
-          Use the component prop when your component depends on the RouterComponentProps passed in automatically.
-        */}
-          <Route path="/home" render={() => <HomePage />} exact={true} />
-          <Route path="/results" render={() => <MeetResults />} exact={true} />
-          <Route path="/top-times" render={() => <TimesPage />} exact={true} />
-          <Route path="/rankings" render={() => <RankingsPage />} exact={true} />
-          <Route path="/teams" render={() => <TeamsPage />} exact={true} />
-          <Route path="/teams/team-profile" render={() => <TeamProfile />} exact={true} /> {/* Route for TeamProfile */}
+          {/* Define Routes */}
+          <Route path="/home" component={HomePage} exact={true} />
+          <Route path="/results" component={MeetResults} exact={true} />
+          <Route path="/top-times" component={TimesPage} exact={true} />
+          <Route path="/rankings" component={RankingsPage} exact={true} />
+          <Route path="/teams" component={TeamsPage} exact={true} />
+          <Route path="/teams/team-profile" component={TeamProfile} exact={true} />
+          <Redirect exact from="/" to="/home" />
         </IonRouterOutlet>
 
+        {/* Tab Bar */}
         <IonTabBar slot="bottom">
           <IonTabButton tab="home" href="/home">
             <IonIcon icon={home} />

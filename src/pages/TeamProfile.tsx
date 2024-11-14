@@ -1,28 +1,24 @@
-// TeamProfile.tsx
 import React from 'react';
-import { useLocation } from 'react-router-dom';
-
-const team = "Rolling Hills";
+import { useParams } from 'react-router-dom';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/react';
 
 const TeamProfile: React.FC = () => {
-  const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
-  const team = queryParams.get('team');
-
-  console.log("Team parameter from URL:", team); // Debugging line
+  const { teamId } = useParams<{ teamId: string }>();
 
   return (
-    <div>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-      <h1>Team Profile</h1>
-    </div>
+    <IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>{teamId.replace(/-/g, ' ')}</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent>
+        <div className="team-profile">
+          <h1>{teamId.replace(/-/g, ' ')}</h1>
+          <p>Details about {teamId.replace(/-/g, ' ')} will go here.</p>
+        </div>
+      </IonContent>
+    </IonPage>
   );
 };
 

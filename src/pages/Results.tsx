@@ -2,50 +2,51 @@ import React, { useState } from 'react';
 import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ResultsTable from '../components/Results-Table';
 import FilterDropdown from '../components/FilterDropdown';
-import './Rankings.css';
+import './Results.css'; // Ensure styles match the uploaded design
 
 const mockData = [
   {
-    date: "2024-06-22",
-    year: "2024",
+    date: "6/22/24",
+    year: "2024", // Add this
     home_team: "Rolling Hills",
-    home_points: "243.0",
+    home_points: "243",
     away_team: "Sleepy Hollow B & R",
-    away_points: "177.0",
+    away_points: "177",
     division: 7,
     url: "https://mynvsl.com/results/27199?back=dv"
   },
   {
-    date: "2021-06-19",
-    year: "2021",
+    date: "6/19/21",
+    year: "2021", // Add this
     home_team: "Rolling Hills",
-    home_points: "260.0",
+    home_points: "260",
     away_team: "Annandale",
-    away_points: "150.0",
+    away_points: "150",
     division: 12,
     url: "https://mynvsl.com/results/25125?back=dv"
   },
   {
-    date: "2022-07-06",
-    year: "2022",
+    date: "7/6/22",
+    year: "2022", // Add this
     home_team: "Rolling Hills",
-    home_points: "267.0",
+    home_points: "267",
     away_team: "Great Falls",
-    away_points: "148.0",
+    away_points: "148",
     division: 9,
     url: "https://mynvsl.com/results/26417?back=dv"
   },
   {
-    date: "2023-07-06",
-    year: "2023",
+    date: "7/6/23",
+    year: "2023", // Add this
     home_team: "Rolling Hills",
-    home_points: "204.0",
+    home_points: "204",
     away_team: "Dominion Hills",
-    away_points: "211.0",
+    away_points: "211",
     division: 8,
     url: "https://mynvsl.com/results/27301?back=dv"
   }
 ];
+
 
 function ResultsPage() {
   const [filteredYear, setFilteredYear] = useState<string | null>(null);
@@ -62,10 +63,9 @@ function ResultsPage() {
     setFilteredDivision(division);
   };
 
-  // Filter the mock data based on the selected filters
   const filteredData = mockData.filter((item) => {
-    const matchesYear = filteredYear ? item.year === filteredYear : true;
-    const matchesTeam = filteredTeam ? item.home_team === filteredTeam || item.away_team === filteredTeam : true;
+    const matchesYear = filteredYear ? item.date.endsWith(filteredYear.substring(2)) : true;
+    const matchesTeam = filteredTeam ? [item.home_team, item.away_team].includes(filteredTeam) : true;
     const matchesDivision = filteredDivision ? item.division === filteredDivision : true;
     return matchesYear && matchesTeam && matchesDivision;
   });
@@ -79,9 +79,9 @@ function ResultsPage() {
       </IonHeader>
       <IonContent>
         <div className="header-section">
-          <h1 className="page-header">Results</h1>
+          <h1 className="page-header">Meet Results</h1>
         </div>
-        <div className="content-container">
+        <div className="filter-section">
           <h2>Meet Results for</h2>
           <FilterDropdown
             years={years}
@@ -89,11 +89,16 @@ function ResultsPage() {
             divisions={divisions}
             onFilterChange={handleFilterChange}
           />
-          <ResultsTable data={filteredData} year={filteredYear} name={filteredTeam} division={filteredDivision?.toString() || ""}/>
         </div>
+        <ResultsTable
+          data={filteredData}
+          year={filteredYear}
+          name={filteredTeam}
+          division={filteredDivision?.toString() || ""}
+        />
       </IonContent>
     </IonPage>
   );
-};
+}
 
 export default ResultsPage;

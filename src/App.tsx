@@ -17,7 +17,7 @@ import './App.css';
 
 //* Pages
 import HomePage from './pages/Home';
-import MeetResults from './pages/Results2';
+import ResultsPage from './pages/Results';
 import TimesPage from './pages/Times';
 import RankingsPage from './pages/Rankings';
 import TeamsPage from './pages/Teams';
@@ -59,7 +59,7 @@ const App: React.FC = () => (
         <IonRouterOutlet>
           {/* Define Routes */}
           <Route path="/home" component={HomePage} exact={true} />
-          <Route path="/results" component={MeetResults} exact={true} />
+          <Route path="/results" component={ResultsPage} exact={true} />
           <Route path="/top-times" component={TimesPage} exact={true} />
           <Route path="/rankings" component={RankingsPage} exact={true} />
           <Route path="/teams" component={TeamsPage} exact={true} />

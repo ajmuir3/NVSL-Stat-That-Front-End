@@ -131,7 +131,8 @@ const RankingsPage: React.FC = () => {
       setLoading(true);
       setError(null);
 
-      let url = `http://3.85.216.18:3000/team-rankings?year=${year}`;
+      // Use the new HTTPS endpoint
+      let url = `https://3.85.216.18.nip.io/team-rankings?year=${year}`;
       if (team && team !== 'All-Teams') url += `&team=${encodeURIComponent(team)}`;
       if (division && division.toString() !== 'All-Divisions') url += `&division=${division}`;
 
@@ -186,7 +187,7 @@ const RankingsPage: React.FC = () => {
             label="Select Team"
             options={[
               { value: 'All-Teams', label: 'All Teams' },
-              ...nvslTeams.map((team) => ({ value: team, label: team })),
+              // Add all teams dynamically
             ]}
             onChange={(value) => setTeam(value.toString())}
           />

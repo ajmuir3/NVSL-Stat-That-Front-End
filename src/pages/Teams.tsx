@@ -1,97 +1,48 @@
 import React, { useState } from 'react';
-import { IonSelect, IonSelectOption, IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonGrid, IonRow, IonCol } from '@ionic/react';
-import { Link } from 'react-router-dom';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/react';
+import FilterDropdown from '../components/FilterDropdown'; // Assuming you use the FilterDropdown
+import './Teams.css';
 
-const teams = [
-  'Annandale',
-  'Arlington Forest',
-  'Brandywine',
-  'Broyhill Crest',
-  'Brookfield',
-  'Burke Station',
-  'Camelot',
-  'Canterbury Woods',
-  'Cardinal Hill',
-  'Chesterbrook',
-  'Commonwealth',
-  'Cottontail',
-  'Country Club Hills',
-  'Crosspointe',
-  'Daventry',
-  'Dominion Hills',
-  'Donaldson Run',
-  'Dowden Terrace',
-  'Dunn Loring',
-  'Edsall Park',
-  'Fair Oaks',
-  'Fairfax',
-  'Fairfax Club Estates',
-  'Fairfax Station',
-  'Forest Hollow',
-  'Fox Hunt',
-  'Fox Mill Estates',
-  'Fox Mill Woods',
-  'Great Falls',
-  'Greenbriar',
-  'Hollin Hills',
-  'Hunter Mill',
-  'Hunt Valley',
-  'Kent Gardens',
-  'Kings Ridge',
-  'Langley',
-  'Lakevale Estates',
-  'Little Hunting Park',
-  'Long Branch',
-  'Mantua',
-  'Mclean',
-  'Mosby Woods',
-  'Mount Vernon Park',
-  'Newport',
-  'Oakton',
-  'Old Keene Mill',
-  'Orange Hunt',
-  'Parliament',
-  'Pinecrest',
-  'Poplar Tree',
-  'Ravensworth Farm',
-  'Riverside Gardens',
-  'Rolling Forest',
-  'Rolling Hills',
-  'Rolling Valley',
-  'Rutherford',
-  'Shouse Village',
-  'Sideburn Run',
-  'Sleepy Hollow B & R',
-  'Sleepy Hollow Rec',
-  'Somerset Olde Creek',
-  'South Run',
-  'Springboard',
-  'Springfield',
-  'Stratford',
-  'Sully Station',
-  'Sully Station II',
-  'Truro',
-  'Tuckahoe',
-  'Vienna Aquatic',
-  'Vienna Woods',
-  'Villa Aquatic',
-  'Village West',
-  'Virginia Hills',
-  'Virginia Run',
-  'Wakefield Chapel',
-  'Walden Glen',
-  'Waynewood',
-  'Woodley',
-];
+const all_teams = [
+  'Annandale', 'Arlington Forest', 'Brandywine', 'Broyhill Crest', 'Brookfield', 'Burke Station',
+  'Chesterbrook', 'Camelot', 'Country Club Hills', 'Cardinal Hill', 'Crosspointe', 'Commonwealth',
+  'Cottontail', 'Canterbury Woods', 'Dominion Hills', 'Dunn Loring', 'Rolling Hills', 'Woodley',
+  'Laurel Hill', 'Fox Mill Estates', 'Overlee', 'Vienna Woods', 'Highland Park', 'Hunter Mill',
+  'Wakefield Chapel', 'Ilda Community', 'Sleepy Hollow B & R', 'Sleepy Hollow Rec', 'Sideburn Run',
+  'Village West', 'Kings Ridge', 'Ravensworth Farm', 'Little Rocky Run', 'Tuckahoe', 'Greenbriar',
+  'Fairfax', 'Rutherford', 'Mosby Woods', 'Mount Vernon Park', 'Stratford', 'Lincolnia Park',
+  'Fox Mill Woods', 'Great Falls', 'Holmes Run Acres', 'Orange Hunt', 'Poplar Heights',
+  'Fair Oaks', 'Lake Braddock', 'Virginia Hills', 'Rolling Valley', 'Springfield',
+  'McLean', 'Vienna Aquatic', 'Burke Station', 'Poplar Tree', 'Oakton', 'Long Branch', 'Dowden Terrace',
+  'Sully Station', 'Cardinal Hill', 'Donaldson Run', 'Lakevale Estates', 'Parklawn', 'Parliament',
+  'Hunter Mill', 'Chesterbrook', 'Herndon', 'Pleasant Valley', 'Fairfax Station',
+  'Newington Forest', 'Sideburn Run', 'Woodley', 'Fox Hunt', 'Daventry',
+  'Dunn Loring', 'Truro', 'Hamlet', 'Fox Mill Woods', 'High Point Pool', 'Camelot', 'Sleepy Hollow',
+  'Lincolnia Park', 'Commonwealth', 'Lakeview', 'Holmes Run Acres', 'Fairfax Station', 'Waynewood',
+  'Parliament', 'South Run', 'Riverside Gardens', 'Walden Glen', 'Mount Vernon Park', 'Virginia Run'
+].sort();
 
+const teams = [...new Set(all_teams)];
 
-const TeamsPage: React.FC = () => {
-  const [filterLetter, setFilterLetter] = useState<string>('All');
+function TeamsPage() {
+  const [filteredTeam, setFilteredTeam] = useState<string | null>(null);
 
-  // Filter teams by selected letter
-  const filteredTeams = filterLetter === 'All'
-    ? teams
-    : teams.filter((team) => team.startsWith(filterLetter));
+  const handleFilterChange = (team: string | null) => {
+    setFilteredTeam(team);
+  };
+
+  const filteredTeams = filteredTeam
+    ? teams.filter((team) => team.toLowerCase().includes(filteredTeam.toLowerCase()))
+    : teams;
+
+  const groupedTeams = filteredTeams.reduce((groups: { [key: string]: string[] }, team) => {
+    const firstLetter = team.charAt(0).toUpperCase();
+    if (!groups[firstLetter]) {
+      groups[firstLetter] = [];
+    }
+    groups[firstLetter].push(team);
+    return groups;
+  }, {});
 
   return (
     <IonPage>
@@ -101,50 +52,38 @@ const TeamsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <div className="header-section">
-          <h1 className="page-header">Teams in the NVSL</h1>
-        </div>
-        <div className="filter-section">
-          <IonSelect
-            label="Your Team"
-            labelPlacement="floating"
-            value={filterLetter}
-            onIonChange={(e) => setFilterLetter(e.detail.value)}
-          >
-            <IonSelectOption value="All">All Teams</IonSelectOption>
-            {[...'ABCDEFGHKLMNOPRSTVW'].map((letter) => (
-              <IonSelectOption key={letter} value={letter}>
-                {letter}
-              </IonSelectOption>
-            ))}
-          </IonSelect>
-        </div>
-        <IonGrid>
-          {Object.entries(
-            filteredTeams.reduce((acc: Record<string, string[]>, team) => {
-              const letter = team[0].toUpperCase();
-              if (!acc[letter]) acc[letter] = [];
-              acc[letter].push(team);
-              return acc;
-            }, {})
-          ).map(([letter, teamList]) => (
-            <IonRow key={letter}>
-              <IonCol size="12">
+        <div className='teams-page'>
+          <div className="teams-header">
+            <h1>Teams in the NVSL</h1>
+          </div>
+          <FilterDropdown
+            label="Team Name"
+            options={['All Teams', ...teams]}
+            onChange={(value) => handleFilterChange(value as string | null)}
+          />
+          <div className="teams-container">
+            {Object.keys(groupedTeams).sort().map((letter) => (
+              <div key={letter} className="team-group">
                 <h2>{letter}</h2>
-              </IonCol>
-              {teamList.map((team) => (
-                <IonCol size="6" sizeMd="3" key={team}>
-                  <Link to={`/teams/${team.replace(/\s/g, '-').toLowerCase()}`} className="team-link">
-                    {team}
-                  </Link>
-                </IonCol>
-              ))}
-            </IonRow>
-          ))}
-        </IonGrid>
+                <div className="team-list">
+                  {groupedTeams[letter].map((team) => (
+                    <IonButton
+                      key={team}
+                      fill="clear"
+                      className="team-button"
+                      href={`/teams/team-profile/${team.toLowerCase().replace(/\s/g, '-')}`}
+                    >
+                      {team}
+                    </IonButton>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </IonContent>
     </IonPage>
   );
-};
+}
 
 export default TeamsPage;

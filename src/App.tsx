@@ -44,6 +44,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import MeetResultsPage from './pages/MeetResults';
 
 setupIonicReact();
 
@@ -60,10 +61,11 @@ const App: React.FC = () => (
           {/* Define Routes */}
           <Route path="/home" component={HomePage} exact={true} />
           <Route path="/results" component={ResultsPage} exact={true} />
+          <Route path="/results/meet/:meetId" component={MeetResultsPage} exact />
           <Route path="/top-times" component={TimesPage} exact={true} />
           <Route path="/rankings" component={RankingsPage} exact={true} />
           <Route path="/teams" component={TeamsPage} exact={true} />
-          <Route path="/teams/team-profile" component={TeamProfile} exact={true} />
+          <Route path="/teams/team-profile/:teamId" component={TeamProfile} exact />
           <Redirect exact from="/" to="/home" />
         </IonRouterOutlet>
 

@@ -1,0 +1,79 @@
+.team-detail-header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .team-detail-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .team-detail-header h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .team-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .team-stats div {
+    font-size: 1.2rem;
+  }
+  
+  .team-stats strong {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .history-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+  }
+  
+  .history-table th,
+  .history-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .history-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .history-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    display: block;
+    margin: 10px auto 20px auto;
+    text-align: center;
+  }
+  

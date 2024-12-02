@@ -1,161 +1,135 @@
-import React, { useState, useEffect } from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonSpinner } from '@ionic/react';
+import React, { useState } from 'react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import FilterDropdown from '../components/FilterDropdown';
+import RankingsTable from '../components/Rankings-Table';
 import './Rankings.css';
-import Dropdown from '../components/Dropdown';
-import StripedRowExample from '../components/Rankings-Table';
 
-const RankingsPage: React.FC = () => {
-  const [rankings, setRankings] = useState<any[]>([]);
-  const [loading, setLoading] = useState<boolean>(false);
-  const [error, setError] = useState<string | null>(null);
-  const [year, setYear] = useState<number | null>(2024); // Default year
-  const [team, setTeam] = useState<string | null>(null);
-  const [division, setDivision] = useState<number | null>(null);
+// Mock data for testing
+const mockData = [
+  {
+    rank: 1,
+    teamName: 'Chesterbrook',
+    division: 1,
+    seasonYear: '2024',
+    winCount: 5,
+    lossCount: 0,
+    tieCount: 0,
+    dmPoints: 228.5,
+    drPoints: 190.3,
+    dPoints: 210.0,
+    arPoints: 89.5,
+    aPoints: 120.0,
+    tPoints: 150.0,
+    gtPoints: 1883.0,
+    powerRanking: 1.77,
+    champs: true,
+  },
+  {
+    rank: 2,
+    teamName: 'Tuckahoe',
+    division: 1,
+    seasonYear: '2024',
+    winCount: 4,
+    lossCount: 1,
+    tieCount: 0,
+    dmPoints: 220.3,
+    drPoints: 180.2,
+    dPoints: 200.0,
+    arPoints: 85.0,
+    aPoints: 115.0,
+    tPoints: 140.0,
+    gtPoints: 1825.5,
+    powerRanking: 2.15,
+    champs: false,
+  },
+  {
+    rank: 3,
+    teamName: 'Overlee',
+    division: 1,
+    seasonYear: '2024',
+    winCount: 3,
+    lossCount: 2,
+    tieCount: 0,
+    dmPoints: 215.4,
+    drPoints: 175.0,
+    dPoints: 195.0,
+    arPoints: 82.0,
+    aPoints: 112.0,
+    tPoints: 138.0,
+    gtPoints: 1720.0,
+    powerRanking: 3.10,
+    champs: false,
+  },
+  {
+    rank: 4,
+    teamName: 'Donaldson Run',
+    division: 1,
+    seasonYear: '2024',
+    winCount: 2,
+    lossCount: 3,
+    tieCount: 0,
+    dmPoints: 210.2,
+    drPoints: 170.8,
+    dPoints: 190.0,
+    arPoints: 78.5,
+    aPoints: 110.0,
+    tPoints: 135.0,
+    gtPoints: 1600.0,
+    powerRanking: 4.50,
+    champs: false,
+  },
+];
 
-  const nvslTeams = [
-    "Annandale",
-    "Arlington Forest",
-    "Brandywine",
-    "Bren Mar",
-    "Bren Mar-Edsall Park",
-    "Brookfield",
-    "Broyhill Crest",
-    "Burke Station",
-    "Camelot",
-    "Canterbury Woods",
-    "Cardinal Hill",
-    "Chesterbrook",
-    "Commonwealth",
-    "Cottontail",
-    "Country Club Hills",
-    "Crosspointe",
-    "Daventry",
-    "Dominion Hills",
-    "Donaldson Run",
-    "Dowden Terrace",
-    "Dunn Loring",
-    "Edsall Park",
-    "Fair Oaks",
-    "Fair Oaks (prov)",
-    "Faircrest",
-    "Fairfax",
-    "Fairfax Club Estates",
-    "Fairfax Station",
-    "Forest Hollow",
-    "Fox Hunt",
-    "Fox Mill Estates",
-    "Fox Mill Woods",
-    "Freedom Park",
-    "Great Falls",
-    "Greenbriar",
-    "Hamlet",
-    "Hayfield Farm",
-    "Herndon",
-    "Hiddenbrook",
-    "High Point Pool",
-    "Highland Park",
-    "Highlands Swim",
-    "Hollin Hills",
-    "Hollin Meadows",
-    "Holmes Run Acres",
-    "Hunt Valley",
-    "Hunter Mill",
-    "Ilda Community",
-    "Kent Gardens",
-    "Kings Ridge",
-    "Lake Braddock",
-    "Lakevale Estates",
-    "Lakeview",
-    "Langley",
-    "Laurel Hill",
-    "Lee Graham",
-    "Lincolnia Park",
-    "Little Hunting Park",
-    "Little Rocky Run",
-    "Long Branch",
-    "Lorton Station",
-    "Mansion House",
-    "Mantua",
-    "McLean",
-    "Mosby Woods",
-    "Mount Vernon Park",
-    "Newington Forest",
-    "Newington Station",
-    "North Springfield",
-    "Oakton",
-    "Old Keene Mill",
-    "Orange Hunt",
-    "Overlee",
-    "Parklawn",
-    "Parliament",
-    "Penderbrook",
-    "Pinecrest",
-    "Pinewood Lake",
-    "Pleasant Valley",
-    "Poplar Heights",
-    "Poplar Tree",
-    "Ravensworth Farm",
-    "Riverside Gardens",
-    "Rolling Forest",
-    "Rolling Hills",
-    "Rolling Valley",
-    "Royal Pool",
-    "Rutherford",
-    "Shouse Village",
-    "Sideburn Run",
-    "Sleepy Hollow B & R",
-    "Sleepy Hollow Rec",
-    "Somerset-Olde Creek",
-    "South Run",
-    "Springboard",
-    "Springfield",
-    "Stratford",
-    "Sully Station",
-    "Sully Station II",
-    "Truro",
-    "Tuckahoe",
-    "Vienna Aquatic",
-    "Vienna Woods",
-    "Villa Aquatic",
-    "Village West",
-    "Virginia Hills",
-    "Virginia Run",
-    "Wakefield Chapel",
-    "Walden Glen",
-    "Waynewood",
-    "Woodley"
-  ];
 
-  useEffect(() => {
-    const fetchRankings = async () => {
-      setLoading(true);
-      setError(null);
+function RankingsPage() {
+  const [filteredYear, setFilteredYear] = useState<string | null>('2024');
+  const [filteredTeam, setFilteredTeam] = useState<string | null>(null);
+  const [filteredDivision, setFilteredDivision] = useState<number | null>(null);
 
-      // Use the new HTTPS endpoint
-      let url = `https://3.85.216.18.nip.io/team-rankings?year=${year}`;
-      if (team && team !== 'All-Teams') url += `&team=${encodeURIComponent(team)}`;
-      if (division && division.toString() !== 'All-Divisions') url += `&division=${division}`;
+  const years = ['2024', '2023', '2022', '2021'];
+  const all_teams = [
+    'Annandale', 'Arlington Forest', 'Brandywine', 'Broyhill Crest', 'Brookfield', 'Burke Station',
+    'Chesterbrook', 'Camelot', 'Country Club Hills', 'Cardinal Hill', 'Crosspointe', 'Commonwealth',
+    'Cottontail', 'Canterbury Woods', 'Dominion Hills', 'Dunn Loring', 'Rolling Hills', 'Woodley',
+    'Laurel Hill', 'Fox Mill Estates', 'Overlee', 'Vienna Woods', 'Highland Park', 'Hunter Mill',
+    'Wakefield Chapel', 'Ilda Community', 'Sleepy Hollow B & R', 'Sleepy Hollow Rec', 'Sideburn Run',
+    'Village West', 'Kings Ridge', 'Ravensworth Farm', 'Little Rocky Run', 'Tuckahoe', 'Greenbriar',
+    'Fairfax', 'Rutherford', 'Mosby Woods', 'Mount Vernon Park', 'Stratford', 'Lincolnia Park',
+    'Fox Mill Woods', 'Great Falls', 'Holmes Run Acres', 'Orange Hunt', 'Poplar Heights',
+    'Fair Oaks', 'Lake Braddock', 'Virginia Hills', 'Rolling Valley', 'Springfield',
+    'McLean', 'Vienna Aquatic', 'Burke Station', 'Poplar Tree', 'Oakton', 'Long Branch', 'Dowden Terrace',
+    'Sully Station', 'Cardinal Hill', 'Donaldson Run', 'Lakevale Estates', 'Parklawn', 'Parliament',
+    'Hunter Mill', 'Chesterbrook', 'Herndon', 'Pleasant Valley', 'Fairfax Station',
+    'Newington Forest', 'Sideburn Run', 'Woodley', 'Fox Hunt', 'Daventry',
+    'Dunn Loring', 'Truro', 'Hamlet', 'Fox Mill Woods', 'High Point Pool', 'Camelot', 'Sleepy Hollow',
+    'Lincolnia Park', 'Commonwealth', 'Lakeview', 'Holmes Run Acres', 'Fairfax Station', 'Waynewood',
+    'Parliament', 'South Run', 'Riverside Gardens', 'Walden Glen', 'Mount Vernon Park', 'Virginia Run'
+  ].sort();
+  const teams = [...new Set(all_teams)];
+  const divisions = Array.from({ length: 17 }, (_, i) => i + 1);
 
-      try {
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error(`Error fetching rankings: ${response.statusText}`);
-        }
-        const data = await response.json();
-        setRankings(data);
-      } catch (err) {
-        if (err instanceof Error) {
-          setError(err.message);
-        } else {
-          setError('An unknown error occurred');
-        }
-      } finally {
-        setLoading(false);
-      }
-    };
+  const handleFilterChange = (filterType: string, value: string | number | null) => {
+    switch (filterType) {
+      case 'year':
+        setFilteredYear(value as string | null);
+        break;
+      case 'team':
+        setFilteredTeam(value as string | null);
+        break;
+      case 'division':
+        setFilteredDivision(value as number | null);
+        break;
+      default:
+        break;
+    }
+  };
 
-    fetchRankings();
-  }, [year, team, division]);
+  const filteredData = mockData.filter((item) => {
+    const matchesYear = filteredYear ? item.seasonYear.toString() === filteredYear : true;
+    const matchesTeam = filteredTeam ? item.teamName === filteredTeam : true;
+    const matchesDivision = filteredDivision ? item.division === filteredDivision : true;
+    return matchesYear && matchesTeam && matchesDivision;
+  });
 
   return (
     <IonPage>
@@ -166,52 +140,21 @@ const RankingsPage: React.FC = () => {
       </IonHeader>
       <IonContent>
         <div className="header-section">
-          <h1 className="page-header">Rankings</h1>
+          <h1 className="page-header">Team Rankings</h1>
         </div>
-        <div className="content-container">
-          <h2>Team Rankings</h2>
-
-          <Dropdown
-            label="Select Year"
-            options={[
-              { value: 'All-Years', label: 'All Years' },
-              { value: 2024, label: '2024' },
-              { value: 2023, label: '2023' },
-              { value: 2022, label: '2022' },
-              { value: 2021, label: '2021' },
-            ]}
-            onChange={(value) => setYear(Number(value))}
+        <div className="filter-section">
+          <FilterDropdown label="Year" options={[...years]} onChange={(value) => handleFilterChange('year', value)} />
+          <FilterDropdown label="Team" options={[...teams]} onChange={(value) => handleFilterChange('team', value)} />
+          <FilterDropdown
+            label="Division"
+            options={['All Divisions', ...divisions.map((div) => div.toString())]}
+            onChange={(value) => handleFilterChange('division', value === 'All Divisions' ? null : Number(value))}
           />
-
-          <Dropdown
-            label="Select Team"
-            options={[
-              { value: 'All-Teams', label: 'All Teams' },
-              // Add all teams dynamically
-            ]}
-            onChange={(value) => setTeam(value.toString())}
-          />
-
-          <Dropdown
-            label="Select Division"
-            options={[
-              { value: 'All-Divisions', label: 'All Divisions' },
-              ...Array.from({ length: 17 }, (_, i) => ({ value: i + 1, label: (i + 1).toString() })),
-            ]}
-            onChange={(value) => setDivision(value === 'All-Divisions' ? null : Number(value))}
-          />
-
-          {loading ? (
-            <IonSpinner name="crescent" />
-          ) : error ? (
-            <div className="error-message">{error}</div>
-          ) : (
-            <StripedRowExample data={rankings} />
-          )}
         </div>
+        <RankingsTable data={filteredData} />
       </IonContent>
     </IonPage>
   );
-};
+}
 
 export default RankingsPage;

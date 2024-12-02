@@ -26,4 +26,12 @@
     font-weight: bold;
   }
   
+  .filter-dropdown-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust the minmax to control column width */
+    gap: 1rem; /* Spacing between filters */
+    justify-content: center; /* Center filters horizontally */
+    align-items: center; /* Align filters vertically */
+    margin: 20px 0; /* Add space around the filter section */
+  }
   

@@ -1,33 +1,114 @@
-.results-page {
-    text-align: center;
-    margin: 20px;
+/* Center-align the meet header text and add spacing for better layout */
+.meet-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.meet-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.meet-header .meet-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.meet-header .meet-info p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for the back button */
+.back-button {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Event section container */
+.event-section {
+  margin: 20px 0;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Event header styling for each event */
+.event-header {
+  background: #0056a3;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.event-header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Table styles */
+.event-table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.event-table thead th {
+  background: #0056a3;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+  border-bottom: 2px solid #0070c9;
+}
+
+.event-table tbody tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+.event-table th,
+.event-table td {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.event-table tbody td {
+  border-bottom: 1px solid #ccc;
+}
+
+.event-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Customize event headers for alternate events (like Event 2) */
+.event-section:nth-child(even) .event-header {
+  background: #008080;
+}
+
+.event-table tbody tr:hover {
+  background: #e9f3fb;
+}
+
+/* Improve spacing and alignment for small screens */
+@media (max-width: 768px) {
+  .meet-header .meet-info {
+    flex-direction: column;
+    gap: 10px;
   }
-  
-  .filter-controls {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
+
+  .event-table th,
+  .event-table td {
+    font-size: 12px;
   }
-  
-  table {
-    width: 80%;
-    margin: 0 auto;
-    border-collapse: collapse;
+
+  .event-header {
+    font-size: 16px;
   }
-  
-  table th, table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  table th {
-    background-color: #f2f2f2;
-  }
-  
-  a {
-    color: blue;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
+}

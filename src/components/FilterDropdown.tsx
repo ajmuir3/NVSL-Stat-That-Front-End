@@ -1,66 +1,37 @@
-// FilterDropdown.tsx
-
 import React, { useState } from 'react';
 import { IonSelect, IonSelectOption, IonItem } from '@ionic/react';
+import './FilterDropdown.css'; // Import the custom styles
 
 interface FilterDropdownProps {
-  years: string[];
-  teams: string[];
-  divisions: number[];
-  onFilterChange: (year: string | null, team: string | null, division: number | null) => void;
+  label: string; // Add a label prop for dynamic labels
+  options: (string | number)[]; // Handle both strings and numbers for flexibility
+  onChange: (value: string | number | null) => void; // Handle change events
 }
 
-const FilterDropdown: React.FC<FilterDropdownProps> = ({ years, teams, divisions, onFilterChange }) => {
-  const [selectedYear, setSelectedYear] = useState<string | null>(null);
-  const [selectedTeam, setSelectedTeam] = useState<string | null>(null);
-  const [selectedDivision, setSelectedDivision] = useState<number | null>(null);
+const FilterDropdown: React.FC<FilterDropdownProps> = ({ label, options, onChange }) => {
+  const [selectedValue, setSelectedValue] = useState<string | number | null>(null);
 
-  const handleYearChange = (event: CustomEvent) => {
-    const value = event.detail.value;
-    setSelectedYear(value === "All-Years" ? null : value);
-    onFilterChange(value === "All-Years" ? null : value, selectedTeam, selectedDivision);
-  };
+  // Create a unique set of options to remove duplicates
+  const uniqueOptions = Array.from(new Set(options));
 
-  const handleTeamChange = (event: CustomEvent) => {
+  const handleChange = (event: CustomEvent) => {
     const value = event.detail.value;
-    setSelectedTeam(value === "All-Teams" ? null : value);
-    onFilterChange(selectedYear, value === "All-Teams" ? null : value, selectedDivision);
-  };
-
-  const handleDivisionChange = (event: CustomEvent) => {
-    const value = event.detail.value;
-    setSelectedDivision(value === "All-Divisions" ? null : parseInt(value, 10));
-    onFilterChange(selectedYear, selectedTeam, value === "All-Divisions" ? null : parseInt(value, 10));
+    setSelectedValue(value === `All ${label}s` ? null : value);
+    onChange(value === `All ${label}s` ? null : value);
   };
 
   return (
-    <div>
+    <div className="filter-dropdown-container">
       <IonItem>
-        <IonSelect placeholder="Select Year" onIonChange={handleYearChange}>
-          <IonSelectOption value="All-Years">All Years</IonSelectOption>
-          {years.map((year) => (
-            <IonSelectOption key={year} value={year}>
-              {year}
-            </IonSelectOption>
-          ))}
-        </IonSelect>
-      </IonItem>
-      <IonItem>
-        <IonSelect placeholder="Select Team" onIonChange={handleTeamChange}>
-          <IonSelectOption value="All-Teams">All Teams</IonSelectOption>
-          {teams.map((team) => (
-            <IonSelectOption key={team} value={team}>
-              {team}
-            </IonSelectOption>
-          ))}
-        </IonSelect>
-      </IonItem>
-      <IonItem>
-        <IonSelect placeholder="Select Division" onIonChange={handleDivisionChange}>
-          <IonSelectOption value="All-Divisions">All Divisions</IonSelectOption>
-          {divisions.map((division) => (
-            <IonSelectOption key={division} value={division.toString()}>
-              {division}
+        <IonSelect
+          placeholder={`Select ${label}`}
+          value={selectedValue}
+          onIonChange={handleChange}
+        >
+          <IonSelectOption value={`All ${label}s`}>All {label}s</IonSelectOption>
+          {uniqueOptions.map((option) => (
+            <IonSelectOption key={option.toString()} value={option}>
+              {option}
             </IonSelectOption>
           ))}
         </IonSelect>

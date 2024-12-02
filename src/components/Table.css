@@ -1,48 +1,57 @@
+/* Styling for the results table */
 .styled-table {
-    width: 100%;
+    width: 90%;
+    margin: 20px auto;
     border-collapse: collapse;
-    font-size: 1.25vw;
-    text-align: left;
-    margin: 20px 0;
-  }
-  
-  .styled-table thead tr {
-    background-color: #009879;
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    text-align: center;
   }
   
   .styled-table th,
   .styled-table td {
     padding: 12px 15px;
-    border: 1px solid #dddddd;
-    text-align: center;
+    border: 1px solid #ddd;
   }
   
-  /* Adding gridlines */
-  .styled-table td {
-    border-bottom: 1px solid #dddddd;
+  .styled-table th {
+    background-color: #004aad; /* Header background color */
+    color: white; /* Header text color */
+    font-weight: bold;
+    text-transform: uppercase;
   }
   
-  /* Shading every other row */
-  .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-    color: #000000;
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3; /* Striped rows */
   }
   
-  /* Hover effect for table rows */
+  .styled-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
   .styled-table tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #e0f7ff; /* Highlight on hover */
   }
   
-  /* Optional life improvements for mobile responsiveness */
-  @media screen and (max-width: 600px) {
+  .styled-table td a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .styled-table td a:hover {
+    text-decoration: underline; /* Hover effect for links */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
     .styled-table {
-      font-size: 14px;
+      font-size: 0.9rem;
     }
-    .styled-table th, .styled-table td {
-      padding: 8px 10px;
+  
+    .styled-table th,
+    .styled-table td {
+      padding: 10px;
     }
   }
   

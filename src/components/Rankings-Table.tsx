@@ -1,76 +1,68 @@
-import React, { useState } from 'react';
+import React from 'react';
+import './Table.css'; // Ensure this file has the correct styles
 
 interface TeamData {
+  rank: number;
   teamName: string;
-  totalPoints: number;
-  divisionNum: number;
-  seasonYear: number;
+  division: number;
+  seasonYear: string; // Use string to match consistency
   winCount: number;
   lossCount: number;
   tieCount: number;
+  dmPoints: number;
+  drPoints: number;
+  dPoints: number;
+  arPoints: number;
+  aPoints: number;
+  tPoints: number;
+  gtPoints: number;
   powerRanking: number;
 }
 
-interface StripedRowExampleProps {
+interface RankingsTableProps {
   data: TeamData[];
 }
 
-// Define the sortConfig state to only allow valid keys from TeamData
-type SortKey = keyof TeamData;
-
-const StripedRowExample: React.FC<StripedRowExampleProps> = ({ data }) => {
-  const [sortConfig, setSortConfig] = useState<{ key: SortKey; direction: 'asc' | 'desc' } | null>(null);
-
-  const sortedData = React.useMemo(() => {
-    if (!sortConfig) return data;
-
-    const sorted = [...data].sort((a, b) => {
-      const aValue = a[sortConfig.key];
-      const bValue = b[sortConfig.key];
-
-      if (aValue < bValue) return sortConfig.direction === 'asc' ? -1 : 1;
-      if (aValue > bValue) return sortConfig.direction === 'asc' ? 1 : -1;
-      return 0;
-    });
-
-    return sorted;
-  }, [data, sortConfig]);
-
-  const handleSort = (key: SortKey) => {
-    setSortConfig((prevConfig) => {
-      if (prevConfig?.key === key) {
-        return { key, direction: prevConfig.direction === 'asc' ? 'desc' : 'asc' };
-      }
-      return { key, direction: 'asc' };
-    });
-  };
-
+const RankingsTable: React.FC<RankingsTableProps> = ({ data }) => {
   return (
-    <table className="rankings-table">
+    <table className="styled-table">
       <thead>
         <tr>
-          <th onClick={() => handleSort('powerRanking')}>Rank {sortConfig?.key === 'powerRanking' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('teamName')}>Team Name {sortConfig?.key === 'teamName' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('divisionNum')}>Division {sortConfig?.key === 'divisionNum' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('seasonYear')}>Year {sortConfig?.key === 'seasonYear' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('winCount')}>Wins {sortConfig?.key === 'winCount' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('lossCount')}>Losses {sortConfig?.key === 'lossCount' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('tieCount')}>Ties {sortConfig?.key === 'tieCount' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('totalPoints')}>Total Points {sortConfig?.key === 'totalPoints' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}</th>
+          <th>Rank</th>
+          <th>Team Name</th>
+          <th>Division</th>
+          <th>Year</th>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Ties</th>
+          <th>DM Points</th>
+          <th>DR Points</th>
+          <th>D Points</th>
+          <th>AR Points</th>
+          <th>A Points</th>
+          <th>T Points</th>
+          <th>GT Points</th>
+          <th>Power Ranking</th>
         </tr>
       </thead>
       <tbody>
-        {sortedData.map((item, index) => (
+        {data.map((team, index) => (
           <tr key={index}>
-            <td>{index + 1}</td>
-            <td>{item.teamName}</td>
-            <td>{item.divisionNum}</td>
-            <td>{item.seasonYear}</td>
-            <td>{item.winCount}</td>
-            <td>{item.lossCount}</td>
-            <td>{item.tieCount}</td>
-            <td>{item.totalPoints}</td>
-            <td>{item.powerRanking}</td>
+            <td>{team.rank}</td>
+            <td>{team.teamName}</td>
+            <td>{team.division}</td>
+            <td>{team.seasonYear}</td>
+            <td>{team.winCount}</td>
+            <td>{team.lossCount}</td>
+            <td>{team.tieCount}</td>
+            <td>{team.dmPoints.toFixed(1)}</td>
+            <td>{team.drPoints.toFixed(1)}</td>
+            <td>{team.dPoints.toFixed(1)}</td>
+            <td>{team.arPoints.toFixed(1)}</td>
+            <td>{team.aPoints.toFixed(1)}</td>
+            <td>{team.tPoints.toFixed(1)}</td>
+            <td>{team.gtPoints.toFixed(1)}</td>
+            <td>{team.powerRanking.toFixed(2)}</td>
           </tr>
         ))}
       </tbody>
@@ -78,4 +70,4 @@ const StripedRowExample: React.FC<StripedRowExampleProps> = ({ data }) => {
   );
 };
 
-export default StripedRowExample;
+export default RankingsTable;

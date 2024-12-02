@@ -1,5 +1,5 @@
 import React from 'react';
-import './Table.css'; // Ensure this matches the provided Table.css
+import './Table.css';
 
 // Define the data structure for Top Times row
 interface RowData {

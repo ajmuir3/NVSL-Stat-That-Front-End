@@ -1,0 +1,41 @@
+.teams-page {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.teams-header {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.team-selector {
+  margin-bottom: 20px;
+}
+
+.letter-section {
+  margin: 10px 0;
+}
+
+.letter {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team-names {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.team-name a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #0070c9;
+}
+
+.team-name a:hover {
+  text-decoration: underline;
+}

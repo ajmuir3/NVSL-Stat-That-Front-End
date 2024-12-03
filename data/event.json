@@ -1,0 +1,1342 @@
+[
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Free 50M 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 6,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Boys Free 200M Relay 13-14",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 20,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Girls Back 25M 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 12,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Breast 50M 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 30,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Girls Fly 25Y 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 32,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Free 50Y 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 5,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Fly 50Y 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 39,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Girls Medley 100Y Relay 11-12",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 46,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Breast 50Y 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 26,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Free 50Y 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 10,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Back 50M 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 14,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Free 50Y 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 6,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Free 100M Relay 9-10",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 15,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Breast 50Y 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 24,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Back 50Y 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 17,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys IM 100M 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 45,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Fly 50M 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 38,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Breast 50M 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 24,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Free 50M 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 3,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Back 50Y 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 20,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Free 100M Relay 11-12",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 18,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Free 50M 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 8,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Fly 50Y 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 38,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Boys Fly 25Y 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 33,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Breast 50M 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 28,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Boys Breast 25Y 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 21,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Medley 100M Relay 9-10",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 6,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Medley 100M Relay 9-10",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 5,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Fly 50M 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 37,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Free 100M Relay 8&U",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 14,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Girls Medley 100Y Relay 9-10",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 44,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Back 50M 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 13,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Girls Fly 25M 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 34,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Back 50Y 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 19,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Boys Back 25M 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 11,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Breast 50M 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 25,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Boys Medley 200M Relay 15-18",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 49,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Free 50M 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 4,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Girls Fly 25M 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 32,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Boys Medley 100Y Relay 9-10",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 43,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Free 100M Relay 11-12",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 17,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Boys Back 25Y 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 11,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Girls Free 25M 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 2,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "10&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys IM 100M 10&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 41,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Fly 50M 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 35,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Girls Free 100Y Relay 8&U",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 42,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 200,
+        "eventID": "Girls Medley 200Y Relay 15-18",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 50,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "Mixed Age",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Girls Free 200M Relay Mixed Age",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 52,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "Mixed Age",
+        "course": "Y",
+        "distance": 200,
+        "eventID": "Girls Free 200Y Relay Mixed Age",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 52,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Boys Breast 25M 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 21,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "Mixed Age",
+        "course": "Y",
+        "distance": 200,
+        "eventID": "Boys Free 200Y Relay Mixed Age",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 51,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Breast 50M 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 23,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Medley 100M Relay 11-12",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 8,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Free 50Y 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 8,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Boys Medley 100Y Relay 13-14",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 47,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls IM 100M 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 46,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Breast 50Y 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 23,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Free 50Y 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 3,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls IM 100M 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 44,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Girls Fly 25Y 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 34,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 200,
+        "eventID": "Boys Medley 200Y Relay 15-18",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 49,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Girls Free 200M Relay 13-14",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 19,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Medley 100M Relay 9-10",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 43,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Back 50Y 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 14,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Fly 50Y 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 40,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Breast 50Y 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 30,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Boys Fly 25M 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 31,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Medley 100M Relay 11-12",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 45,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Fly 50M 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 36,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls IM 100M 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 48,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Girls Free 200M Relay 15-18",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 21,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Girls Back 25Y 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 12,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Medley 100M Relay 8&U",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 4,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Boys Medley 200M Relay 13-14",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 10,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Medley 100M Relay 11-12",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 7,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Fly 50Y 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 35,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Breast 50M 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 29,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Fly 50M 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 39,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Free 50M 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 7,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Boys Fly 25Y 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 31,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Back 50M 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 17,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Back 50Y 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 16,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Back 50M 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 16,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Boys Free 200M Relay 15-18",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 22,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Free 100M Relay 8&U",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 41,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Breast 50M 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 27,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Boys Fly 25M 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 33,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "Mixed Age",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Boys Free 200M Relay Mixed Age",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 51,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Free 100M Relay 8&U",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 42,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Girls Medley 200M Relay 15-18",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 50,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys IM 100M 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 43,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Boys Free 100Y Relay 8&U",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 41,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Breast 50Y 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 29,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Free 100M Relay 8&U",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 13,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Girls Free 25Y 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 2,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Back 50M 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 20,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Free 50M 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 10,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Medley 100M Relay 8&U",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 3,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Boys Free 25M 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 1,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Free 50Y 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 7,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Breast 50Y 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 27,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Free 50M 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 5,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Breast 50M 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 26,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Free 100M Relay 9-10",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 16,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Breast 50Y 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 28,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Free 50M 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 9,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Back 50M 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 19,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys Medley 100M Relay 13-14",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 47,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "Mixed Age",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Girls Free 200M Relay Mixed Age",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 1,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Fly 50M 15-18",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 40,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Medley 100M Relay 11-12",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 46,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Free 50Y 9-10",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 4,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "11-12",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Boys Back 50M 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 15,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Girls Medley 100Y Relay 13-14",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 48,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Breast 50Y 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 25,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 100,
+        "eventID": "Boys Medley 100Y Relay 11-12",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 45,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Fly 50Y 11-12",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 36,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 50,
+        "eventID": "Girls Back 50M 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 18,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Fly 50Y 13-14",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 37,
+        "stroke": "Fly"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Boys Free 25Y 8&U",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 1,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Boys Medley 200M Relay 15-18",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 12,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "9-10",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Medley 100M Relay 9-10",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 44,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls Medley 100M Relay 13-14",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 48,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "Mixed Age",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Boys Free 200M Relay Mixed Age",
+        "gender": "Boys",
+        "individual": 0,
+        "number": 2,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "8&U",
+        "course": "Y",
+        "distance": 25,
+        "eventID": "Girls Breast 25Y 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 22,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Boys IM 100M 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 47,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "15-18",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Free 50Y 15-18",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 9,
+        "stroke": "Free"
+    },
+    {
+        "age_group": "10&U",
+        "course": "M",
+        "distance": 100,
+        "eventID": "Girls IM 100M 10&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 42,
+        "stroke": "IM"
+    },
+    {
+        "age_group": "15-18",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Girls Medley 200M Relay 15-18",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 11,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "M",
+        "distance": 200,
+        "eventID": "Girls Medley 200M Relay 13-14",
+        "gender": "Girls",
+        "individual": 0,
+        "number": 9,
+        "stroke": "Medley"
+    },
+    {
+        "age_group": "13-14",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Girls Back 50Y 13-14",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 18,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "8&U",
+        "course": "M",
+        "distance": 25,
+        "eventID": "Girls Breast 25M 8&U",
+        "gender": "Girls",
+        "individual": 1,
+        "number": 22,
+        "stroke": "Breast"
+    },
+    {
+        "age_group": "9-10",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Back 50Y 9-10",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 13,
+        "stroke": "Back"
+    },
+    {
+        "age_group": "11-12",
+        "course": "Y",
+        "distance": 50,
+        "eventID": "Boys Back 50Y 11-12",
+        "gender": "Boys",
+        "individual": 1,
+        "number": 15,
+        "stroke": "Back"
+    }
+]

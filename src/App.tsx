@@ -65,7 +65,7 @@ const App: React.FC = () => (
           <Route path="/top-times" component={TimesPage} exact={true} />
           <Route path="/rankings" component={RankingsPage} exact={true} />
           <Route path="/teams" component={TeamsPage} exact={true} />
-          <Route path="/teams/team-profile/:teamId" component={TeamProfile} exact />
+          <Route path="/teams/:teamId" component={TeamProfile} exact />
           <Redirect exact from="/" to="/home" />
         </IonRouterOutlet>
 
@@ -81,20 +81,21 @@ const App: React.FC = () => (
             <IonLabel>Results</IonLabel>
           </IonTabButton>
 
-          <IonTabButton tab="times" href="/top-times">
-            <IonIcon icon={body} />
-            <IonLabel>Top Times</IonLabel>
-          </IonTabButton>
-
           <IonTabButton tab="rankings" href="/rankings">
             <IonIcon icon={cellular} />
             <IonLabel>Rankings</IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="times" href="/top-times">
+            <IonIcon icon={body} />
+            <IonLabel>Times</IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="teams" href="/teams">
             <IonIcon icon={trophy} />
             <IonLabel>Teams</IonLabel>
           </IonTabButton>
+
         </IonTabBar>
       </IonTabs>
     </IonReactRouter>

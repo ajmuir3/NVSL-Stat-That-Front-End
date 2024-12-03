@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/react';
 import { useParams, useHistory } from 'react-router-dom';
 import './TeamProfile.css';
@@ -16,7 +16,6 @@ interface HistoryEntry {
 interface TeamData {
   name: string;
   abbreviation: string;
-  years: string;
   avgDivision: number;
   championships: number;
   winLossRatio: string;
@@ -34,50 +33,99 @@ interface TeamData {
   history: HistoryEntry[];
 }
 
-const mockTeamData: Record<string, TeamData> = {
-  'rolling-hills': {
-    name: 'Rolling Hills',
-    abbreviation: 'RH',
-    years: '2021 - 2024',
-    avgDivision: 9.6,
-    championships: 1,
-    winLossRatio: '2:1',
-    totalWins: 16,
-    totalLosses: 8,
-    totalTies: 1,
-    avgDualMeet: 226.76,
-    avgRelayCarnival: 180.20,
-    avgAllStarRelay: 71.60,
-    avgDivisional: 1455.20,
-    avgAllStar: 234.80,
-    avgTotalPoints: 1385.60,
-    avgGrandTotalPoints: 3075.60,
-    powerRanking: 25.69,
-    history: [
-      { year: 2024, division: 7, win: 4, loss: 1, tie: 0, points: 1419.0, powerIndex: 17.65 },
-      { year: 2023, division: 8, win: 2, loss: 2, tie: 1, points: 1420.0, powerIndex: 21.02 },
-      { year: 2022, division: 9, win: 4, loss: 1, tie: 0, points: 1542.0, powerIndex: 20.70 },
-      { year: 2021, division: 12, win: 5, loss: 0, tie: 0, points: 1464.0, powerIndex: 27.66 },
-    ],
-  },
-};
-
 const TeamProfile: React.FC = () => {
   const { teamId } = useParams<{ teamId: string }>();
   const history = useHistory();
 
-  const teamData = mockTeamData[teamId.toLowerCase()];
+  const [teamData, setTeamData] = useState<TeamData | null>(null);
+
+  useEffect(() => {
+    const fetchTeamData = async () => {
+      try {
+        const [teams, seasons, dualMeets, champsMeets] = await Promise.all([
+          fetch('/data/team.json').then((res) => res.json()),
+          fetch('/data/season.json').then((res) => res.json()),
+          fetch('/data/dual_meet.json').then((res) => res.json()),
+          fetch('/data/champs_meet.json').then((res) => res.json()),
+        ]);
+
+        // Convert teamId from hyphenated format to original format
+        const teamName = teamId.replace(/-/g, ' ');
+
+        const team = teams.find((t: any) => t.name === teamName);
+        if (!team) {
+          console.error(`Team with name "${teamName}" not found.`);
+          return;
+        }
+
+        const teamSeasons = seasons.filter((s: any) => s.teamID === team.teamID);
+        const yearsCount = teamSeasons.length;
+
+        const totalDualMeetPoints = teamSeasons.reduce((sum: number, season: any) => sum + (season.dmPoints || 0), 0);
+        const totalRelayPoints = teamSeasons.reduce((sum: number, season: any) => sum + (season.drPoints || 0), 0);
+        const totalDivisionalPoints = teamSeasons.reduce((sum: number, season: any) => sum + (season.dPoints || 0), 0);
+        const totalAllStarRelayPoints = teamSeasons.reduce((sum: number, season: any) => sum + (season.arPoints || 0), 0);
+        const totalAllStarPoints = teamSeasons.reduce((sum: number, season: any) => sum + (season.aPoints || 0), 0);
+
+        const championships = champsMeets.filter(
+          (meet: any) => meet.teamID === team.teamID && meet.meet_type === 'Divisionals'
+        ).length;
+
+        const meetsWon = dualMeets.filter((meet: any) => meet.team_home === team.teamID && meet.home_points > meet.away_points).length +
+          dualMeets.filter((meet: any) => meet.team_away === team.teamID && meet.away_points > meet.home_points).length;
+
+        const meetsLost = dualMeets.filter((meet: any) => meet.team_home === team.teamID && meet.home_points < meet.away_points).length +
+          dualMeets.filter((meet: any) => meet.team_away === team.teamID && meet.away_points < meet.home_points).length;
+
+        const winLossRatio = meetsLost > 0 ? (meetsWon / meetsLost).toFixed(2) : 'Infinity';
+
+        const history = teamSeasons.map((season: any) => ({
+          year: season.year,
+          division: season.division,
+          win: season.meetsWon || 0,
+          loss: season.meetsLost || 0,
+          tie: season.meetsTied || 0,
+          points: season.gpPoints || 0,
+          powerIndex: season.PowerRanking || 0,
+        }));
+
+        setTeamData({
+          name: team.name,
+          abbreviation: team.abbreviation || 'N/A',
+          avgDivision: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + season.division, 0) / yearsCount).toFixed(1)),
+          championships,
+          winLossRatio,
+          totalWins: meetsWon,
+          totalLosses: meetsLost,
+          totalTies: teamSeasons.reduce((sum: number, season: any) => sum + (season.meetsTied || 0), 0),
+          avgDualMeet: parseFloat((totalDualMeetPoints / (yearsCount * 5)).toFixed(1)),
+          avgRelayCarnival: parseFloat((totalRelayPoints / (yearsCount * 5)).toFixed(1)),
+          avgAllStarRelay: parseFloat((totalAllStarRelayPoints / (yearsCount * 5)).toFixed(1)),
+          avgDivisional: parseFloat((totalDivisionalPoints / (yearsCount * 5)).toFixed(1)),
+          avgAllStar: parseFloat((totalAllStarPoints / (yearsCount * 5)).toFixed(1)),
+          avgTotalPoints: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.tPoints || 0), 0) / yearsCount).toFixed(1)),
+          avgGrandTotalPoints: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.gpPoints || 0), 0) / yearsCount).toFixed(1)),
+          powerRanking: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.PowerRanking || 0), 0) / yearsCount).toFixed(2)),
+          history,
+        });
+      } catch (error) {
+        console.error('Error fetching or processing data:', error);
+      }
+    };
+
+    fetchTeamData();
+  }, [teamId]);
 
   if (!teamData) {
     return (
       <IonPage>
         <IonHeader>
           <IonToolbar>
-            <IonTitle>Team Not Found</IonTitle>
+            <IonTitle>Loading...</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent>
-          <p className="error-message">Sorry, the team you are looking for does not exist.</p>
+          <p className="loading-message">Loading team data...</p>
         </IonContent>
       </IonPage>
     );
@@ -98,7 +146,6 @@ const TeamProfile: React.FC = () => {
           <h1>
             {teamData.name} ({teamData.abbreviation})
           </h1>
-          <h2>{teamData.years}</h2>
         </div>
 
         <div className="team-stats grid-stats">

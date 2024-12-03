@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Table.css';
 
 // Define the data structure for Top Times row
 interface RowData {
-  rank: number;
   name: string;
-  time: string;
-  powerIndex: string;
-  year: string; // Ensure filtering by year works
+  team: string;
+  time: number;
+  powerIndex: number;
+  year: string;
+  gender: string;
+  stroke: string;
+  distance: number;
+  course: string;
+  division: number;
+  ageGroup: string;
+  type: string;
 }
 
 // Props for the TopTimesTable
@@ -16,27 +23,63 @@ interface TopTimesTableProps {
 }
 
 const TopTimesTable: React.FC<TopTimesTableProps> = ({ data }) => {
-  // Apply year filtering if a specific year is selected
+  const [sortedData, setSortedData] = useState<RowData[]>(data);
+  const [sortConfig, setSortConfig] = useState<{ key: keyof RowData; direction: 'asc' | 'desc' } | null>(null);
+
+  const handleSort = (key: keyof RowData) => {
+    let direction: 'asc' | 'desc' = 'asc';
+    if (sortConfig && sortConfig.key === key && sortConfig.direction === 'asc') {
+      direction = 'desc';
+    }
+
+    const sorted = [...sortedData].sort((a, b) => {
+      if (a[key] < b[key]) {
+        return direction === 'asc' ? -1 : 1;
+      }
+      if (a[key] > b[key]) {
+        return direction === 'asc' ? 1 : -1;
+      }
+      return 0;
+    });
+
+    setSortedData(sorted);
+    setSortConfig({ key, direction });
+  };
 
   return (
     <table className="styled-table">
       <thead>
         <tr>
-          <th>Rank</th>
-          <th>Name</th>
-          <th>Time</th>
-          <th>PowerIndex</th>
-          <th>Year</th>
+          <th onClick={() => handleSort('name')}>Name</th>
+          <th onClick={() => handleSort('team')}>Team</th>
+          <th onClick={() => handleSort('time')}>Time</th>
+          <th onClick={() => handleSort('powerIndex')}>PowerIndex</th>
+          <th onClick={() => handleSort('year')}>Year</th>
+          <th onClick={() => handleSort('gender')}>Gender</th>
+          <th onClick={() => handleSort('stroke')}>Stroke</th>
+          <th onClick={() => handleSort('distance')}>Distance</th>
+          <th onClick={() => handleSort('course')}>Course</th>
+          <th onClick={() => handleSort('division')}>Division</th>
+          <th onClick={() => handleSort('ageGroup')}>Age Group</th>
+          <th onClick={() => handleSort('type')}>Type</th>
         </tr>
       </thead>
       <tbody>
-        {data.map((row, index) => (
+        {sortedData.map((row, index) => (
           <tr key={index}>
-            <td>{row.rank}</td>
             <td>{row.name}</td>
-            <td>{row.time}</td>
-            <td>{row.powerIndex}</td>
+            <td>{row.team}</td>
+            <td>{row.division}</td>
+            <td>{row.time.toFixed(2)}</td>
+            <td>{row.powerIndex.toFixed(2)}</td>
+            <td>{row.gender}</td>
+            <td>{row.ageGroup}</td>
+            <td>{row.distance}</td>
+            <td>{row.stroke}</td>
+            <td>{row.course}</td>
+            <td>{row.type}</td>
             <td>{row.year}</td>
+            
           </tr>
         ))}
       </tbody>

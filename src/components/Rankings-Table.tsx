@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Table.css'; // Ensure this file has the correct styles
 
 interface TeamData {
-  rank: number;
   teamName: string;
   division: number;
   seasonYear: string; // Use string to match consistency
@@ -24,31 +23,59 @@ interface RankingsTableProps {
 }
 
 const RankingsTable: React.FC<RankingsTableProps> = ({ data }) => {
+  const [sortConfig, setSortConfig] = useState<{ key: keyof TeamData; direction: 'asc' | 'desc' } | null>(null);
+
+  // Sorting logic
+  const sortedData = React.useMemo(() => {
+    if (!sortConfig) return data;
+
+    const sorted = [...data].sort((a, b) => {
+      if (a[sortConfig.key] < b[sortConfig.key]) return sortConfig.direction === 'asc' ? -1 : 1;
+      if (a[sortConfig.key] > b[sortConfig.key]) return sortConfig.direction === 'asc' ? 1 : -1;
+      return 0;
+    });
+    return sorted;
+  }, [data, sortConfig]);
+
+  // Handle column header click for sorting
+  const handleSort = (key: keyof TeamData) => {
+    setSortConfig((prevConfig) => {
+      if (prevConfig?.key === key) {
+        // Toggle direction
+        return {
+          key,
+          direction: prevConfig.direction === 'asc' ? 'desc' : 'asc',
+        };
+      }
+      // Set new sort key
+      return { key, direction: 'asc' };
+    });
+  };
+
+  // Render the table
   return (
     <table className="styled-table">
       <thead>
         <tr>
-          <th>Rank</th>
-          <th>Team Name</th>
-          <th>Division</th>
-          <th>Year</th>
-          <th>Wins</th>
-          <th>Losses</th>
-          <th>Ties</th>
-          <th>DM Points</th>
-          <th>DR Points</th>
-          <th>D Points</th>
-          <th>AR Points</th>
-          <th>A Points</th>
-          <th>T Points</th>
-          <th>GT Points</th>
-          <th>Power Ranking</th>
+          <th onClick={() => handleSort('teamName')}>Team Name</th>
+          <th onClick={() => handleSort('division')}>Division</th>
+          <th onClick={() => handleSort('seasonYear')}>Year</th>
+          <th onClick={() => handleSort('winCount')}>Wins</th>
+          <th onClick={() => handleSort('lossCount')}>Losses</th>
+          <th onClick={() => handleSort('tieCount')}>Ties</th>
+          <th onClick={() => handleSort('dmPoints')}>DM Points</th>
+          <th onClick={() => handleSort('drPoints')}>DR Points</th>
+          <th onClick={() => handleSort('dPoints')}>D Points</th>
+          <th onClick={() => handleSort('arPoints')}>AR Points</th>
+          <th onClick={() => handleSort('aPoints')}>A Points</th>
+          <th onClick={() => handleSort('tPoints')}>T Points</th>
+          <th onClick={() => handleSort('gtPoints')}>GT Points</th>
+          <th onClick={() => handleSort('powerRanking')}>Power Ranking</th>
         </tr>
       </thead>
       <tbody>
-        {data.map((team, index) => (
+        {sortedData.map((team, index) => (
           <tr key={index}>
-            <td>{team.rank}</td>
             <td>{team.teamName}</td>
             <td>{team.division}</td>
             <td>{team.seasonYear}</td>

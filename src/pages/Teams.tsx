@@ -19,7 +19,7 @@ const all_teams = [
   'Newington Forest', 'Sideburn Run', 'Woodley', 'Fox Hunt', 'Daventry',
   'Dunn Loring', 'Truro', 'Hamlet', 'Fox Mill Woods', 'High Point Pool', 'Camelot', 'Sleepy Hollow',
   'Lincolnia Park', 'Commonwealth', 'Lakeview', 'Holmes Run Acres', 'Fairfax Station', 'Waynewood',
-  'Parliament', 'South Run', 'Riverside Gardens', 'Walden Glen', 'Mount Vernon Park', 'Virginia Run'
+  'Parliament', 'South Run', 'Riverside Gardens', 'Walden Glen', 'Mount Vernon Park', 'Virginia Run',
 ].sort();
 
 const teams = [...new Set(all_teams)];
@@ -52,9 +52,12 @@ function TeamsPage() {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <div className='teams-page'>
+        <div className="teams-page">
           <div className="teams-header">
             <h1>Teams in the NVSL</h1>
+          </div>
+          <div className="description">
+            <h2>Use the folowing page to gather more infromation about a Team</h2>
           </div>
           <FilterDropdown
             label="Team Name"
@@ -66,16 +69,19 @@ function TeamsPage() {
               <div key={letter} className="team-group">
                 <h2>{letter}</h2>
                 <div className="team-list">
-                  {groupedTeams[letter].map((team) => (
-                    <IonButton
-                      key={team}
-                      fill="clear"
-                      className="team-button"
-                      href={`/teams/team-profile/${team.toLowerCase().replace(/\s/g, '-')}`}
-                    >
-                      {team}
-                    </IonButton>
-                  ))}
+                  {groupedTeams[letter].map((team) => {
+                    const formattedTeamName = team.replace(/\s+/g, '-'); // Replace spaces with hyphens
+                    return (
+                      <IonButton
+                        key={team}
+                        fill="clear"
+                        className="team-button"
+                        href={`/teams/${formattedTeamName}`}
+                      >
+                        {team}
+                      </IonButton>
+                    );
+                  })}
                 </div>
               </div>
             ))}

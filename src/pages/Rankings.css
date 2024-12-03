@@ -13,4 +13,12 @@
     place-items: center;  /* Center items both vertically and horizontally */
     height: 10vh;
 }
+
+.description {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000;
+}
   

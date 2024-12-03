@@ -3,9 +3,9 @@ import { IonSelect, IonSelectOption, IonItem } from '@ionic/react';
 import './FilterDropdown.css'; // Import the custom styles
 
 interface FilterDropdownProps {
-  label: string; // Add a label prop for dynamic labels
-  options: (string | number)[]; // Handle both strings and numbers for flexibility
-  onChange: (value: string | number | null) => void; // Handle change events
+  label: string;
+  options: string[];
+  onChange: (value: string | null) => void; // Restrict to string | null
 }
 
 const FilterDropdown: React.FC<FilterDropdownProps> = ({ label, options, onChange }) => {

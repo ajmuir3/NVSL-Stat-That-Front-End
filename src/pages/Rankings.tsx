@@ -32,12 +32,12 @@ const all_teams = [
   'Parliament', 'South Run', 'Riverside Gardens', 'Walden Glen', 'Mount Vernon Park', 'Virginia Run',
 ].sort();
 const teams = [...new Set(all_teams)];
-const divisions = Array.from({ length: 17 }, (_, i) => (i + 1).toString()); // Generate divisions dynamically
+const divisions = Array.from({ length: 17 }, (_, i) => (i + 1).toString());
 
 function RankingsPage() {
-  const [filteredYear, setFilteredYear] = useState<string>('All Years');
-  const [filteredTeam, setFilteredTeam] = useState<string>('All Teams');
-  const [filteredDivision, setFilteredDivision] = useState<string>('All Divisions');
+  const [filteredYear, setFilteredYear] = useState<string | null>(DEFAULT_FILTERS.year);
+  const [filteredTeam, setFilteredTeam] = useState<string | null>(DEFAULT_FILTERS.team);
+  const [filteredDivision, setFilteredDivision] = useState<string | null>(DEFAULT_FILTERS.division);
   const [rankingsData, setRankingsData] = useState<any[]>([]);
 
   // Fetch and process JSON data
@@ -67,7 +67,8 @@ function RankingsPage() {
           powerRanking: parseFloat(season.powerRanking) || 0,
         };
       });
-
+      
+      console.log(processedData);
       setRankingsData(processedData);
     } catch (error) {
       console.error('Error fetching or processing data:', error);
@@ -77,9 +78,10 @@ function RankingsPage() {
   // Apply filters
   const filteredData = useMemo(() => {
     return rankingsData.filter((entry) => {
-      const matchesYear = filteredYear === 'All Years' || entry.seasonYear === filteredYear;
-      const matchesTeam = filteredTeam === 'All Teams' || entry.teamName === filteredTeam;
-      const matchesDivision = filteredDivision === 'All Divisions' || entry.division === filteredDivision;
+      const matchesYear = filteredYear === 'All Years' || !filteredYear || entry.seasonYear === filteredYear;
+      const matchesTeam = filteredTeam === 'All Teams' || !filteredTeam || entry.teamName === filteredTeam;
+      const matchesDivision = filteredDivision === 'All Divisions' || !filteredDivision || entry.division === filteredDivision;
+  
       return matchesYear && matchesTeam && matchesDivision;
     });
   }, [filteredYear, filteredTeam, filteredDivision, rankingsData]);
@@ -88,11 +90,19 @@ function RankingsPage() {
     fetchJSONData();
   }, []);
 
-  const handleFilterChange = (key: string, value: string) => {
-    if (key === 'year') setFilteredYear(value);
-    if (key === 'team') setFilteredTeam(value);
-    if (key === 'division') setFilteredDivision(value);
+  const handleFilterChange = (key: string, value: string | number | null) => {
+    const normalizedValue = typeof value === 'number' ? value.toString() : value;
+    if (key === 'year') setFilteredYear(normalizedValue === 'All Years' ? null : normalizedValue);
+    if (key === 'team') setFilteredTeam(normalizedValue === 'All Teams' ? null : normalizedValue);
+    if (key === 'division') setFilteredDivision(normalizedValue === 'All Divisions' ? null : normalizedValue);
   };
+
+  console.log('Filtered Year:', filteredYear);
+  console.log('Filtered Team:', filteredTeam);
+  console.log('Filtered Division:', filteredDivision);
+  console.log('Filtered Data:', filteredData);
+
+  
 
   return (
     <IonPage>
@@ -105,16 +115,37 @@ function RankingsPage() {
         <div className="header-section">
           <h1 className="page-header">Team Rankings</h1>
         </div>
+        <div className="description">
+          <h2>Use the following page to filter and sort the NVSL's season rankings</h2>
+          <h3>Hover over the column headers for more information regarding the data</h3>
+        </div>
         <div className="filter-section">
-          <FilterDropdown label="Year" options={[...years]} onChange={(value) => handleFilterChange('year', value === 'All Years' ? null : value)} />
-          <FilterDropdown label="Team" options={[...teams]} onChange={(value) => handleFilterChange('team', value === 'All Teams' ? null : value)} />
-          <FilterDropdown label="Division" options={[...divisions.map(String)]} onChange={(value) => handleFilterChange('division', value === 'All Divisions' ? null : value)} />
+          <FilterDropdown
+            label="Year"
+            options={[...years]} // Years remain strings
+            onChange={(value: string | null) =>
+              handleFilterChange('year', value === 'All Years' ? null : value)
+            }
+          />
+          <FilterDropdown
+            label="Team"
+            options={[...teams]} // Teams remain strings
+            onChange={(value: string | null) =>
+              handleFilterChange('team', value === 'All Teams' ? null : value)
+            }
+          />
+          <FilterDropdown
+            label="Division"
+            options={[...divisions]} // Divisions are already strings
+            onChange={(value: string | null) =>
+              handleFilterChange('division', value === 'All Divisions' ? null : value)
+            }
+          />
         </div>
         <RankingsTable data={filteredData} />
       </IonContent>
     </IonPage>
   );
 }
-
 
 export default RankingsPage;

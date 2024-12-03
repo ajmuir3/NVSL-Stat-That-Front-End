@@ -17,6 +17,7 @@
   
   .team-stats {
     display: grid;
+    vertical-align: middle;    
     grid-template-columns: repeat(3, 1fr); /* Three columns */
     gap: 20px;
     text-align: center;

@@ -1,1 +1,717 @@
-[{"champsMeetID":"D1RC2021_Champs","meetID":"D1RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D1D2021_Champs","meetID":"D1D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D2RC2021_Champs","meetID":"D2RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D2D2021_Champs","meetID":"D2D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D3RC2021_Champs","meetID":"D3RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D3D2021_Champs","meetID":"D3D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D4RC2021_Champs","meetID":"D4RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D4D2021_Champs","meetID":"D4D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D5RC2021_Champs","meetID":"D5RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D5D2021_Champs","meetID":"D5D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D6RC2021_Champs","meetID":"D6RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D6D2021_Champs","meetID":"D6D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D7RC2021_Champs","meetID":"D7RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D7D2021_Champs","meetID":"D7D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D8RC2021_Champs","meetID":"D8RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D8D2021_Champs","meetID":"D8D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D9RC2021_Champs","meetID":"D9RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D9D2021_Champs","meetID":"D9D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D10RC2021_Champs","meetID":"D10RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D10D2021_Champs","meetID":"D10D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D11RC2021_Champs","meetID":"D11RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D11D2021_Champs","meetID":"D11D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D12RC2021_Champs","meetID":"D12RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D12D2021_Champs","meetID":"D12D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D13RC2021_Champs","meetID":"D13RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D13D2021_Champs","meetID":"D13D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D14RC2021_Champs","meetID":"D14RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D14D2021_Champs","meetID":"D14D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D15RC2021_Champs","meetID":"D15RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D15D2021_Champs","meetID":"D15D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D16RC2021_Champs","meetID":"D16RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D16D2021_Champs","meetID":"D16D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"},{"champsMeetID":"D17RC2021_Champs","meetID":"D17RC2021","meet_type":"Divisional Relays"},{"champsMeetID":"D17D2021_Champs","meetID":"D17D2021","meet_type":"Divisionals"},{"champsMeetID":"AS2021_Champs","meetID":"AS2021","meet_type":"All Stars"}]
+[
+    {
+        "champsMeetID": "D1RC2021_Champs",
+        "meetID": "D1RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D1D2021_Champs",
+        "meetID": "D1D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "AS2021_Champs",
+        "meetID": "AS2021",
+        "meet_type": "All Stars"
+    },
+    {
+        "champsMeetID": "D2RC2021_Champs",
+        "meetID": "D2RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D2D2021_Champs",
+        "meetID": "D2D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D3RC2021_Champs",
+        "meetID": "D3RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D3D2021_Champs",
+        "meetID": "D3D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D4RC2021_Champs",
+        "meetID": "D4RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D4D2021_Champs",
+        "meetID": "D4D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D5RC2021_Champs",
+        "meetID": "D5RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D5D2021_Champs",
+        "meetID": "D5D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D6RC2021_Champs",
+        "meetID": "D6RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D6D2021_Champs",
+        "meetID": "D6D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D7RC2021_Champs",
+        "meetID": "D7RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D7D2021_Champs",
+        "meetID": "D7D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D8RC2021_Champs",
+        "meetID": "D8RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D8D2021_Champs",
+        "meetID": "D8D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D9RC2021_Champs",
+        "meetID": "D9RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D9D2021_Champs",
+        "meetID": "D9D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D10RC2021_Champs",
+        "meetID": "D10RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D10D2021_Champs",
+        "meetID": "D10D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D11RC2021_Champs",
+        "meetID": "D11RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D11D2021_Champs",
+        "meetID": "D11D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D12RC2021_Champs",
+        "meetID": "D12RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D12D2021_Champs",
+        "meetID": "D12D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D13RC2021_Champs",
+        "meetID": "D13RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D13D2021_Champs",
+        "meetID": "D13D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D14RC2021_Champs",
+        "meetID": "D14RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D14D2021_Champs",
+        "meetID": "D14D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D15RC2021_Champs",
+        "meetID": "D15RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D15D2021_Champs",
+        "meetID": "D15D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D16RC2021_Champs",
+        "meetID": "D16RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D16D2021_Champs",
+        "meetID": "D16D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D17RC2021_Champs",
+        "meetID": "D17RC2021",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D17D2021_Champs",
+        "meetID": "D17D2021",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D1RC2022_Champs",
+        "meetID": "D1RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "ASRC2022_Champs",
+        "meetID": "ASRC2022",
+        "meet_type": "All Star Relay Carnival"
+    },
+    {
+        "champsMeetID": "D1D2022_Champs",
+        "meetID": "D1D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "AS2022_Champs",
+        "meetID": "AS2022",
+        "meet_type": "All Stars"
+    },
+    {
+        "champsMeetID": "D2RC2022_Champs",
+        "meetID": "D2RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D2D2022_Champs",
+        "meetID": "D2D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D3RC2022_Champs",
+        "meetID": "D3RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D3D2022_Champs",
+        "meetID": "D3D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D4RC2022_Champs",
+        "meetID": "D4RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D4D2022_Champs",
+        "meetID": "D4D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D5RC2022_Champs",
+        "meetID": "D5RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D5D2022_Champs",
+        "meetID": "D5D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D6RC2022_Champs",
+        "meetID": "D6RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D6D2022_Champs",
+        "meetID": "D6D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D7RC2022_Champs",
+        "meetID": "D7RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D7D2022_Champs",
+        "meetID": "D7D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D8RC2022_Champs",
+        "meetID": "D8RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D8D2022_Champs",
+        "meetID": "D8D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D9RC2022_Champs",
+        "meetID": "D9RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D9D2022_Champs",
+        "meetID": "D9D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D10RC2022_Champs",
+        "meetID": "D10RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D10D2022_Champs",
+        "meetID": "D10D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D11RC2022_Champs",
+        "meetID": "D11RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D11D2022_Champs",
+        "meetID": "D11D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D12RC2022_Champs",
+        "meetID": "D12RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D12D2022_Champs",
+        "meetID": "D12D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D13RC2022_Champs",
+        "meetID": "D13RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D13D2022_Champs",
+        "meetID": "D13D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D14RC2022_Champs",
+        "meetID": "D14RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D14D2022_Champs",
+        "meetID": "D14D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D15RC2022_Champs",
+        "meetID": "D15RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D15D2022_Champs",
+        "meetID": "D15D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D16RC2022_Champs",
+        "meetID": "D16RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D16D2022_Champs",
+        "meetID": "D16D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D17RC2022_Champs",
+        "meetID": "D17RC2022",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D17D2022_Champs",
+        "meetID": "D17D2022",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D1RC2023_Champs",
+        "meetID": "D1RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "ASRC2023_Champs",
+        "meetID": "ASRC2023",
+        "meet_type": "All Star Relay Carnival"
+    },
+    {
+        "champsMeetID": "D1D2023_Champs",
+        "meetID": "D1D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "AS2023_Champs",
+        "meetID": "AS2023",
+        "meet_type": "All Stars"
+    },
+    {
+        "champsMeetID": "D2RC2023_Champs",
+        "meetID": "D2RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D2D2023_Champs",
+        "meetID": "D2D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D3RC2023_Champs",
+        "meetID": "D3RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D3D2023_Champs",
+        "meetID": "D3D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D4RC2023_Champs",
+        "meetID": "D4RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D4D2023_Champs",
+        "meetID": "D4D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D5RC2023_Champs",
+        "meetID": "D5RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D5D2023_Champs",
+        "meetID": "D5D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D6RC2023_Champs",
+        "meetID": "D6RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D6D2023_Champs",
+        "meetID": "D6D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D7RC2023_Champs",
+        "meetID": "D7RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D7D2023_Champs",
+        "meetID": "D7D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D8RC2023_Champs",
+        "meetID": "D8RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D8D2023_Champs",
+        "meetID": "D8D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D9RC2023_Champs",
+        "meetID": "D9RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D9D2023_Champs",
+        "meetID": "D9D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D10RC2023_Champs",
+        "meetID": "D10RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D10D2023_Champs",
+        "meetID": "D10D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D11RC2023_Champs",
+        "meetID": "D11RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D11D2023_Champs",
+        "meetID": "D11D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D12RC2023_Champs",
+        "meetID": "D12RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D12D2023_Champs",
+        "meetID": "D12D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D13RC2023_Champs",
+        "meetID": "D13RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D13D2023_Champs",
+        "meetID": "D13D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D14RC2023_Champs",
+        "meetID": "D14RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D14D2023_Champs",
+        "meetID": "D14D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D15RC2023_Champs",
+        "meetID": "D15RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D15D2023_Champs",
+        "meetID": "D15D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D16RC2023_Champs",
+        "meetID": "D16RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D16D2023_Champs",
+        "meetID": "D16D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D17RC2023_Champs",
+        "meetID": "D17RC2023",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D17D2023_Champs",
+        "meetID": "D17D2023",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D1RC2024_Champs",
+        "meetID": "D1RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "ASRC2024_Champs",
+        "meetID": "ASRC2024",
+        "meet_type": "All Star Relay Carnival"
+    },
+    {
+        "champsMeetID": "D1D2024_Champs",
+        "meetID": "D1D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "AS2024_Champs",
+        "meetID": "AS2024",
+        "meet_type": "All Stars"
+    },
+    {
+        "champsMeetID": "D2RC2024_Champs",
+        "meetID": "D2RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D2D2024_Champs",
+        "meetID": "D2D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D3RC2024_Champs",
+        "meetID": "D3RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D3D2024_Champs",
+        "meetID": "D3D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D4RC2024_Champs",
+        "meetID": "D4RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D4D2024_Champs",
+        "meetID": "D4D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D5RC2024_Champs",
+        "meetID": "D5RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D5D2024_Champs",
+        "meetID": "D5D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D6RC2024_Champs",
+        "meetID": "D6RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D6D2024_Champs",
+        "meetID": "D6D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D7RC2024_Champs",
+        "meetID": "D7RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D7D2024_Champs",
+        "meetID": "D7D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D8RC2024_Champs",
+        "meetID": "D8RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D8D2024_Champs",
+        "meetID": "D8D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D9RC2024_Champs",
+        "meetID": "D9RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D9D2024_Champs",
+        "meetID": "D9D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D10RC2024_Champs",
+        "meetID": "D10RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D10D2024_Champs",
+        "meetID": "D10D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D11RC2024_Champs",
+        "meetID": "D11RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D11D2024_Champs",
+        "meetID": "D11D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D12RC2024_Champs",
+        "meetID": "D12RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D12D2024_Champs",
+        "meetID": "D12D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D13RC2024_Champs",
+        "meetID": "D13RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D13D2024_Champs",
+        "meetID": "D13D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D14RC2024_Champs",
+        "meetID": "D14RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D14D2024_Champs",
+        "meetID": "D14D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D15RC2024_Champs",
+        "meetID": "D15RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D15D2024_Champs",
+        "meetID": "D15D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D16RC2024_Champs",
+        "meetID": "D16RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D16D2024_Champs",
+        "meetID": "D16D2024",
+        "meet_type": "Divisionals"
+    },
+    {
+        "champsMeetID": "D17RC2024_Champs",
+        "meetID": "D17RC2024",
+        "meet_type": "Divisional Relays"
+    },
+    {
+        "champsMeetID": "D17D2024_Champs",
+        "meetID": "D17D2024",
+        "meet_type": "Divisionals"
+    }
+]

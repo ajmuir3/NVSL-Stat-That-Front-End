@@ -11,7 +11,7 @@ function ResultsPage() {
   const [filteredTeam, setFilteredTeam] = useState<string | null>(null);
   const [filteredDivision, setFilteredDivision] = useState<number | null>(null);
 
-  const years = ['2021'];
+  const years = ['2021', '2022', '2023', '2024'];
   const all_teams = [
     'Annandale', 'Arlington Forest', 'Brandywine', 'Broyhill Crest', 'Brookfield', 'Burke Station',
     'Chesterbrook', 'Camelot', 'Country Club Hills', 'Cardinal Hill', 'Crosspointe', 'Commonwealth',
@@ -31,7 +31,7 @@ function ResultsPage() {
     'Parliament', 'South Run', 'Riverside Gardens', 'Walden Glen', 'Mount Vernon Park', 'Virginia Run',
   ].sort();
   const teams = [...new Set(all_teams)];
-  const divisions = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17];
+  const divisions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
 
   useEffect(() => {
     const fetchResultsData = async () => {
@@ -43,106 +43,31 @@ function ResultsPage() {
           fetch('/data/season.json').then((res) => res.json()),
           fetch('/data/dual_meet.json').then((res) => res.json()),
         ]);
-  
-        const processedDualResults = dualMeets.map((dualMeet: any) => {
+
+        const processedResults = dualMeets.map((dualMeet: any) => {
           const homeTeam = teams.find((team: any) => team.teamID === dualMeet.homeTeamID);
           const awayTeam = teams.find((team: any) => team.teamID === dualMeet.awayTeamID);
           const meet = meets.find((m: any) => m.meetID === dualMeet.meetID);
           const season = seasons.find((s: any) => s.teamID === dualMeet.homeTeamID);
-  
+
           return {
-            date: meet?.date || "Unknown",
-            year: meet?.year || "Unknown",
-            home_team: homeTeam?.teamName || "Unknown",
+            date: meet?.date || 'Unknown',
+            year: meet?.year?.toString() || 'Unknown', // Ensure year is a string
+            home_team: homeTeam?.teamName || 'Unknown',
             home_points: dualMeet.homeTeamPoints || 0,
-            away_team: awayTeam?.teamName || "Unknown",
+            away_team: awayTeam?.teamName || 'Unknown',
             away_points: dualMeet.awayTeamPoints || 0,
-            division: season?.division || "Unknown",
+            division: season?.division?.toString() || 'Unknown', // Ensure division is a string
           };
         });
-  
-        console.log("Processed Dual Meet Results:", processedDualResults);
-  
-        // Add only unique results
-        setResultsData((prevResults) => [
-          ...prevResults,
-          ...processedDualResults.filter(
-            (result: { date: any; home_team: any; away_team: any; }) =>
-              !prevResults.some(
-                (prevResult) =>
-                  prevResult.date === result.date &&
-                  prevResult.home_team === result.home_team &&
-                  prevResult.away_team === result.away_team
-              )
-          ),
-        ]);
+
+        setResultsData(processedResults);
       } catch (error) {
-        console.error("Error fetching or processing dual meet data:", error);
+        console.error('Error fetching or processing data:', error);
       }
     };
-  
-    const fetchChampionshipResultsData = async () => {
-      try {
-        const [teams, meets, meetParticipants, seasons, champsMeets] = await Promise.all([
-          fetch('/data/team.json').then((res) => res.json()),
-          fetch('/data/meet.json').then((res) => res.json()),
-          fetch('/data/meet_participant.json').then((res) => res.json()),
-          fetch('/data/season.json').then((res) => res.json()),
-          fetch('/data/champs_meets.json').then((res) => res.json()),
-        ]);
-  
-        const processedChampsResults = champsMeets.map((champsMeet: any) => {
-          const meet = meets.find((m: any) => m.meetID === champsMeet.meetID);
-          const participants = meetParticipants.filter((mp: any) => mp.meetID === champsMeet.meetID);
-  
-          return participants.map((participant: any) => {
-            const team = teams.find((t: any) => t.teamID === participant.teamID);
-            const season = seasons.find((s: any) => s.teamID === participant.teamID);
-  
-            let away_points = 0;
-            if (meet?.title === "Divisional Relays") {
-              away_points = season?.drPoints || 0;
-            } else if (meet?.title === "Divisionals") {
-              away_points = season?.dPoints || 0;
-            } else if (meet?.title === "All Star Relay Carnival") {
-              away_points = season?.arPoints || 0;
-            } else if (meet?.title === "All Stars") {
-              away_points = season?.aPoints || 0;
-            }
-  
-            return {
-              date: meet?.date || "Unknown",
-              home_team: meet?.title || "Unknown",
-              home_points: 0, // Assuming home points are not relevant for these meets
-              away_team: team?.teamName || "Unknown",
-              away_points,
-              division: season?.division || "Unknown",
-            };
-          });
-        });
-  
-        console.log("Processed Championship Meet Results:", processedChampsResults);
-  
-        // Add only unique results
-        setResultsData((prevResults) => [
-          ...prevResults,
-          ...processedChampsResults.flat().filter(
-            (result: { date: any; home_team: any; away_team: any; }) =>
-              !prevResults.some(
-                (prevResult) =>
-                  prevResult.date === result.date &&
-                  prevResult.home_team === result.home_team &&
-                  prevResult.away_team === result.away_team
-              )
-          ),
-        ]);
-      } catch (error) {
-        console.error("Error fetching or processing championship meet data:", error);
-      }
-    };
-  
+
     fetchResultsData();
-    fetchChampionshipResultsData();
   }, []);
 
   const handleFilterChange = (filterType: string, value: string | number | null) => {
@@ -154,7 +79,7 @@ function ResultsPage() {
         setFilteredTeam(value as string | null);
         break;
       case 'division':
-        setFilteredDivision(value as number | null);
+        setFilteredDivision(value !== null ? parseInt(value as string, 10) : null); // Ensure division is a number
         break;
       default:
         break;
@@ -162,11 +87,22 @@ function ResultsPage() {
   };
 
   const filteredData = resultsData.filter((item) => {
-    const matchesYear = filteredYear ? item.year === filteredYear : true;
+    // Extract the year from the date string (assumes date is in YYYY-MM-DD format)
+    const itemYear = item.date ? item.date.split('-')[0] : null;
+  
+    // Match conditions
+    const matchesYear = filteredYear ? itemYear === filteredYear : true;
     const matchesTeam = filteredTeam ? [item.home_team, item.away_team].includes(filteredTeam) : true;
-    const matchesDivision = filteredDivision ? item.division === filteredDivision : true;
+    const matchesDivision = filteredDivision !== null ? parseInt(item.division, 10) === filteredDivision : true;
+  
     return matchesYear && matchesTeam && matchesDivision;
   });
+
+  console.log("Filtered Year:", filteredYear);
+  console.log("Filtered Team:", filteredTeam);
+  console.log("Filtered Division:", filteredDivision);
+  console.log("Filtered Data:", filteredData);
+  console.log("Results Data Example:", resultsData[0]);
 
   return (
     <IonPage>
@@ -180,16 +116,18 @@ function ResultsPage() {
           <h1 className="page-header">Meet Results</h1>
         </div>
         <div className="description">
-          <h2>Use the folowing page to filter and sort Meet Results</h2>
+          <h2>Use the following page to filter and sort Meet Results</h2>
         </div>
         <div className="filter-section">
-          <FilterDropdown label="Year" options={[...years]} onChange={(value) => handleFilterChange('year', value === "All Years" ? null : value)} />
-          <FilterDropdown label="Team" options={[...teams]} onChange={(value) => handleFilterChange('team', value === "All Teams" ? null : value)} />
-          <FilterDropdown label="Division" options={[...divisions.map(String)]} onChange={(value) => handleFilterChange('division', value === "All Divisions" ? null : parseInt(value as string, 10))} />
+          <FilterDropdown label="Year" options={[...years]} onChange={(value) => handleFilterChange('year', value === 'All Years' ? null : value)} />
+          <FilterDropdown label="Team" options={[...teams]} onChange={(value) => handleFilterChange('team', value === 'All Teams' ? null : value)} />
+          <FilterDropdown label="Division" options={[...divisions.map(String)]} onChange={(value) => handleFilterChange('division', value === 'All Divisions' ? null : value)} />
         </div>
         <ResultsTable data={filteredData} />
         <div className="description">
-          <h2><Link to={`/results/meet/dominion-hills-vs-rolling-hills`}>View Meet Results Example</Link></h2>
+          <h2>
+            <Link to={`/results/meet/dominion-hills-vs-rolling-hills`}>View Meet Results Example</Link>
+          </h2>
         </div>
       </IonContent>
     </IonPage>

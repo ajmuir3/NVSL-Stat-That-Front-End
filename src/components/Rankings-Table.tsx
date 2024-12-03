@@ -8,14 +8,14 @@ interface TeamData {
   winCount: number;
   lossCount: number;
   tieCount: number;
-  dmPoints: number;
-  drPoints: number;
-  dPoints: number;
-  arPoints: number;
-  aPoints: number;
-  tPoints: number;
-  gtPoints: number;
-  powerRanking: number;
+  dmPoints: number | null;
+  drPoints: number | null;
+  dPoints: number | null;
+  arPoints: number | null;
+  aPoints: number | null;
+  tPoints: number | null;
+  gtPoints: number | null;
+  powerRanking: number | null;
 }
 
 interface RankingsTableProps {
@@ -30,8 +30,16 @@ const RankingsTable: React.FC<RankingsTableProps> = ({ data }) => {
     if (!sortConfig) return data;
 
     const sorted = [...data].sort((a, b) => {
-      if (a[sortConfig.key] < b[sortConfig.key]) return sortConfig.direction === 'asc' ? -1 : 1;
-      if (a[sortConfig.key] > b[sortConfig.key]) return sortConfig.direction === 'asc' ? 1 : -1;
+      const aValue = a[sortConfig.key];
+      const bValue = b[sortConfig.key];
+
+      // Handle null or undefined values
+      if (aValue == null || bValue == null) {
+        return aValue == null ? 1 : -1; // Null values sorted last
+      }
+
+      if (aValue < bValue) return sortConfig.direction === 'asc' ? -1 : 1;
+      if (aValue > bValue) return sortConfig.direction === 'asc' ? 1 : -1;
       return 0;
     });
     return sorted;
@@ -82,14 +90,14 @@ const RankingsTable: React.FC<RankingsTableProps> = ({ data }) => {
             <td>{team.winCount}</td>
             <td>{team.lossCount}</td>
             <td>{team.tieCount}</td>
-            <td>{team.dmPoints.toFixed(1)}</td>
-            <td>{team.drPoints.toFixed(1)}</td>
-            <td>{team.dPoints.toFixed(1)}</td>
-            <td>{team.arPoints.toFixed(1)}</td>
-            <td>{team.aPoints.toFixed(1)}</td>
-            <td>{team.tPoints.toFixed(1)}</td>
-            <td>{team.gtPoints.toFixed(1)}</td>
-            <td>{team.powerRanking.toFixed(2)}</td>
+            <td>{team.dmPoints?.toFixed(1) || '0.0'}</td>
+            <td>{team.drPoints?.toFixed(1) || '0.0'}</td>
+            <td>{team.dPoints?.toFixed(1) || '0.0'}</td>
+            <td>{team.arPoints?.toFixed(1) || '0.0'}</td>
+            <td>{team.aPoints?.toFixed(1) || '0.0'}</td>
+            <td>{team.tPoints?.toFixed(1) || '0.0'}</td>
+            <td>{team.gtPoints?.toFixed(1) || '0.0'}</td>
+            <td>{team.powerRanking?.toFixed(2) || '0.00'}</td>
           </tr>
         ))}
       </tbody>

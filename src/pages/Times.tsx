@@ -8,25 +8,21 @@ const DEFAULT_FILTERS: {
   year: string | null;
   team: string | null;
   ageGroup: string | null;
-  gender: string | null;
   event: string | null;
   type: string | null;
   course: string | null;
   division: string | null;
 } = {
-  year: "All Years",
+  year: "2021",
   team: "All Teams",
   ageGroup: "All Age Groups",
-  gender: "All Genders",
   event: "All Events",
   type: "All Types",
   course: "All Courses",
   division: "All Divisions",
 };
 
-
-
-const years = ["2021"];
+const years = ['2021', '2022', '2023', '2024'];
 const all_teams = [
   'Annandale', 'Arlington Forest', 'Brandywine', 'Broyhill Crest', 'Brookfield', 'Burke Station',
   'Chesterbrook', 'Camelot', 'Country Club Hills', 'Cardinal Hill', 'Crosspointe', 'Commonwealth',
@@ -60,7 +56,6 @@ interface TopTime {
   time: number;
   powerIndex: number;
   year: string;
-  gender: string;
   stroke: string;
   distance: number;
   course: string;
@@ -75,7 +70,18 @@ function TopTimesPage() {
     try {
       console.log("Filters:", filters);
   
-      const [teams, swimmers, seasons, meets, meetParticipants, meetEvents, events, results] = await Promise.all([
+      // Fetch all necessary data files
+      const [
+        teams,
+        swimmers,
+        seasons,
+        meets,
+        meetParticipants,
+        meetEvents,
+        events,
+        results,
+        swimmerResults, // New JSON file
+      ] = await Promise.all([
         fetch("/data/team.json").then((res) => res.json()),
         fetch("/data/swimmer.json").then((res) => res.json()),
         fetch("/data/season.json").then((res) => res.json()),
@@ -84,6 +90,7 @@ function TopTimesPage() {
         fetch("/data/meet_event.json").then((res) => res.json()),
         fetch("/data/event.json").then((res) => res.json()),
         fetch("/data/results.json").then((res) => res.json()),
+        fetch("/data/swimmer_result.json").then((res) => res.json()), // Load swimmer_result.json
       ]);
   
       const processedData = results
@@ -94,22 +101,18 @@ function TopTimesPage() {
           const relatedParticipants = meetParticipants.filter((mp: { meetID: any }) => mp.meetID === meet?.meetID);
           const teamIDs = relatedParticipants.map((mp: { teamID: any }) => mp.teamID);
           const team = teams.find((t: { teamID: any }) => teamIDs.includes(t.teamID));
-          const swimmer = swimmers.find((sw: { teamID: any }) => sw.teamID === team?.teamID);
+          const swimmerResult = swimmerResults.find(
+            (sr: { resultID: any }) => sr.resultID === result.resultID
+          ); // Map resultID to swimmerResult
+          const swimmer = swimmers.find((sw: { swimmerID: any }) => sw.swimmerID === swimmerResult?.swimmerID); // Use swimmerID from swimmerResult
           const season = seasons.find((s: { teamID: any; year: number }) => s.teamID === team?.teamID);
   
           if (!swimmer || !team || !season || !event || event.individual === false) {
             return null; // Exclude non-individual events
           }
   
-          const nameParts = swimmer.name.split(" ");
-          if (nameParts.length > 2) {
-            return null; // Exclude names with more than two parts
-          }
-  
-          const gender = parseInt(event.number, 10) % 2 === 0 ? "Girls" : "Boys";
-  
           return {
-            name: swimmer.name || "Unknown",
+            name: swimmer.name || "Unknown", // Retrieve swimmer name from swimmer.json
             team: team.teamName || "Unknown",
             time: parseFloat(result.time || "0"),
             powerIndex: parseFloat(result.powerIndex || "0"),

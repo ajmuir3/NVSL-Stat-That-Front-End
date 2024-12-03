@@ -1,512 +1,512 @@
 [
     {
-        "location": "6840 Woodland Drive Falls Church, VA 22046",
-        "teamID": "HPP",
-        "teamName": "High Point Pool"
-    },
-    {
-        "location": "6201 Sandstone Way Clifton, VA 20124",
-        "teamID": "LRR",
-        "teamName": "Little Rocky Run"
-    },
-    {
-        "location": "9117 Westerholme Way Vienna, VA 22182",
-        "teamID": "CH",
-        "teamName": "Cardinal Hill"
-    },
-    {
-        "location": "7721 Painted Daisy Drive Springfield, va 22152",
-        "teamID": "DV",
-        "teamName": "Daventry"
-    },
-    {
-        "location": "9100 Burnetta Drive Annandale, VA 22003",
-        "teamID": "LBR",
-        "teamName": "Long Branch"
-    },
-    {
-        "location": "5505 Montgomery St.Springfield, VA 22151",
-        "teamID": "EP",
-        "teamName": "Edsall Park"
-    },
-    {
-        "location": "6011 Crater Place Alexandria, va 22312",
-        "teamID": "PL",
-        "teamName": "Parklawn"
-    },
-    {
-        "location": "8275 Glen Eagle Drive Fairfax Station, VA 22039",
-        "teamID": "CP",
-        "teamName": "Crosspointe"
-    },
-    {
-        "location": "8301 Carrleigh Parkway Springfield, VA 22152",
-        "teamID": "RH",
-        "teamName": "Rolling Hills"
-    },
-    {
-        "location": "6126 Harmon Place Springfield, VA 22152",
-        "teamID": "WG",
-        "teamName": "Walden Glen"
-    },
-    {
-        "location": "7212 Early Street Annandale, VA 22003",
-        "teamID": "BC",
-        "teamName": "Broyhill Crest"
-    },
-    {
-        "location": "8326 Cottage Street Vienna, VA 22180",
-        "teamID": "DL",
-        "teamName": "Dunn Loring"
-    },
-    {
-        "location": "12515 Pinecrest Road Herndon, VA 20171",
-        "teamID": "PC",
-        "teamName": "Pinecrest"
-    },
-    {
-        "location": "8201 Southrun Road Springfield, VA 22153",
-        "teamID": "NF",
-        "teamName": "Newington Forest"
-    },
-    {
-        "location": "6030 Lee Highway Arlington, VA 22205",
-        "teamID": "O",
-        "teamName": "Overlee"
-    },
-    {
-        "location": "1700 Margie Drive Mc Lean, VA 22101",
-        "teamID": "ML",
-        "teamName": "McLean"
-    },
-    {
-        "location": "10339 Brittenford Drive Vienna, VA 22182",
-        "teamID": "HTM",
-        "teamName": "Hunter Mill"
-    },
-    {
-        "location": "109 Harmony Drive SWVienna, VA 22182",
-        "teamID": "VW",
-        "teamName": "Vienna Woods"
-    },
-    {
-        "location": "2729 Marcey Road Arlington, VA 22207",
-        "teamID": "DR",
-        "teamName": "Donaldson Run"
-    },
-    {
-        "location": "7024 Spaniel Rd Springfield, VA 22153",
-        "teamID": "FX",
-        "teamName": "Fox Hunt"
-    },
-    {
-        "location": "13001 Point Pleasant Drive Fairfax, VA 22033",
-        "teamID": "G",
-        "teamName": "Greenbriar"
-    },
-    {
-        "location": "2500 Woodlawn Trail Alexandria, VA 22306",
-        "teamID": "HM",
-        "teamName": "Hollin Meadows"
-    },
-    {
-        "location": "13516 Point Pleasant Drive Chantilly, VA 20151",
-        "teamID": "PT",
-        "teamName": "Poplar Tree"
-    },
-    {
-        "location": "1515 Bryan Branch Rd.Mc Lean, VA 22101",
-        "teamID": "HS",
-        "teamName": "Highlands Swim"
-    },
-    {
-        "location": "1906 Westmoreland Road Mc Lean, VA 22101",
-        "teamID": "KG",
-        "teamName": "Kent Gardens"
-    },
-    {
-        "location": "5352 Gainsborough Dr Fairfax, VA 22032",
-        "teamID": "LV",
-        "teamName": "Lakeview"
-    },
-    {
-        "location": "6500 Virginia Hills Pool Dr. formerly Robinson Dr.Alexandria, VA 22310",
-        "teamID": "VH",
-        "teamName": "Virginia Hills"
-    },
-    {
-        "location": "15355 Wetherburn Court Centreville, VA 20120",
-        "teamID": "VR",
-        "teamName": "Virginia Run"
-    },
-    {
-        "location": "8209 Dunsinane Court Mc Lean, VA 22102",
-        "teamID": "HSC",
-        "teamName": "Hamlet"
-    },
-    {
-        "location": "4347 Cub Run Road Chantilly, VA 20151",
-        "teamID": "PV",
-        "teamName": "Pleasant Valley"
-    },
-    {
-        "location": "1812 Kirby Road Mc Lean, VA 22101",
-        "teamID": "CB",
-        "teamName": "Chesterbrook"
-    },
-    {
-        "location": "2634 A Black Fir Court Reston, VA 20191",
-        "teamID": "FMW",
-        "teamName": "Fox Mill Woods"
-    },
-    {
-        "location": "9800 Commonwealth Blvd Fairfax, VA 22032",
-        "teamID": "CSC",
-        "teamName": "Commonwealth"
-    },
-    {
-        "location": "625 Marshall Rd Vienna, VA 22180",
-        "teamID": "VAC",
-        "teamName": "Vienna Aquatic"
-    },
-    {
-        "location": "9908 South Park Circle Fairfax Station, VA 22039",
-        "teamID": "SOR",
-        "teamName": "South Run"
-    },
-    {
-        "location": "9537 Helenwood Dr Fairfax, VA 22032",
-        "teamID": "B",
-        "teamName": "Brandywine"
-    },
-    {
-        "location": "7421 Camp Alger Avenue Falls Church, VA 22042",
-        "teamID": "W",
-        "teamName": "Woodley"
-    },
-    {
-        "location": "3451 Gallows Road Falls Church, VA 22042",
-        "teamID": "HRA",
-        "teamName": "Holmes Run Acres"
-    },
-    {
-        "location": "9321 Old Mount Vernon Rd Alexandria, VA 22309",
-        "teamID": "MHC",
-        "teamName": "Mansion House"
-    },
-    {
-        "location": "1508 A Sadlers Wells Dr Herndon, VA 20170",
-        "teamID": "HB",
-        "teamName": "Hiddenbrook"
-    },
-    {
-        "location": "5401 North Carlin Springs Road Arlington, VA 22203",
-        "teamID": "AF",
-        "teamName": "Arlington Forest"
-    },
-    {
-        "location": "Address not found on the team's page.",
-        "teamID": "NS",
-        "teamName": "North Springfield"
-    },
-    {
-        "location": "728 Live Oak Dr.Mc Lean, VA 22101",
-        "teamID": "L",
-        "teamName": "Langley"
-    },
-    {
-        "location": "3622 Old Post Rd Fairfax, VA 22030",
-        "teamID": "CCH",
-        "teamName": "Country Club Hills"
-    },
-    {
-        "location": "7019 Ashbury Dr Springfield, VA 22152",
-        "teamID": "RV",
-        "teamName": "Rolling Valley"
-    },
-    {
-        "location": "3604 Balin Court Annandale, VA 22003",
-        "teamID": "CCC",
-        "teamName": "Camelot"
-    },
-    {
-        "location": "1114 Monroe St.Herndon, VA 20170",
-        "teamID": "H",
-        "teamName": "Herndon"
-    },
-    {
-        "location": "6000 Wilson Boulevard Arlington, VA 22205",
-        "teamID": "DH",
-        "teamName": "Dominion Hills"
-    },
-    {
-        "location": "8633 Buckboard Drive Alexandria, VA 22308",
-        "teamID": "RG",
-        "teamName": "Riverside Gardens"
-    },
-    {
-        "location": "5101 Southampton Dr Annandale, VA 22003",
-        "teamID": "CW",
-        "teamName": "Canterbury Woods"
-    },
-    {
-        "location": "5210 Inverchapel Road Springfield, VA 22151",
-        "teamID": "R",
-        "teamName": "Ravensworth Farm"
-    },
-    {
-        "location": "1432 Towlston Road Vienna, VA 22182",
-        "teamID": "SV",
-        "teamName": "Shouse Village"
-    },
-    {
-        "location": "4850 Gainsborough Drive Fairfax, VA 22032",
-        "teamID": "KR",
-        "teamName": "Kings Ridge"
-    },
-    {
-        "location": "9528 Ashbourn Dr.Burke, VA 22015",
-        "teamID": "LB",
-        "teamName": "Lake Braddock"
-    },
-    {
-        "location": "3538 Sleepy Hollow Road Falls Church, VA 22042",
-        "teamID": "SHR",
-        "teamName": "Sleepy Hollow Rec"
-    },
-    {
-        "location": "8159 Fernlake Ct.Alexandria, VA 22309",
-        "teamID": "PW",
-        "teamName": "Pinewood Lake"
-    },
-    {
-        "location": "Address not found on the team's page.",
-        "teamID": "IC",
-        "teamName": "Ilda Community"
-    },
-    {
-        "location": "1027 Dalebrook Drive Alexandria, VA 22308",
-        "teamID": "WW",
-        "teamName": "Waynewood"
-    },
-    {
-        "location": "4200 Roberts Road Fairfax, VA 22032",
-        "teamID": "F",
-        "teamName": "Fairfax"
-    },
-    {
-        "location": "7100 Sydenstricker Road Springfield, VA 22153",
-        "teamID": "HV",
-        "teamName": "Hunt Valley"
-    },
-    {
-        "location": "6406 Telegraph Road Alexandria, VA 22310",
-        "teamID": "HP",
-        "teamName": "Highland Park"
-    },
-    {
-        "location": "3720 Charles Stewart Drive Fairfax, VA 22033",
-        "teamID": "FO",
-        "teamName": "Fair Oaks"
-    },
-    {
-        "location": "5501 Sully Park Drive Centreville, VA 20120",
-        "teamID": "SS2",
-        "teamName": "Sully Station II"
-    },
-    {
-        "location": "1814 Great Falls Street Mc Lean, VA 22101",
         "teamID": "T",
-        "teamName": "Tuckahoe"
+        "teamName": "Tuckahoe",
+        "location": "1814 Great Falls Street Mc Lean, VA 22101"
     },
     {
-        "location": "9330 Pentland Place Fairfax, VA 22031",
-        "teamID": "M",
-        "teamName": "Mantua"
+        "teamID": "CB",
+        "teamName": "Chesterbrook",
+        "location": "1812 Kirby Road Mc Lean, VA 22101"
     },
     {
-        "location": "7011 Flax Street Springfield, VA 22152",
-        "teamID": "RF",
-        "teamName": "Rolling Forest"
+        "teamID": "O",
+        "teamName": "Overlee",
+        "location": "6030 Lee Highway Arlington, VA 22205"
     },
     {
-        "location": "7000 Canterbury Lane Alexandria, VA 22307",
-        "teamID": "LHP",
-        "teamName": "Little Hunting Park"
+        "teamID": "DR",
+        "teamName": "Donaldson Run",
+        "location": "2729 Marcey Road Arlington, VA 22207"
     },
     {
-        "location": "2554 Oak Valley Drive Vienna, VA 22180",
-        "teamID": "LE",
-        "teamName": "Lakevale Estates"
+        "teamID": "HS",
+        "teamName": "Highlands Swim",
+        "location": "1515 Bryan Branch Rd.Mc Lean, VA 22101"
     },
     {
-        "location": "8510 Parliament Drive Springfield, VA 22151",
-        "teamID": "PAR",
-        "teamName": "Parliament"
-    },
-    {
-        "location": "9705 Laurel Street Fairfax, VA 22032",
-        "teamID": "SOC",
-        "teamName": "Somerset-Olde Creek"
-    },
-    {
-        "location": "4146 Elizabeth Lane Annandale, VA 22003",
-        "teamID": "THA",
-        "teamName": "Truro"
-    },
-    {
-        "location": "2463 Buckelew Falls Church, VA",
-        "teamID": "PH",
-        "teamName": "Poplar Heights"
-    },
-    {
-        "location": "13615 Pennsboro Drive Chantilly, VA 20151",
-        "teamID": "BF",
-        "teamName": "Brookfield"
-    },
-    {
-        "location": "5101 Sequoia Farms Drive Centreville, VA 20120",
-        "teamID": "SS",
-        "teamName": "Sully Station"
-    },
-    {
-        "location": "8600 Bridlewood Drive Springfield, VA 22152",
-        "teamID": "OH",
-        "teamName": "Orange Hunt"
-    },
-    {
-        "location": "Address not found on the team's page.",
         "teamID": "DT",
-        "teamName": "Dowden Terrace"
+        "teamName": "Dowden Terrace",
+        "location": "Address not found on the team's page."
     },
     {
-        "location": "7530 Little River Turnpike Annandale, VA 22003",
-        "teamID": "A",
-        "teamName": "Annandale"
+        "teamID": "L",
+        "teamName": "Langley",
+        "location": "728 Live Oak Dr.Mc Lean, VA 22101"
     },
     {
-        "location": "5601 Snowy Owl Dr.Fairfax, Va 22032",
-        "teamID": "FCE",
-        "teamName": "Fairfax Club Estates"
+        "teamID": "CP",
+        "teamName": "Crosspointe",
+        "location": "8275 Glen Eagle Drive Fairfax Station, VA 22039"
     },
     {
-        "location": "2300 Brintizer way Alexandria, VA 22308",
-        "teamID": "SRA",
-        "teamName": "Stratford"
+        "teamID": "ML",
+        "teamName": "McLean",
+        "location": "1700 Margie Drive Mc Lean, VA 22101"
     },
     {
-        "location": "7008 Elkton Drive Springfield, VA 22152",
-        "teamID": "V",
-        "teamName": "Village West"
+        "teamID": "HSC",
+        "teamName": "Hamlet",
+        "location": "8209 Dunsinane Court Mc Lean, VA 22102"
     },
     {
-        "location": "7000 Cottontail Court Springfield, VA 22153",
-        "teamID": "CT",
-        "teamName": "Cottontail"
-    },
-    {
-        "location": "9534 Orion Ct.Burke, VA 22015",
-        "teamID": "OKM",
-        "teamName": "Old Keene Mill"
-    },
-    {
-        "location": "8380 Laurel Crest Drive Lorton, VA 22079",
-        "teamID": "LH",
-        "teamName": "Laurel Hill"
-    },
-    {
-        "location": "Address not found on the team's page.",
-        "teamID": "SB",
-        "teamName": "Springboard"
-    },
-    {
-        "location": "7400 Highland Street Springfield, VA 22150",
-        "teamID": "S",
-        "teamName": "Springfield"
-    },
-    {
-        "location": "3136 Fair Woods Parkway (previously Plantation)Fairfax, VA 22030",
-        "teamID": "MW",
-        "teamName": "Mosby Woods"
-    },
-    {
-        "location": "10603 Zion Drive Fairfax, Va 22032",
-        "teamID": "SR",
-        "teamName": "Sideburn Run"
-    },
-    {
-        "location": "761 Walker Road Great Falls, VA 22066",
-        "teamID": "GF",
-        "teamName": "Great Falls"
-    },
-    {
-        "location": "4330 Old Columbia Pike Annandale, VA 22003",
-        "teamID": "FH",
-        "teamName": "Forest Hollow"
-    },
-    {
-        "location": "6501 Montrose St Alexandria, VA 22312",
-        "teamID": "LP",
-        "teamName": "Lincolnia Park"
-    },
-    {
-        "location": "8042 Fairfax Road Alexandria, VA 22308",
-        "teamID": "MVP",
-        "teamName": "Mount Vernon Park"
-    },
-    {
-        "location": "7319 Lee Highway Falls Church, VA 22042",
-        "teamID": "LG",
-        "teamName": "Lee Graham"
-    },
-    {
-        "location": "5820 Ridge Ford Drive Burke, VA 22015",
-        "teamID": "BKS",
-        "teamName": "Burke Station"
-    },
-    {
-        "location": "2720 Viking Drive Herndon, VA 20171",
-        "teamID": "FME",
-        "teamName": "Fox Mill Estates"
-    },
-    {
-        "location": "3516 Sleepy Hollow Road Falls Church, VA 22044",
-        "teamID": "SHB",
-        "teamName": "Sleepy Hollow B & R"
-    },
-    {
-        "location": "4299 Andes Drive Fairfax, VA 22030",
-        "teamID": "VA",
-        "teamName": "Villa Aquatic"
-    },
-    {
-        "location": "11714 Flemish Mill Court Oakton, VA 22124",
-        "teamID": "OAK",
-        "teamName": "Oakton"
-    },
-    {
-        "location": "6203 Old Arrington Dr.Fairfax Station, VA 22039",
-        "teamID": "FS",
-        "teamName": "Fairfax Station"
-    },
-    {
-        "location": "4627 Holborn Ave.Annandale, VA 22003",
         "teamID": "WC",
-        "teamName": "Wakefield Chapel"
+        "teamName": "Wakefield Chapel",
+        "location": "4627 Holborn Ave.Annandale, VA 22003"
     },
     {
-        "location": "4609 Marley Rd.Fairfax, VA 22032",
+        "teamID": "MVP",
+        "teamName": "Mount Vernon Park",
+        "location": "8042 Fairfax Road Alexandria, VA 22308"
+    },
+    {
+        "teamID": "FO",
+        "teamName": "Fair Oaks",
+        "location": "3720 Charles Stewart Drive Fairfax, VA 22033"
+    },
+    {
+        "teamID": "LRR",
+        "teamName": "Little Rocky Run",
+        "location": "6201 Sandstone Way Clifton, VA 20124"
+    },
+    {
+        "teamID": "HPP",
+        "teamName": "High Point Pool",
+        "location": "6840 Woodland Drive Falls Church, VA 22046"
+    },
+    {
+        "teamID": "HV",
+        "teamName": "Hunt Valley",
+        "location": "7100 Sydenstricker Road Springfield, VA 22153"
+    },
+    {
+        "teamID": "VW",
+        "teamName": "Vienna Woods",
+        "location": "109 Harmony Drive SWVienna, VA 22182"
+    },
+    {
+        "teamID": "VR",
+        "teamName": "Virginia Run",
+        "location": "15355 Wetherburn Court Centreville, VA 20120"
+    },
+    {
+        "teamID": "KG",
+        "teamName": "Kent Gardens",
+        "location": "1906 Westmoreland Road Mc Lean, VA 22101"
+    },
+    {
+        "teamID": "OAK",
+        "teamName": "Oakton",
+        "location": "11714 Flemish Mill Court Oakton, VA 22124"
+    },
+    {
+        "teamID": "VAC",
+        "teamName": "Vienna Aquatic",
+        "location": "625 Marshall Rd Vienna, VA 22180"
+    },
+    {
+        "teamID": "CH",
+        "teamName": "Cardinal Hill",
+        "location": "9117 Westerholme Way Vienna, VA 22182"
+    },
+    {
+        "teamID": "OH",
+        "teamName": "Orange Hunt",
+        "location": "8600 Bridlewood Drive Springfield, VA 22152"
+    },
+    {
+        "teamID": "SR",
+        "teamName": "Sideburn Run",
+        "location": "10603 Zion Drive Fairfax, Va 22032"
+    },
+    {
+        "teamID": "OKM",
+        "teamName": "Old Keene Mill",
+        "location": "9534 Orion Ct.Burke, VA 22015"
+    },
+    {
+        "teamID": "M",
+        "teamName": "Mantua",
+        "location": "9330 Pentland Place Fairfax, VA 22031"
+    },
+    {
+        "teamID": "HB",
+        "teamName": "Hiddenbrook",
+        "location": "1508 A Sadlers Wells Dr Herndon, VA 20170"
+    },
+    {
+        "teamID": "B",
+        "teamName": "Brandywine",
+        "location": "9537 Helenwood Dr Fairfax, VA 22032"
+    },
+    {
+        "teamID": "SHR",
+        "teamName": "Sleepy Hollow Rec",
+        "location": "3538 Sleepy Hollow Road Falls Church, VA 22042"
+    },
+    {
+        "teamID": "HTM",
+        "teamName": "Hunter Mill",
+        "location": "10339 Brittenford Drive Vienna, VA 22182"
+    },
+    {
+        "teamID": "LG",
+        "teamName": "Lee Graham",
+        "location": "7319 Lee Highway Falls Church, VA 22042"
+    },
+    {
+        "teamID": "VH",
+        "teamName": "Virginia Hills",
+        "location": "6500 Virginia Hills Pool Dr. formerly Robinson Dr.Alexandria, VA 22310"
+    },
+    {
+        "teamID": "CCH",
+        "teamName": "Country Club Hills",
+        "location": "3622 Old Post Rd Fairfax, VA 22030"
+    },
+    {
+        "teamID": "LV",
+        "teamName": "Lakeview",
+        "location": "5352 Gainsborough Dr Fairfax, VA 22032"
+    },
+    {
+        "teamID": "WG",
+        "teamName": "Walden Glen",
+        "location": "6126 Harmon Place Springfield, VA 22152"
+    },
+    {
+        "teamID": "FCE",
+        "teamName": "Fairfax Club Estates",
+        "location": "5601 Snowy Owl Dr.Fairfax, Va 22032"
+    },
+    {
+        "teamID": "PC",
+        "teamName": "Pinecrest",
+        "location": "12515 Pinecrest Road Herndon, VA 20171"
+    },
+    {
+        "teamID": "R",
+        "teamName": "Ravensworth Farm",
+        "location": "5210 Inverchapel Road Springfield, VA 22151"
+    },
+    {
+        "teamID": "WW",
+        "teamName": "Waynewood",
+        "location": "1027 Dalebrook Drive Alexandria, VA 22308"
+    },
+    {
+        "teamID": "LE",
+        "teamName": "Lakevale Estates",
+        "location": "2554 Oak Valley Drive Vienna, VA 22180"
+    },
+    {
+        "teamID": "SHB",
+        "teamName": "Sleepy Hollow B & R",
+        "location": "3516 Sleepy Hollow Road Falls Church, VA 22044"
+    },
+    {
+        "teamID": "VA",
+        "teamName": "Villa Aquatic",
+        "location": "4299 Andes Drive Fairfax, VA 22030"
+    },
+    {
+        "teamID": "DL",
+        "teamName": "Dunn Loring",
+        "location": "8326 Cottage Street Vienna, VA 22180"
+    },
+    {
+        "teamID": "DH",
+        "teamName": "Dominion Hills",
+        "location": "6000 Wilson Boulevard Arlington, VA 22205"
+    },
+    {
+        "teamID": "G",
+        "teamName": "Greenbriar",
+        "location": "13001 Point Pleasant Drive Fairfax, VA 22033"
+    },
+    {
+        "teamID": "HM",
+        "teamName": "Hollin Meadows",
+        "location": "2500 Woodlawn Trail Alexandria, VA 22306"
+    },
+    {
+        "teamID": "SS",
+        "teamName": "Sully Station",
+        "location": "5101 Sequoia Farms Drive Centreville, VA 20120"
+    },
+    {
+        "teamID": "FMW",
+        "teamName": "Fox Mill Woods",
+        "location": "2634 A Black Fir Court Reston, VA 20191"
+    },
+    {
+        "teamID": "LHP",
+        "teamName": "Little Hunting Park",
+        "location": "7000 Canterbury Lane Alexandria, VA 22307"
+    },
+    {
+        "teamID": "SOR",
+        "teamName": "South Run",
+        "location": "9908 South Park Circle Fairfax Station, VA 22039"
+    },
+    {
+        "teamID": "FS",
+        "teamName": "Fairfax Station",
+        "location": "6203 Old Arrington Dr.Fairfax Station, VA 22039"
+    },
+    {
+        "teamID": "AF",
+        "teamName": "Arlington Forest",
+        "location": "5401 North Carlin Springs Road Arlington, VA 22203"
+    },
+    {
+        "teamID": "GF",
+        "teamName": "Great Falls",
+        "location": "761 Walker Road Great Falls, VA 22066"
+    },
+    {
+        "teamID": "MW",
+        "teamName": "Mosby Woods",
+        "location": "3136 Fair Woods Parkway (previously Plantation)Fairfax, VA 22030"
+    },
+    {
+        "teamID": "SB",
+        "teamName": "Springboard",
+        "location": "Address not found on the team's page."
+    },
+    {
+        "teamID": "F",
+        "teamName": "Fairfax",
+        "location": "4200 Roberts Road Fairfax, VA 22032"
+    },
+    {
+        "teamID": "RG",
+        "teamName": "Riverside Gardens",
+        "location": "8633 Buckboard Drive Alexandria, VA 22308"
+    },
+    {
+        "teamID": "CCC",
+        "teamName": "Camelot",
+        "location": "3604 Balin Court Annandale, VA 22003"
+    },
+    {
         "teamID": "RFD",
-        "teamName": "Rutherford"
+        "teamName": "Rutherford",
+        "location": "4609 Marley Rd.Fairfax, VA 22032"
     },
     {
-        "location": "7820 Hayfield Road Alexandria, VA 22315",
+        "teamID": "FME",
+        "teamName": "Fox Mill Estates",
+        "location": "2720 Viking Drive Herndon, VA 20171"
+    },
+    {
+        "teamID": "CW",
+        "teamName": "Canterbury Woods",
+        "location": "5101 Southampton Dr Annandale, VA 22003"
+    },
+    {
+        "teamID": "HP",
+        "teamName": "Highland Park",
+        "location": "6406 Telegraph Road Alexandria, VA 22310"
+    },
+    {
+        "teamID": "PH",
+        "teamName": "Poplar Heights",
+        "location": "2463 Buckelew Falls Church, VA"
+    },
+    {
+        "teamID": "SRA",
+        "teamName": "Stratford",
+        "location": "2300 Brintizer way Alexandria, VA 22308"
+    },
+    {
+        "teamID": "BF",
+        "teamName": "Brookfield",
+        "location": "13615 Pennsboro Drive Chantilly, VA 20151"
+    },
+    {
+        "teamID": "SOC",
+        "teamName": "Somerset-Olde Creek",
+        "location": "9705 Laurel Street Fairfax, VA 22032"
+    },
+    {
+        "teamID": "RH",
+        "teamName": "Rolling Hills",
+        "location": "8301 Carrleigh Parkway Springfield, VA 22152"
+    },
+    {
+        "teamID": "RF",
+        "teamName": "Rolling Forest",
+        "location": "7011 Flax Street Springfield, VA 22152"
+    },
+    {
         "teamID": "HF",
-        "teamName": "Hayfield Farm"
+        "teamName": "Hayfield Farm",
+        "location": "7820 Hayfield Road Alexandria, VA 22315"
     },
     {
-        "location": "1602 Paul Spring Road Alexandria, VA 22307",
+        "teamID": "THA",
+        "teamName": "Truro",
+        "location": "4146 Elizabeth Lane Annandale, VA 22003"
+    },
+    {
+        "teamID": "HRA",
+        "teamName": "Holmes Run Acres",
+        "location": "3451 Gallows Road Falls Church, VA 22042"
+    },
+    {
+        "teamID": "A",
+        "teamName": "Annandale",
+        "location": "7530 Little River Turnpike Annandale, VA 22003"
+    },
+    {
+        "teamID": "CT",
+        "teamName": "Cottontail",
+        "location": "7000 Cottontail Court Springfield, VA 22153"
+    },
+    {
+        "teamID": "FH",
+        "teamName": "Forest Hollow",
+        "location": "4330 Old Columbia Pike Annandale, VA 22003"
+    },
+    {
+        "teamID": "DV",
+        "teamName": "Daventry",
+        "location": "7721 Painted Daisy Drive Springfield, va 22152"
+    },
+    {
+        "teamID": "MHC",
+        "teamName": "Mansion House",
+        "location": "9321 Old Mount Vernon Rd Alexandria, VA 22309"
+    },
+    {
+        "teamID": "SV",
+        "teamName": "Shouse Village",
+        "location": "1432 Towlston Road Vienna, VA 22182"
+    },
+    {
+        "teamID": "KR",
+        "teamName": "Kings Ridge",
+        "location": "4850 Gainsborough Drive Fairfax, VA 22032"
+    },
+    {
+        "teamID": "FX",
+        "teamName": "Fox Hunt",
+        "location": "7024 Spaniel Rd Springfield, VA 22153"
+    },
+    {
+        "teamID": "PT",
+        "teamName": "Poplar Tree",
+        "location": "13516 Point Pleasant Drive Chantilly, VA 20151"
+    },
+    {
+        "teamID": "RV",
+        "teamName": "Rolling Valley",
+        "location": "7019 Ashbury Dr Springfield, VA 22152"
+    },
+    {
+        "teamID": "W",
+        "teamName": "Woodley",
+        "location": "7421 Camp Alger Avenue Falls Church, VA 22042"
+    },
+    {
+        "teamID": "SS2",
+        "teamName": "Sully Station II",
+        "location": "5501 Sully Park Drive Centreville, VA 20120"
+    },
+    {
+        "teamID": "LH",
+        "teamName": "Laurel Hill",
+        "location": "8380 Laurel Crest Drive Lorton, VA 22079"
+    },
+    {
+        "teamID": "PL",
+        "teamName": "Parklawn",
+        "location": "6011 Crater Place Alexandria, va 22312"
+    },
+    {
         "teamID": "HH",
-        "teamName": "Hollin Hills"
+        "teamName": "Hollin Hills",
+        "location": "1602 Paul Spring Road Alexandria, VA 22307"
+    },
+    {
+        "teamID": "LB",
+        "teamName": "Lake Braddock",
+        "location": "9528 Ashbourn Dr.Burke, VA 22015"
+    },
+    {
+        "teamID": "PAR",
+        "teamName": "Parliament",
+        "location": "8510 Parliament Drive Springfield, VA 22151"
+    },
+    {
+        "teamID": "H",
+        "teamName": "Herndon",
+        "location": "1114 Monroe St.Herndon, VA 20170"
+    },
+    {
+        "teamID": "IC",
+        "teamName": "Ilda Community",
+        "location": "Address not found on the team's page."
+    },
+    {
+        "teamID": "LP",
+        "teamName": "Lincolnia Park",
+        "location": "6501 Montrose St Alexandria, VA 22312"
+    },
+    {
+        "teamID": "CSC",
+        "teamName": "Commonwealth",
+        "location": "9800 Commonwealth Blvd Fairfax, VA 22032"
+    },
+    {
+        "teamID": "BKS",
+        "teamName": "Burke Station",
+        "location": "5820 Ridge Ford Drive Burke, VA 22015"
+    },
+    {
+        "teamID": "LBR",
+        "teamName": "Long Branch",
+        "location": "9100 Burnetta Drive Annandale, VA 22003"
+    },
+    {
+        "teamID": "NF",
+        "teamName": "Newington Forest",
+        "location": "8201 Southrun Road Springfield, VA 22153"
+    },
+    {
+        "teamID": "PV",
+        "teamName": "Pleasant Valley",
+        "location": "4347 Cub Run Road Chantilly, VA 20151"
+    },
+    {
+        "teamID": "V",
+        "teamName": "Village West",
+        "location": "7008 Elkton Drive Springfield, VA 22152"
+    },
+    {
+        "teamID": "BC",
+        "teamName": "Broyhill Crest",
+        "location": "7212 Early Street Annandale, VA 22003"
+    },
+    {
+        "teamID": "NS",
+        "teamName": "North Springfield",
+        "location": "Address not found on the team's page."
+    },
+    {
+        "teamID": "S",
+        "teamName": "Springfield",
+        "location": "7400 Highland Street Springfield, VA 22150"
+    },
+    {
+        "teamID": "PW",
+        "teamName": "Pinewood Lake",
+        "location": "8159 Fernlake Ct.Alexandria, VA 22309"
+    },
+    {
+        "teamID": "EP",
+        "teamName": "Edsall Park",
+        "location": "5505 Montgomery St.Springfield, VA 22151"
     }
 ]

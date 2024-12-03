@@ -19,7 +19,7 @@ interface TeamData {
   teamID: string;
   avgDivision: number;
   championships: number;
-  winLossRatio: string;
+  winPercentage: string;
   totalWins: number;
   totalLosses: number;
   totalTies: number;
@@ -30,7 +30,7 @@ interface TeamData {
   avgAllStar: number;
   avgTotalPoints: number;
   avgGrandTotalPoints: number;
-  powerRanking: number;
+  avgPowerRanking: number;
   history: HistoryEntry[];
 }
 
@@ -39,80 +39,95 @@ const TeamProfile: React.FC = () => {
   const history = useHistory();
   const [teamData, setTeamData] = useState<TeamData | null>(null);
 
-  // Utility to calculate reduced ratios
-  const calculateReducedRatio = (wins: number, losses: number): string => {
-    const gcd = (a: number, b: number): number => (b === 0 ? a : gcd(b, a % b));
-    const divisor = gcd(wins, losses);
-    return `${wins / divisor}:${losses / divisor}`;
+  const calculateAverages = (teamSeasons: any[], yearsCount: number) => {
+    const sumValues = (key: string) =>
+      teamSeasons.reduce((sum: number, season: any) => sum + parseFloat(season[key] || 0), 0);
+
+    return {
+      avgDualMeet: parseFloat((sumValues("dmPoints") / yearsCount).toFixed(1)) || 0,
+      avgRelayCarnival: parseFloat((sumValues("drPoints") / yearsCount).toFixed(1)) || 0,
+      avgAllStarRelay: parseFloat((sumValues("arPoints") / yearsCount).toFixed(1)) || 0,
+      avgDivisional: parseFloat((sumValues("dPoints") / yearsCount).toFixed(1)) || 0,
+      avgAllStar: parseFloat((sumValues("aPoints") / yearsCount).toFixed(1)) || 0,
+      avgTotalPoints: parseFloat((sumValues("tPoints") / yearsCount).toFixed(1)) || 0,
+      avgGrandTotalPoints: parseFloat((sumValues("gtPoints") / yearsCount).toFixed(1)) || 0,
+      avgPowerRanking: parseFloat((sumValues("powerRanking") / yearsCount).toFixed(2)) || 0,
+    };
   };
 
   useEffect(() => {
     const fetchTeamData = async () => {
       try {
         const [teams, seasons] = await Promise.all([
-          fetch('/data/team.json').then((res) => res.json()),
-          fetch('/data/season.json').then((res) => res.json()),
+          fetch("/data/team.json").then((res) => res.json()),
+          fetch("/data/season.json").then((res) => res.json()),
         ]);
 
-        const teamName = teamId.replace(/-/g, ' ');
-        console.log(`Searching for team with name: ${teamName}`);
-
+        const teamName = teamId.replace(/-/g, " ");
         const team = teams.find((t: any) => t.teamName === teamName);
         if (!team) {
           console.error(`Team with name "${teamName}" not found.`);
           return;
         }
 
-        console.log('Team found:', team);
-
         const teamSeasons = seasons.filter((s: any) => s.teamID === team.teamID);
-        console.log('Team Seasons:', teamSeasons);
-
         if (teamSeasons.length === 0) {
           console.error(`No season data found for team "${teamName}".`);
           return;
         }
 
         const yearsCount = teamSeasons.length;
+        const totalDivision = teamSeasons.reduce(
+          (sum: number, season: any) => sum + parseInt(season.division || "0", 10),
+          0
+        );
+        const totalWins = teamSeasons.reduce(
+          (sum: number, season: any) => sum + parseInt(season.meetsWon || "0", 10),
+          0
+        );
+        const totalLosses = teamSeasons.reduce(
+          (sum: number, season: any) => sum + parseInt(season.meetsLost || "0", 10),
+          0
+        );
+        const totalTies = teamSeasons.reduce(
+          (sum: number, season: any) => sum + parseInt(season.meetsTied || "0", 10),
+          0
+        );
 
-        const totalWins = teamSeasons.reduce((sum: number, season: any) => sum + (season.meetsWon || 0), 0);
-        const totalLosses = teamSeasons.reduce((sum: number, season: any) => sum + (season.meetsLost || 0), 0);
-        const totalTies = teamSeasons.reduce((sum: number, season: any) => sum + (season.meetsTied || 0), 0);
+        const winPercentage =
+          totalWins + totalLosses > 0
+            ? ((totalWins / (totalWins + totalLosses)) * 100).toFixed(2)
+            : "0.00";
 
-        const winLossRatio = calculateReducedRatio(totalWins, totalLosses);
+        const averages = calculateAverages(teamSeasons, yearsCount);
 
         const history = teamSeasons.map((season: any) => ({
           year: season.year,
           division: season.division,
-          win: season.meetsWon || 0,
-          loss: season.meetsLost || 0,
-          tie: season.meetsTied || 0,
-          points: season.tPoints || 0,
-          grandTotalPoints: season.gtPoints || 0,
-          powerIndex: season.powerRanking || 0,
+          win: parseInt(season.meetsWon || "0", 10),
+          loss: parseInt(season.meetsLost || "0", 10),
+          tie: parseInt(season.meetsTied || "0", 10),
+          points: parseFloat((season.tPoints || "0").toString()),
+          grandTotalPoints: parseFloat((season.gtPoints || "0").toString()),
+          powerIndex: parseFloat((season.powerRanking || "0").toString()),
         }));
+
+        const avgDivision = totalDivision / yearsCount;
 
         setTeamData({
           name: team.teamName,
           teamID: team.teamID,
-          avgDivision: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + season.division, 0) / yearsCount).toFixed(1)),
-          championships: 0, // Championships data is not available in Season
-          winLossRatio,
+          avgDivision: parseFloat(avgDivision.toFixed(1)),
+          championships: 0, // No championships data available
+          winPercentage,
           totalWins,
           totalLosses,
           totalTies,
-          avgDualMeet: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.dmPoints || 0), 0) / yearsCount).toFixed(1)),
-          avgRelayCarnival: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.drPoints || 0), 0) / yearsCount).toFixed(1)),
-          avgAllStarRelay: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.arPoints || 0), 0) / yearsCount).toFixed(1)),
-          avgDivisional: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.dPoints || 0), 0) / yearsCount).toFixed(1)),
-          avgAllStar: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.aPoints || 0), 0) / yearsCount).toFixed(1)),
-          avgTotalPoints: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.tPoints || 0), 0) / yearsCount).toFixed(1)),
-          avgGrandTotalPoints: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.gtPoints || 0), 0) / yearsCount).toFixed(1)),
-          powerRanking: parseFloat((teamSeasons.reduce((sum: number, season: any) => sum + (season.powerRanking || 0), 0) / yearsCount).toFixed(2)),
+          ...averages,
           history,
         });
       } catch (error) {
-        console.error('Error fetching or processing data:', error);
+        console.error("Error fetching or processing data:", error);
       }
     };
 
@@ -143,7 +158,7 @@ const TeamProfile: React.FC = () => {
       </IonHeader>
       <IonContent>
         <div className="team-detail-header">
-          <IonButton className="back-button" onClick={() => history.push('/teams')}>
+          <IonButton className="back-button" onClick={() => history.push("/teams")}>
             &lt; Back to Teams
           </IonButton>
           <h1>
@@ -152,20 +167,46 @@ const TeamProfile: React.FC = () => {
         </div>
 
         <div className="team-stats grid-stats">
-          <div><strong>Avg. Division:</strong> {teamData.avgDivision}</div>
-          <div><strong>Win:Loss Ratio:</strong> {teamData.winLossRatio}</div>
+          <div>
+            <strong>Avg. Division:</strong> {teamData.avgDivision}
+          </div>
+          <div>
+            <strong>Win Percentage:</strong> {teamData.winPercentage}%
+          </div>
           <br></br>
-          <div><strong>Total Wins:</strong> {teamData.totalWins}</div>
-          <div><strong>Total Losses:</strong> {teamData.totalLosses}</div>
-          <div><strong>Total Ties:</strong> {teamData.totalTies}</div>
-          <div><strong>Avg. Dual Meet:</strong> {teamData.avgDualMeet}</div>
-          <div><strong>Avg. Relay Carnival:</strong> {teamData.avgRelayCarnival}</div>
-          <div><strong>Avg. All Star Relay:</strong> {teamData.avgAllStarRelay}</div>
-          <div><strong>Avg. Divisional:</strong> {teamData.avgDivisional}</div>
-          <div><strong>Avg. All Star:</strong> {teamData.avgAllStar}</div>
-          <div><strong>Avg. Total Points:</strong> {teamData.avgTotalPoints}</div>
-          <div><strong>Avg. Grand Total Points:</strong> {teamData.avgGrandTotalPoints}</div>
-          <div><strong>Avg. Power Ranking:</strong> {teamData.powerRanking}</div>
+          <div>
+            <strong>Total Wins:</strong> {teamData.totalWins}
+          </div>
+          <div>
+            <strong>Total Losses:</strong> {teamData.totalLosses}
+          </div>
+          <div>
+            <strong>Total Ties:</strong> {teamData.totalTies}
+          </div>
+          <div>
+            <strong>Avg. Dual Meet:</strong> {teamData.avgDualMeet}
+          </div>
+          <div>
+            <strong>Avg. Relay Carnival:</strong> {teamData.avgRelayCarnival}
+          </div>
+          <div>
+            <strong>Avg. All Star Relay:</strong> {teamData.avgAllStarRelay}
+          </div>
+          <div>
+            <strong>Avg. Divisional:</strong> {teamData.avgDivisional}
+          </div>
+          <div>
+            <strong>Avg. All Star:</strong> {teamData.avgAllStar}
+          </div>
+          <div>
+            <strong>Avg. Total Points:</strong> {teamData.avgTotalPoints}
+          </div>
+          <div>
+            <strong>Avg. Grand Total Points:</strong> {teamData.avgGrandTotalPoints}
+          </div>
+          <div>
+            <strong>Avg. Power Ranking:</strong> {teamData.avgPowerRanking}
+          </div>
         </div>
 
         <table className="history-table">

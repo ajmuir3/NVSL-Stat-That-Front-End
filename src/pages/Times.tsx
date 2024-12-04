@@ -1,9 +1,10 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import FilterDropdown from '../components/FilterDropdown';
-import TopTimesTable from '../components/TopTime-Table';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from "@ionic/react";
+import { useMemo, useState } from "react";
+import FilterDropdown from "../components/FilterDropdown";
+import TopTimesTable from "../components/TopTime-Table";
 import './Times.css';
 
+// Constants
 const DEFAULT_FILTERS = {
   year: "All Years",
   team: "All Teams",
@@ -17,133 +18,65 @@ const DEFAULT_FILTERS = {
 
 const years = ["2021"];
 const all_teams = [
-  'Annandale', 'Arlington Forest', 'Brandywine', 'Broyhill Crest', 'Brookfield', 'Burke Station',
-  'Chesterbrook', 'Camelot', 'Country Club Hills', 'Cardinal Hill', 'Crosspointe', 'Commonwealth',
-  'Cottontail', 'Canterbury Woods', 'Dominion Hills', 'Dunn Loring', 'Rolling Hills', 'Woodley',
-  'Laurel Hill', 'Fox Mill Estates', 'Overlee', 'Vienna Woods', 'Highland Park', 'Hunter Mill',
-  'Wakefield Chapel', 'Ilda Community', 'Sleepy Hollow B & R', 'Sleepy Hollow Rec', 'Sideburn Run',
-  'Village West', 'Kings Ridge', 'Ravensworth Farm', 'Little Rocky Run', 'Tuckahoe', 'Greenbriar',
-  'Fairfax', 'Rutherford', 'Mosby Woods', 'Mount Vernon Park', 'Stratford', 'Lincolnia Park',
-  'Fox Mill Woods', 'Great Falls', 'Holmes Run Acres', 'Orange Hunt', 'Poplar Heights',
-  'Fair Oaks', 'Lake Braddock', 'Virginia Hills', 'Rolling Valley', 'Springfield',
-  'McLean', 'Vienna Aquatic', 'Burke Station', 'Poplar Tree', 'Oakton', 'Long Branch', 'Dowden Terrace',
-  'Sully Station', 'Cardinal Hill', 'Donaldson Run', 'Lakevale Estates', 'Parklawn', 'Parliament',
-  'Hunter Mill', 'Chesterbrook', 'Herndon', 'Pleasant Valley', 'Fairfax Station',
-  'Newington Forest', 'Sideburn Run', 'Woodley', 'Fox Hunt', 'Daventry',
-  'Dunn Loring', 'Truro', 'Hamlet', 'Fox Mill Woods', 'High Point Pool', 'Camelot', 'Sleepy Hollow',
-  'Lincolnia Park', 'Commonwealth', 'Lakeview', 'Holmes Run Acres', 'Fairfax Station', 'Waynewood',
-  'Parliament', 'South Run', 'Riverside Gardens', 'Walden Glen', 'Mount Vernon Park', 'Virginia Run',
+  "Annandale", "Arlington Forest", "Brandywine", "Broyhill Crest", "Brookfield", "Burke Station",
+  "Chesterbrook", "Camelot", "Country Club Hills", "Cardinal Hill", "Crosspointe", "Commonwealth"
 ].sort();
-const teams = [...new Set(all_teams)];
 const ageGroups = ["8&U", "9-10", "11-12", "13-14", "15-18", "Mixed Age"];
 const genders = ["Boys", "Girls"];
 const types = ["Individual", "Relay"];
-const events = ['25 Free', '25 Back', '25 Breast', '25 Fly', '50 Free', '50 Back', '50 Breast', '50 Fly', '100 IM', '100 Free Relay', '100 Medley Relay', '200 Medley Relay', '200 Free Relay'];
+const events = [
+  "25 Free", "25 Back", "25 Breast", "25 Fly", "50 Free", "50 Back", 
+  "50 Breast", "50 Fly", "100 IM", "100 Free Relay", "200 Medley Relay"
+];
 const courses = ["Meters", "Yards"];
-const divisions = Array.from({ length: 17 }, (_, i) => (i + 1).toString());
+const divisions = Array.from({ length: 5 }, (_, i) => (i + 1).toString());
 
-interface TopTime {
-  type: string;
-  event: string;
-  ageGroup: string;
-  name: string;
-  team: string;
-  time: number;
-  powerIndex: number;
-  year: string;
-  gender: string;
-  stroke: string;
-  distance: number;
-  course: string;
-  division: number;
-}
+// Generate Mock Data
+const generateDummyData = () => {
+  const data = [];
+  for (const team of all_teams) {
+    for (const ageGroup of ageGroups) {
+      for (const gender of genders) {
+        for (const type of types) {
+          for (const event of events) {
+            for (const course of courses) {
+              for (const division of divisions) {
+                data.push({
+                  name: `Swimmer ${Math.floor(Math.random() * 1000)}`,
+                  team,
+                  ageGroup,
+                  gender,
+                  type,
+                  event,
+                  time: parseFloat((Math.random() * 100).toFixed(2)),
+                  powerIndex: parseFloat((Math.random() * 10).toFixed(2)),
+                  year: "2021",
+                  stroke: event.split(" ")[1] || "Free",
+                  distance: parseInt(event.split(" ")[0], 10) || 50,
+                  course,
+                  division: parseInt(division, 10),
+                });
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  return data;
+};
+
+const dummyData = generateDummyData();
 
 function TopTimesPage() {
-  const [topTimesData, setTopTimesData] = useState<TopTime[]>([]);
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
-
-  const fetchJSONData = async (): Promise<void> => {
-    try {
-      console.log("Filters:", filters);
-
-      const [teams, swimmers, seasons, meets, meetParticipants, meetEvents, events, results] = await Promise.all([
-        fetch("public\data\team2021.json").then((res) => res.json()),
-        fetch("/data/swimmer2021.json").then((res) => res.json()),
-        fetch("/data/season2021.json").then((res) => res.json()),
-        fetch("/data/meet2021.json").then((res) => res.json()),
-        fetch("/data/meet_participant2021.json").then((res) => res.json()),
-        fetch("/data/meet_event2021.json").then((res) => res.json()),
-        fetch("/data/event2021.json").then((res) => res.json()),
-        fetch("/data/test-results2021.json").then((res) => res.json()),
-      ]);
-
-      console.log("Teams Data:", teams);
-      console.log("Swimmers Data:", swimmers);
-      console.log("Seasons Data:", seasons);
-      console.log("Meets Data:", meets);
-      console.log("Meet Participants Data:", meetParticipants);
-      console.log("Meet Events Data:", meetEvents);
-      console.log("Events Data:", events);
-      console.log("Results Data:", results);
-
-
-      const processedData = results
-        .map((result: any) => {
-          console.log(result);
-          const meetEvent = meetEvents.find((me: { meetEventID: any }) => me.meetEventID === result.meetEventID);
-          console.log(meetEvent);
-          const event = events.find((e: { eventID: any }) => e.eventID === meetEvent?.eventID);
-          console.log(event);
-          const meet = meets.find((m: { meetID: any }) => m.meetID === meetEvent?.meetID);
-          console.log(meet);
-          const relatedParticipants = meetParticipants.filter((mp: { meetID: any }) => mp.meetID === meet?.meetID);
-          console.log(relatedParticipants);
-          const teamIDs = relatedParticipants.map((mp: { teamID: any }) => mp.teamID);
-          console.log(teamIDs);
-          const team = teams.find((t: { teamID: any }) => teamIDs.includes(t.teamID));
-          console.log(team);
-          const swimmer = swimmers.find((sw: { teamID: any }) => sw.teamID === team?.teamID);
-          console.log(swimmer);
-          const season = seasons.find((s: { teamID: any; year: number }) => s.teamID === team?.teamID);
-          console.log(season);
-          if (!swimmer || !team || !season) {
-            return null;
-          }
-
-          return {
-            name: swimmer.name || "Unknown",
-            team: team.teamName || "Unknown",
-            time: parseFloat(result.time || "0"),
-            powerIndex: parseFloat(result.powerIndex || "0"),
-            year: String(season.year),
-            gender: event.gender || "Unknown",
-            stroke: event.stroke || "Unknown",
-            distance: parseInt(result.time || "0"),
-            course: meet.course || "Unknown",
-            division: season.division || 0,
-            ageGroup: event.ageGroup || "Unknown",
-            type: event.individual ? "Individual" : "Relay",
-          };
-        })
-        .filter((entry: null) => entry !== null) as TopTime[];
-
-      console.log("Processed Data:", processedData);
-      setTopTimesData(processedData);
-    } catch (error) {
-      console.error("Error fetching or processing data:", error);
-    }
-  };
-
-  useEffect(() => {
-    fetchJSONData();
-  }, []);
 
   const handleFilterChange = (key: string, value: string | number | null) => {
     setFilters((prev) => ({ ...prev, [key]: value }));
   };
 
   const filteredData = useMemo(() => {
-    return topTimesData
+    return dummyData
       .filter((entry) => {
         return (
           (filters.year === "All Years" || entry.year === filters.year) &&
@@ -158,7 +91,7 @@ function TopTimesPage() {
       })
       .sort((a, b) => a.time - b.time)
       .slice(0, 100);
-  }, [topTimesData, filters]);
+  }, [filters]);
 
   return (
     <IonPage>
@@ -173,7 +106,7 @@ function TopTimesPage() {
         </div>
         <div className="filter-section">
           <FilterDropdown label="Year" options={years} onChange={(value) => handleFilterChange("year", value)} />
-          <FilterDropdown label="Team" options={teams} onChange={(value) => handleFilterChange("team", value)} />
+          <FilterDropdown label="Team" options={all_teams} onChange={(value) => handleFilterChange("team", value)} />
           <FilterDropdown label="Age Group" options={ageGroups} onChange={(value) => handleFilterChange("ageGroup", value)} />
           <FilterDropdown label="Gender" options={genders} onChange={(value) => handleFilterChange("gender", value)} />
           <FilterDropdown label="Event" options={events} onChange={(value) => handleFilterChange("event", value)} />

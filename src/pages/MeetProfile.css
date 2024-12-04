@@ -1,0 +1,161 @@
+/* General Page Styling */
+.ion-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  .ion-header {
+    background: #0078d7; /* NVSL branding color */
+    color: #fff;
+  }
+  
+  .ion-content {
+    padding: 16px;
+  }
+  
+  /* Back Button */
+  .back-button {
+    margin-bottom: 16px;
+    background-color: #0078d7;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Meet Info Section */
+  .meet-info {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .meet-info h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .meet-info p {
+    margin: 4px 0;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Team Scores Section */
+  .team-scores {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .team-scores h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .team-scores ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .team-scores li {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Event Results Section */
+  .event-results {
+    margin-top: 20px;
+  }
+  
+  .event-result {
+    margin-bottom: 24px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .event-result h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Event Results Table */
+  .event-result table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .event-result table th,
+  .event-result table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .event-result table th {
+    background-color: #0078d7;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .event-result table td {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .event-result table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Loading and Error Containers */
+  .loading-container,
+  .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+  }
+  
+  .error-container {
+    color: red;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .meet-info h1 {
+      font-size: 20px;
+    }
+  
+    .meet-info p,
+    .team-scores ul li {
+      font-size: 14px;
+    }
+  
+    .event-result table th,
+    .event-result table td {
+      font-size: 12px;
+    }
+  }
+  

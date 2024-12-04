@@ -58,6 +58,7 @@ function ResultsPage() {
             away_team: awayTeam?.teamName || 'Unknown',
             away_points: dualMeet.awayTeamPoints || 0,
             division: season?.division?.toString() || 'Unknown', // Ensure division is a string
+            meet_id: meet?.meetID || 'Unknown'
           };
         });
 

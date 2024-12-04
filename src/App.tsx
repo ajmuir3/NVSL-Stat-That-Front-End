@@ -61,7 +61,7 @@ const App: React.FC = () => (
           {/* Define Routes */}
           <Route path="/home" component={HomePage} exact={true} />
           <Route path="/results" component={ResultsPage} exact={true} />
-          <Route path="/results/meet/:meetId" component={MeetResultsPage} exact />
+          <Route path="/results/:meetId" component={MeetResultsPage} exact />
           <Route path="/top-times" component={TimesPage} exact={true} />
           <Route path="/rankings" component={RankingsPage} exact={true} />
           <Route path="/teams" component={TeamsPage} exact={true} />

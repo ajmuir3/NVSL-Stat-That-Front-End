@@ -1,0 +1,2032 @@
+[
+    {
+        "meetID": "HS@CB2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Highlands Swim(138.0) at Chesterbrook(282.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "O@DT2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Overlee(306.0) at Dowden Terrace(114.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DR@T2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Donaldson Run(170.0) at Tuckahoe(250.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CB@DR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Chesterbrook(212.0) at Donaldson Run(208.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HS@O2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Highlands Swim(175.0) at Overlee(245.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "T@DT2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Tuckahoe(277.0) at Dowden Terrace(142.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CB@T2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Chesterbrook(196.5) at Tuckahoe(223.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DR@O2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Donaldson Run(184.0) at Overlee(236.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DT@HS2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Dowden Terrace(176.0) at Highlands Swim(243.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D1RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "CB@DT2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Chesterbrook(262.0) at Dowden Terrace(157.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "T@O2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Tuckahoe(214.0) at Overlee(206.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DR@HS2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Donaldson Run(248.0) at Highlands Swim(172.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "O@CB2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Overlee(181.0) at Chesterbrook(239.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HS@T2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Highlands Swim(180.0) at Tuckahoe(240.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DT@DR2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Dowden Terrace(128.0) at Donaldson Run(292.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D1D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "AS2021",
+        "date": "2021-07-31",
+        "course": "25 Meters",
+        "title": "All Stars",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "ML@L2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "McLean(191.0) at Langley(229.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CP@WC2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Crosspointe(256.0) at Wakefield Chapel(162.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HSC@MVP2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Hamlet(239.0) at Mount Vernon Park(181.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MVP@ML2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Mount Vernon Park(140.0) at McLean(280.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "WC@L2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Wakefield Chapel(160.0) at Langley(260.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HSC@CP2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Hamlet(191.0) at Crosspointe(229.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "ML@HSC2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "McLean(214.0) at Hamlet(205.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MVP@WC2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Mount Vernon Park(176.0) at Wakefield Chapel(244.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CP@L2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Crosspointe(205.0) at Langley(215.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D2RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "ML@CP2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "McLean(193.0) at Crosspointe(227.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HSC@WC2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Hamlet(227.0) at Wakefield Chapel(193.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "L@MVP2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Langley(285.0) at Mount Vernon Park(135.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "WC@ML2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Wakefield Chapel(176.0) at McLean(244.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "L@HSC2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Langley(225.0) at Hamlet(195.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MVP@CP2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Mount Vernon Park(131.0) at Crosspointe(289.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D2D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "HV@VW2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Hunt Valley(210.0) at Vienna Woods(210.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LRR@FO2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Little Rocky Run(192.5) at Fair Oaks(227.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VR@HPP2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Virginia Run(176.0) at High Point Pool(244.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VR@HV2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Virginia Run(181.0) at Hunt Valley(239.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VW@LRR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Vienna Woods(202.0) at Little Rocky Run(218.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HPP@FO2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "High Point Pool(172.0) at Fair Oaks(248.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HPP@HV2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "High Point Pool(217.0) at Hunt Valley(203.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FO@VW2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Fair Oaks(248.0) at Vienna Woods(172.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LRR@VR2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Little Rocky Run(227.0) at Virginia Run(193.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D3RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "HV@FO2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Hunt Valley(170.0) at Fair Oaks(240.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HPP@LRR2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "High Point Pool(209.0) at Little Rocky Run(211.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VR@VW2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Virginia Run(178.0) at Vienna Woods(241.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LRR@HV2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Little Rocky Run(223.0) at Hunt Valley(197.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VW@HPP2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Vienna Woods(179.0) at High Point Pool(241.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FO@VR2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Fair Oaks(262.0) at Virginia Run(158.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D3D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "VAC@KG2021",
+        "date": "2021-06-19",
+        "course": "25 Yards",
+        "title": "Vienna Aquatic(195.0) at Kent Gardens(220.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "OAK@SR2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Oakton(301.0) at Sideburn Run(108.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "OH@CH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Orange Hunt(187.0) at Cardinal Hill(233.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VAC@OH2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Vienna Aquatic(219.0) at Orange Hunt(192.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "OAK@KG2021",
+        "date": "2021-06-26",
+        "course": "25 Yards",
+        "title": "Oakton(206.0) at Kent Gardens(214.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CH@SR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Cardinal Hill(273.0) at Sideburn Run(145.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CH@VAC2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Cardinal Hill(205.5) at Vienna Aquatic(213.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "OH@OAK2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Orange Hunt(181.0) at Oakton(239.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SR@KG2021",
+        "date": "2021-07-03",
+        "course": "25 Yards",
+        "title": "Sideburn Run(137.0) at Kent Gardens(281.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D4RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "VAC@SR2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Vienna Aquatic(280.0) at Sideburn Run(136.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CH@OAK2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Cardinal Hill(190.5) at Oakton(229.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "KG@OH2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Kent Gardens(238.0) at Orange Hunt(182.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "OAK@VAC2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Oakton(243.0) at Vienna Aquatic(177.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "KG@CH2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Kent Gardens(228.0) at Cardinal Hill(192.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SR@OH2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Sideburn Run(149.0) at Orange Hunt(270.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D4D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "SHR@HTM2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Sleepy Hollow Rec(256.0) at Hunter Mill(161.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HB@OKM2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Hiddenbrook(156.0) at Old Keene Mill(263.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "M@B2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Mantua(199.0) at Brandywine(216.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HTM@B2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Hunter Mill(155.0) at Brandywine(265.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HB@SHR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Hiddenbrook(239.0) at Sleepy Hollow Rec(181.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "OKM@M2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Old Keene Mill(249.0) at Mantua(171.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "M@HTM2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Mantua(260.0) at Hunter Mill(160.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "B@HB2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Brandywine(194.0) at Hiddenbrook(226.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SHR@OKM2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Sleepy Hollow Rec(158.0) at Old Keene Mill(262.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D5RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "HTM@OKM2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Hunter Mill(126.0) at Old Keene Mill(289.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "M@HB2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Mantua(229.0) at Hiddenbrook(191.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "B@SHR2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Brandywine(202.0) at Sleepy Hollow Rec(218.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HTM@HB2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Hunter Mill(172.0) at Hiddenbrook(248.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SHR@M2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Sleepy Hollow Rec(164.0) at Mantua(251.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "OKM@B2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Old Keene Mill(256.0) at Brandywine(164.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D5D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "LG@LV2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Lee Graham(208.0) at Lakeview(198.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "WG@VH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Walden Glen(129.0) at Virginia Hills(280.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FCE@CCH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Fairfax Club Estates(193.0) at Country Club Hills(203.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FCE@LG2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Fairfax Club Estates(177.0) at Lee Graham(239.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LV@WG2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Lakeview(237.0) at Walden Glen(177.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CCH@VH2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Country Club Hills(163.0) at Virginia Hills(257.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CCH@LG2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Country Club Hills(168.0) at Lee Graham(251.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "WG@FCE2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Walden Glen(219.0) at Fairfax Club Estates(194.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LV@VH2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Lakeview(186.5) at Virginia Hills(232.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D6RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "VH@LG2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Virginia Hills(190.0) at Lee Graham(230.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "WG@CCH2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Walden Glen(201.0) at Country Club Hills(219.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FCE@LV2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Fairfax Club Estates(182.0) at Lakeview(238.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LG@WG2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Lee Graham(276.5) at Walden Glen(143.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LV@CCH2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Lakeview(193.0) at Country Club Hills(227.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VH@FCE2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Virginia Hills(241.0) at Fairfax Club Estates(179.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D6D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "LE@R2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Lakevale Estates(186.0) at Ravensworth Farm(232.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "UNKNOWN",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Pinecrest(211.5) at Sleepy Hollow B & R(207.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VA@WW2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Villa Aquatic(158.5) at Waynewood(255.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "R@WW2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Ravensworth Farm(196.0) at Waynewood(224.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PC@LE2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Pinecrest(221.0) at Lakevale Estates(195.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "UNKNOWN",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Sleepy Hollow B & R(237.0) at Villa Aquatic(181.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VA@R2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Villa Aquatic(190.0) at Ravensworth Farm(230.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "WW@PC2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Waynewood(183.0) at Pinecrest(233.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "UNKNOWN",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Sleepy Hollow B & R(201.0) at Lakevale Estates(219.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D7RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "UNKNOWN",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Sleepy Hollow B & R(193.0) at Ravensworth Farm(227.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PC@VA2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Pinecrest(239.0) at Villa Aquatic(174.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LE@WW2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Lakevale Estates(225.0) at Waynewood(195.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "R@PC2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Ravensworth Farm(177.0) at Pinecrest(243.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "VA@LE2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Villa Aquatic(185.5) at Lakevale Estates(234.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "UNKNOWN",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Waynewood(240.0) at Sleepy Hollow B & R(179.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D7D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "FMW@G2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Fox Mill Woods(149.0) at Greenbriar(260.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SS@DL2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Sully Station(189.0) at Dunn Loring(222.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HM@DH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Hollin Meadows(166.0) at Dominion Hills(248.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "G@HM2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Greenbriar(232.0) at Hollin Meadows(187.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DL@FMW2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Dunn Loring(310.0) at Fox Mill Woods(105.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DH@SS2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Dominion Hills(222.5) at Sully Station(192.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "G@DH2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Greenbriar(173.0) at Dominion Hills(247.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DL@HM2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Dunn Loring(255.0) at Hollin Meadows(165.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FMW@SS2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Fox Mill Woods(132.0) at Sully Station(276.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D8RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "SS@G2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Sully Station(196.0) at Greenbriar(223.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DH@DL2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Dominion Hills(202.0) at Dunn Loring(218.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HM@FMW2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Hollin Meadows(231.0) at Fox Mill Woods(188.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "G@DL2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Greenbriar(170.0) at Dunn Loring(245.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FMW@DH2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Fox Mill Woods(135.0) at Dominion Hills(285.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SS@HM2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Sully Station(207.0) at Hollin Meadows(210.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D8D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "GF@MW2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Great Falls(207.0) at Mosby Woods(208.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LHP@AF2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Little Hunting Park(269.0) at Arlington Forest(151.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SOR@FS2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "South Run(213.0) at Fairfax Station(202.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MW@SOR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Mosby Woods(166.0) at South Run(254.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "AF@GF2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Arlington Forest(206.0) at Great Falls(214.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FS@LHP2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Fairfax Station(206.0) at Little Hunting Park(213.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MW@FS2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Mosby Woods(135.0) at Fairfax Station(285.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SOR@AF2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "South Run(222.0) at Arlington Forest(198.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "GF@LHP2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Great Falls(157.0) at Little Hunting Park(263.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D9RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "MW@LHP2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Mosby Woods(144.0) at Little Hunting Park(276.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FS@AF2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Fairfax Station(226.0) at Arlington Forest(189.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "GF@SOR2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Great Falls(188.0) at South Run(228.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "AF@MW2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Arlington Forest(270.0) at Mosby Woods(150.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FS@GF2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Fairfax Station(256.0) at Great Falls(164.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LHP@SOR2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Little Hunting Park(215.0) at South Run(205.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D9D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "F@RFD2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Fairfax(216.0) at Rutherford(199.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CCC@FME2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Camelot(216.0) at Fox Mill Estates(190.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SB@RG2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Springboard(245.0) at Riverside Gardens(162.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SB@F2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Springboard(217.0) at Fairfax(199.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RFD@CCC2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Rutherford(200.0) at Camelot(212.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FME@RG2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Fox Mill Estates(158.0) at Riverside Gardens(261.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RG@F2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Riverside Gardens(177.0) at Fairfax(243.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CCC@SB2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Camelot(156.0) at Springboard(264.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RFD@FME2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Rutherford(214.0) at Fox Mill Estates(186.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D10RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "FME@F2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Fox Mill Estates(159.0) at Fairfax(260.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CCC@RG2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Camelot(208.0) at Riverside Gardens(212.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RFD@SB2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Rutherford(156.0) at Springboard(260.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "F@CCC2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Fairfax(226.0) at Camelot(194.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RG@RFD2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Riverside Gardens(230.0) at Rutherford(184.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SB@FME2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Springboard(260.5) at Fox Mill Estates(155.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D10D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "SOC@BF2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Somerset-Olde Creek(192.0) at Brookfield(216.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HP@SRA2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Highland Park(250.0) at Stratford(164.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CW@PH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Canterbury Woods(231.0) at Poplar Heights(184.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SOC@CW2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Somerset-Olde Creek(159.5) at Canterbury Woods(257.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "BF@HP2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Brookfield(185.0) at Highland Park(231.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SRA@PH2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Stratford(170.0) at Poplar Heights(250.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PH@SOC2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Poplar Heights(226.5) at Somerset-Olde Creek(188.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CW@HP2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Canterbury Woods(278.0) at Highland Park(133.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "BF@SRA2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Brookfield(190.5) at Stratford(228.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D11RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "SOC@SRA2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Somerset-Olde Creek(188.5) at Stratford(231.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PH@HP2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Poplar Heights(207.5) at Highland Park(212.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CW@BF2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Canterbury Woods(275.0) at Brookfield(145.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HP@SOC2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Highland Park(228.0) at Somerset-Olde Creek(192.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PH@BF2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Poplar Heights(252.0) at Brookfield(168.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SRA@CW2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Stratford(170.0) at Canterbury Woods(249.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D11D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "A@RH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Annandale(150.0) at Rolling Hills(260.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "THA@HRA2021",
+        "date": "2021-06-19",
+        "course": "25 Yards",
+        "title": "Truro(189.0) at Holmes Run Acres(213.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RF@HF2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Rolling Forest(226.0) at Hayfield Farm(192.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "A@RF2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Annandale(164.0) at Rolling Forest(246.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "THA@RH2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Truro(144.0) at Rolling Hills(265.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HF@HRA2021",
+        "date": "2021-06-26",
+        "course": "25 Yards",
+        "title": "Hayfield Farm(191.0) at Holmes Run Acres(219.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "A@HF2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Annandale(170.0) at Hayfield Farm(246.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RF@THA2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Rolling Forest(193.0) at Truro(223.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RH@HRA2021",
+        "date": "2021-07-03",
+        "course": "25 Yards",
+        "title": "Rolling Hills(228.0) at Holmes Run Acres(182.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D12RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "HRA@A2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Holmes Run Acres(198.0) at Annandale(212.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HF@THA2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Hayfield Farm(211.0) at Truro(209.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RF@RH2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Rolling Forest(172.5) at Rolling Hills(247.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "THA@A2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Truro(225.0) at Annandale(190.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RH@HF2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Rolling Hills(240.0) at Hayfield Farm(179.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HRA@RF2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Holmes Run Acres(169.0) at Rolling Forest(247.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D12D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "FH@CT2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Forest Hollow(155.0) at Cottontail(264.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SV@MHC2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Shouse Village(179.0) at Mansion House(235.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DV@KR2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Daventry(245.0) at Kings Ridge(170.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CT@DV2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Cottontail(237.5) at Daventry(181.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MHC@FH2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Mansion House(205.0) at Forest Hollow(212.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SV@KR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Shouse Village(256.0) at Kings Ridge(155.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CT@KR2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Cottontail(299.0) at Kings Ridge(120.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MHC@DV2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Mansion House(186.0) at Daventry(233.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FH@SV2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Forest Hollow(211.0) at Shouse Village(208.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D13RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "SV@CT2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Shouse Village(161.0) at Cottontail(258.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "KR@MHC2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Kings Ridge(180.5) at Mansion House(239.5)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FH@DV2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Forest Hollow(225.0) at Daventry(194.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "MHC@CT2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Mansion House(151.0) at Cottontail(269.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "KR@FH2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Kings Ridge(174.0) at Forest Hollow(246.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "DV@SV2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Daventry(220.0) at Shouse Village(200.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D13D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "PT@SS22021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Poplar Tree(224.0) at Sully Station II(176.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RV@LH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Rolling Valley(238.0) at Laurel Hill(161.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FX@W2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Fox Hunt(220.0) at Woodley(191.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "W@PT2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Woodley(196.0) at Poplar Tree(210.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SS2@LH2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Sully Station II(194.0) at Laurel Hill(199.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "RV@FX2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Rolling Valley(188.0) at Fox Hunt(228.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FX@PT2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Fox Hunt(201.0) at Poplar Tree(219.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LH@W2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Laurel Hill(171.0) at Woodley(234.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SS2@RV2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Sully Station II(209.0) at Rolling Valley(188.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D14RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "PT@RV2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Poplar Tree(207.0) at Rolling Valley(211.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "FX@LH2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Fox Hunt(271.0) at Laurel Hill(147.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "W@SS22021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Woodley(210.0) at Sully Station II(210.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LH@PT2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Laurel Hill(189.0) at Poplar Tree(229.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "SS2@FX2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Sully Station II(176.0) at Fox Hunt(240.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "W@RV2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Woodley(171.0) at Rolling Valley(249.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D14D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "LB@PL2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Lake Braddock(110.0) at Parklawn(310.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "IC@H2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Ilda Community(164.0) at Herndon(229.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PAR@HH2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Parliament(180.0) at Hollin Hills(220.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PL@PAR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Parklawn(285.0) at Parliament(134.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LB@IC2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Lake Braddock(273.0) at Ilda Community(136.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HH@H2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Hollin Hills(234.0) at Herndon(171.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HH@PL2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Hollin Hills(151.0) at Parklawn(269.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "IC@PAR2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Ilda Community(177.0) at Parliament(232.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "H@LB2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Herndon(187.0) at Lake Braddock(228.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D15RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "PL@H2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Parklawn(287.0) at Herndon(132.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "HH@IC2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Hollin Hills(216.0) at Ilda Community(180.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PAR@LB2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Parliament(182.0) at Lake Braddock(237.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "IC@PL2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Ilda Community(118.0) at Parklawn(300.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LB@HH2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Lake Braddock(202.0) at Hollin Hills(217.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "H@PAR2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Herndon(154.0) at Parliament(263.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D15D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "CSC@BKS2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Commonwealth(225.0) at Burke Station(161.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "NF@PV2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Newington Forest(232.0) at Pleasant Valley(133.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LP@LBR2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Lincolnia Park(206.0) at Long Branch(202.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "BKS@LP2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Burke Station(182.0) at Lincolnia Park(236.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PV@CSC2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Pleasant Valley(159.0) at Commonwealth(242.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "NF@LBR2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Newington Forest(185.0) at Long Branch(223.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LBR@BKS2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Long Branch(207.0) at Burke Station(212.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LP@PV2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Lincolnia Park(271.0) at Pleasant Valley(144.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CSC@NF2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Commonwealth(218.0) at Newington Forest(193.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D16RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "BKS@NF2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Burke Station(257.0) at Newington Forest(151.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PV@LBR2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Pleasant Valley(150.0) at Long Branch(259.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "CSC@LP2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Commonwealth(179.0) at Lincolnia Park(240.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "BKS@PV2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Burke Station(256.0) at Pleasant Valley(151.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "LBR@CSC2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Long Branch(201.0) at Commonwealth(213.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "NF@LP2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Newington Forest(104.0) at Lincolnia Park(313.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D16D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "PW@BC2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Pinewood Lake(73.0) at Broyhill Crest(258.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "V@S2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "Village West(223.0) at Springfield(152.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "NS@EP2021",
+        "date": "2021-06-19",
+        "course": "25 Meters",
+        "title": "North Springfield(325.0) at Edsall Park(31.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "BC@EP2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Broyhill Crest(262.0) at Edsall Park(24.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "V@PW2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Village West(286.0) at Pinewood Lake(86.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "S@NS2021",
+        "date": "2021-06-26",
+        "course": "25 Meters",
+        "title": "Springfield(118.0) at North Springfield(256.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "BC@NS2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Broyhill Crest(224.0) at North Springfield(175.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "EP@V2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Edsall Park(18.0) at Village West(344.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PW@S2021",
+        "date": "2021-07-03",
+        "course": "25 Meters",
+        "title": "Pinewood Lake(134.0) at Springfield(227.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D17RC2021",
+        "date": "2021-07-07",
+        "course": "25 Meters",
+        "title": "Divisional Relays",
+        "meet_type": "Champs"
+    },
+    {
+        "meetID": "S@BC2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Springfield(139.0) at Broyhill Crest(247.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "NS@V2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "North Springfield(189.0) at Village West(221.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "EP@PW2021",
+        "date": "2021-07-10",
+        "course": "25 Meters",
+        "title": "Edsall Park(33.0) at Pinewood Lake(241.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "BC@V2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Broyhill Crest(188.0) at Village West(205.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "PW@NS2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Pinewood Lake(100.0) at North Springfield(296.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "EP@S2021",
+        "date": "2021-07-17",
+        "course": "25 Meters",
+        "title": "Edsall Park(47.0) at Springfield(309.0)",
+        "meet_type": "Dual"
+    },
+    {
+        "meetID": "D17D2021",
+        "date": "2021-07-24",
+        "course": "25 Meters",
+        "title": "Divisionals",
+        "meet_type": "Champs"
+    }
+]

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Table.css';
+import { Link } from 'react-router-dom';
 
 interface RowData {
   date: string;

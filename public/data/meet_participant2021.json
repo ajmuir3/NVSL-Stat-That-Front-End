@@ -1,0 +1,3042 @@
+[
+    {
+        "participantID": "CB@HS@CB2021",
+        "meetID": "HS@CB2021",
+        "teamID": "CB"
+    },
+    {
+        "participantID": "HS@HS@CB2021",
+        "meetID": "HS@CB2021",
+        "teamID": "HS"
+    },
+    {
+        "participantID": "DT@O@DT2021",
+        "meetID": "O@DT2021",
+        "teamID": "DT"
+    },
+    {
+        "participantID": "O@O@DT2021",
+        "meetID": "O@DT2021",
+        "teamID": "O"
+    },
+    {
+        "participantID": "T@DR@T2021",
+        "meetID": "DR@T2021",
+        "teamID": "T"
+    },
+    {
+        "participantID": "DR@DR@T2021",
+        "meetID": "DR@T2021",
+        "teamID": "DR"
+    },
+    {
+        "participantID": "DR@CB@DR2021",
+        "meetID": "CB@DR2021",
+        "teamID": "DR"
+    },
+    {
+        "participantID": "CB@CB@DR2021",
+        "meetID": "CB@DR2021",
+        "teamID": "CB"
+    },
+    {
+        "participantID": "O@HS@O2021",
+        "meetID": "HS@O2021",
+        "teamID": "O"
+    },
+    {
+        "participantID": "HS@HS@O2021",
+        "meetID": "HS@O2021",
+        "teamID": "HS"
+    },
+    {
+        "participantID": "DT@T@DT2021",
+        "meetID": "T@DT2021",
+        "teamID": "DT"
+    },
+    {
+        "participantID": "T@T@DT2021",
+        "meetID": "T@DT2021",
+        "teamID": "T"
+    },
+    {
+        "participantID": "T@CB@T2021",
+        "meetID": "CB@T2021",
+        "teamID": "T"
+    },
+    {
+        "participantID": "CB@CB@T2021",
+        "meetID": "CB@T2021",
+        "teamID": "CB"
+    },
+    {
+        "participantID": "O@DR@O2021",
+        "meetID": "DR@O2021",
+        "teamID": "O"
+    },
+    {
+        "participantID": "DR@DR@O2021",
+        "meetID": "DR@O2021",
+        "teamID": "DR"
+    },
+    {
+        "participantID": "HS@DT@HS2021",
+        "meetID": "DT@HS2021",
+        "teamID": "HS"
+    },
+    {
+        "participantID": "DT@DT@HS2021",
+        "meetID": "DT@HS2021",
+        "teamID": "DT"
+    },
+    {
+        "participantID": "O@D1RC2021",
+        "meetID": "D1RC2021",
+        "teamID": "O"
+    },
+    {
+        "participantID": "CB@D1RC2021",
+        "meetID": "D1RC2021",
+        "teamID": "CB"
+    },
+    {
+        "participantID": "T@D1RC2021",
+        "meetID": "D1RC2021",
+        "teamID": "T"
+    },
+    {
+        "participantID": "DR@D1RC2021",
+        "meetID": "D1RC2021",
+        "teamID": "DR"
+    },
+    {
+        "participantID": "HS@D1RC2021",
+        "meetID": "D1RC2021",
+        "teamID": "HS"
+    },
+    {
+        "participantID": "DT@D1RC2021",
+        "meetID": "D1RC2021",
+        "teamID": "DT"
+    },
+    {
+        "participantID": "DT@CB@DT2021",
+        "meetID": "CB@DT2021",
+        "teamID": "DT"
+    },
+    {
+        "participantID": "CB@CB@DT2021",
+        "meetID": "CB@DT2021",
+        "teamID": "CB"
+    },
+    {
+        "participantID": "O@T@O2021",
+        "meetID": "T@O2021",
+        "teamID": "O"
+    },
+    {
+        "participantID": "T@T@O2021",
+        "meetID": "T@O2021",
+        "teamID": "T"
+    },
+    {
+        "participantID": "HS@DR@HS2021",
+        "meetID": "DR@HS2021",
+        "teamID": "HS"
+    },
+    {
+        "participantID": "DR@DR@HS2021",
+        "meetID": "DR@HS2021",
+        "teamID": "DR"
+    },
+    {
+        "participantID": "CB@O@CB2021",
+        "meetID": "O@CB2021",
+        "teamID": "CB"
+    },
+    {
+        "participantID": "O@O@CB2021",
+        "meetID": "O@CB2021",
+        "teamID": "O"
+    },
+    {
+        "participantID": "T@HS@T2021",
+        "meetID": "HS@T2021",
+        "teamID": "T"
+    },
+    {
+        "participantID": "HS@HS@T2021",
+        "meetID": "HS@T2021",
+        "teamID": "HS"
+    },
+    {
+        "participantID": "DR@DT@DR2021",
+        "meetID": "DT@DR2021",
+        "teamID": "DR"
+    },
+    {
+        "participantID": "DT@DT@DR2021",
+        "meetID": "DT@DR2021",
+        "teamID": "DT"
+    },
+    {
+        "participantID": "L@ML@L2021",
+        "meetID": "ML@L2021",
+        "teamID": "L"
+    },
+    {
+        "participantID": "ML@ML@L2021",
+        "meetID": "ML@L2021",
+        "teamID": "ML"
+    },
+    {
+        "participantID": "WC@CP@WC2021",
+        "meetID": "CP@WC2021",
+        "teamID": "WC"
+    },
+    {
+        "participantID": "CP@CP@WC2021",
+        "meetID": "CP@WC2021",
+        "teamID": "CP"
+    },
+    {
+        "participantID": "MVP@HSC@MVP2021",
+        "meetID": "HSC@MVP2021",
+        "teamID": "MVP"
+    },
+    {
+        "participantID": "HSC@HSC@MVP2021",
+        "meetID": "HSC@MVP2021",
+        "teamID": "HSC"
+    },
+    {
+        "participantID": "ML@MVP@ML2021",
+        "meetID": "MVP@ML2021",
+        "teamID": "ML"
+    },
+    {
+        "participantID": "MVP@MVP@ML2021",
+        "meetID": "MVP@ML2021",
+        "teamID": "MVP"
+    },
+    {
+        "participantID": "L@WC@L2021",
+        "meetID": "WC@L2021",
+        "teamID": "L"
+    },
+    {
+        "participantID": "WC@WC@L2021",
+        "meetID": "WC@L2021",
+        "teamID": "WC"
+    },
+    {
+        "participantID": "CP@HSC@CP2021",
+        "meetID": "HSC@CP2021",
+        "teamID": "CP"
+    },
+    {
+        "participantID": "HSC@HSC@CP2021",
+        "meetID": "HSC@CP2021",
+        "teamID": "HSC"
+    },
+    {
+        "participantID": "HSC@ML@HSC2021",
+        "meetID": "ML@HSC2021",
+        "teamID": "HSC"
+    },
+    {
+        "participantID": "ML@ML@HSC2021",
+        "meetID": "ML@HSC2021",
+        "teamID": "ML"
+    },
+    {
+        "participantID": "WC@MVP@WC2021",
+        "meetID": "MVP@WC2021",
+        "teamID": "WC"
+    },
+    {
+        "participantID": "MVP@MVP@WC2021",
+        "meetID": "MVP@WC2021",
+        "teamID": "MVP"
+    },
+    {
+        "participantID": "L@CP@L2021",
+        "meetID": "CP@L2021",
+        "teamID": "L"
+    },
+    {
+        "participantID": "CP@CP@L2021",
+        "meetID": "CP@L2021",
+        "teamID": "CP"
+    },
+    {
+        "participantID": "CP@D2RC2021",
+        "meetID": "D2RC2021",
+        "teamID": "CP"
+    },
+    {
+        "participantID": "L@D2RC2021",
+        "meetID": "D2RC2021",
+        "teamID": "L"
+    },
+    {
+        "participantID": "HSC@D2RC2021",
+        "meetID": "D2RC2021",
+        "teamID": "HSC"
+    },
+    {
+        "participantID": "ML@D2RC2021",
+        "meetID": "D2RC2021",
+        "teamID": "ML"
+    },
+    {
+        "participantID": "WC@D2RC2021",
+        "meetID": "D2RC2021",
+        "teamID": "WC"
+    },
+    {
+        "participantID": "MVP@D2RC2021",
+        "meetID": "D2RC2021",
+        "teamID": "MVP"
+    },
+    {
+        "participantID": "CP@ML@CP2021",
+        "meetID": "ML@CP2021",
+        "teamID": "CP"
+    },
+    {
+        "participantID": "ML@ML@CP2021",
+        "meetID": "ML@CP2021",
+        "teamID": "ML"
+    },
+    {
+        "participantID": "WC@HSC@WC2021",
+        "meetID": "HSC@WC2021",
+        "teamID": "WC"
+    },
+    {
+        "participantID": "HSC@HSC@WC2021",
+        "meetID": "HSC@WC2021",
+        "teamID": "HSC"
+    },
+    {
+        "participantID": "MVP@L@MVP2021",
+        "meetID": "L@MVP2021",
+        "teamID": "MVP"
+    },
+    {
+        "participantID": "L@L@MVP2021",
+        "meetID": "L@MVP2021",
+        "teamID": "L"
+    },
+    {
+        "participantID": "ML@WC@ML2021",
+        "meetID": "WC@ML2021",
+        "teamID": "ML"
+    },
+    {
+        "participantID": "WC@WC@ML2021",
+        "meetID": "WC@ML2021",
+        "teamID": "WC"
+    },
+    {
+        "participantID": "HSC@L@HSC2021",
+        "meetID": "L@HSC2021",
+        "teamID": "HSC"
+    },
+    {
+        "participantID": "L@L@HSC2021",
+        "meetID": "L@HSC2021",
+        "teamID": "L"
+    },
+    {
+        "participantID": "CP@MVP@CP2021",
+        "meetID": "MVP@CP2021",
+        "teamID": "CP"
+    },
+    {
+        "participantID": "MVP@MVP@CP2021",
+        "meetID": "MVP@CP2021",
+        "teamID": "MVP"
+    },
+    {
+        "participantID": "VW@HV@VW2021",
+        "meetID": "HV@VW2021",
+        "teamID": "VW"
+    },
+    {
+        "participantID": "HV@HV@VW2021",
+        "meetID": "HV@VW2021",
+        "teamID": "HV"
+    },
+    {
+        "participantID": "FO@LRR@FO2021",
+        "meetID": "LRR@FO2021",
+        "teamID": "FO"
+    },
+    {
+        "participantID": "LRR@LRR@FO2021",
+        "meetID": "LRR@FO2021",
+        "teamID": "LRR"
+    },
+    {
+        "participantID": "HPP@VR@HPP2021",
+        "meetID": "VR@HPP2021",
+        "teamID": "HPP"
+    },
+    {
+        "participantID": "VR@VR@HPP2021",
+        "meetID": "VR@HPP2021",
+        "teamID": "VR"
+    },
+    {
+        "participantID": "HV@VR@HV2021",
+        "meetID": "VR@HV2021",
+        "teamID": "HV"
+    },
+    {
+        "participantID": "VR@VR@HV2021",
+        "meetID": "VR@HV2021",
+        "teamID": "VR"
+    },
+    {
+        "participantID": "LRR@VW@LRR2021",
+        "meetID": "VW@LRR2021",
+        "teamID": "LRR"
+    },
+    {
+        "participantID": "VW@VW@LRR2021",
+        "meetID": "VW@LRR2021",
+        "teamID": "VW"
+    },
+    {
+        "participantID": "FO@HPP@FO2021",
+        "meetID": "HPP@FO2021",
+        "teamID": "FO"
+    },
+    {
+        "participantID": "HPP@HPP@FO2021",
+        "meetID": "HPP@FO2021",
+        "teamID": "HPP"
+    },
+    {
+        "participantID": "HV@HPP@HV2021",
+        "meetID": "HPP@HV2021",
+        "teamID": "HV"
+    },
+    {
+        "participantID": "HPP@HPP@HV2021",
+        "meetID": "HPP@HV2021",
+        "teamID": "HPP"
+    },
+    {
+        "participantID": "VW@FO@VW2021",
+        "meetID": "FO@VW2021",
+        "teamID": "VW"
+    },
+    {
+        "participantID": "FO@FO@VW2021",
+        "meetID": "FO@VW2021",
+        "teamID": "FO"
+    },
+    {
+        "participantID": "VR@LRR@VR2021",
+        "meetID": "LRR@VR2021",
+        "teamID": "VR"
+    },
+    {
+        "participantID": "LRR@LRR@VR2021",
+        "meetID": "LRR@VR2021",
+        "teamID": "LRR"
+    },
+    {
+        "participantID": "FO@D3RC2021",
+        "meetID": "D3RC2021",
+        "teamID": "FO"
+    },
+    {
+        "participantID": "HPP@D3RC2021",
+        "meetID": "D3RC2021",
+        "teamID": "HPP"
+    },
+    {
+        "participantID": "LRR@D3RC2021",
+        "meetID": "D3RC2021",
+        "teamID": "LRR"
+    },
+    {
+        "participantID": "HV@D3RC2021",
+        "meetID": "D3RC2021",
+        "teamID": "HV"
+    },
+    {
+        "participantID": "VR@D3RC2021",
+        "meetID": "D3RC2021",
+        "teamID": "VR"
+    },
+    {
+        "participantID": "VW@D3RC2021",
+        "meetID": "D3RC2021",
+        "teamID": "VW"
+    },
+    {
+        "participantID": "FO@HV@FO2021",
+        "meetID": "HV@FO2021",
+        "teamID": "FO"
+    },
+    {
+        "participantID": "HV@HV@FO2021",
+        "meetID": "HV@FO2021",
+        "teamID": "HV"
+    },
+    {
+        "participantID": "LRR@HPP@LRR2021",
+        "meetID": "HPP@LRR2021",
+        "teamID": "LRR"
+    },
+    {
+        "participantID": "HPP@HPP@LRR2021",
+        "meetID": "HPP@LRR2021",
+        "teamID": "HPP"
+    },
+    {
+        "participantID": "VW@VR@VW2021",
+        "meetID": "VR@VW2021",
+        "teamID": "VW"
+    },
+    {
+        "participantID": "VR@VR@VW2021",
+        "meetID": "VR@VW2021",
+        "teamID": "VR"
+    },
+    {
+        "participantID": "HV@LRR@HV2021",
+        "meetID": "LRR@HV2021",
+        "teamID": "HV"
+    },
+    {
+        "participantID": "LRR@LRR@HV2021",
+        "meetID": "LRR@HV2021",
+        "teamID": "LRR"
+    },
+    {
+        "participantID": "HPP@VW@HPP2021",
+        "meetID": "VW@HPP2021",
+        "teamID": "HPP"
+    },
+    {
+        "participantID": "VW@VW@HPP2021",
+        "meetID": "VW@HPP2021",
+        "teamID": "VW"
+    },
+    {
+        "participantID": "VR@FO@VR2021",
+        "meetID": "FO@VR2021",
+        "teamID": "VR"
+    },
+    {
+        "participantID": "FO@FO@VR2021",
+        "meetID": "FO@VR2021",
+        "teamID": "FO"
+    },
+    {
+        "participantID": "KG@VAC@KG2021",
+        "meetID": "VAC@KG2021",
+        "teamID": "KG"
+    },
+    {
+        "participantID": "VAC@VAC@KG2021",
+        "meetID": "VAC@KG2021",
+        "teamID": "VAC"
+    },
+    {
+        "participantID": "SR@OAK@SR2021",
+        "meetID": "OAK@SR2021",
+        "teamID": "SR"
+    },
+    {
+        "participantID": "OAK@OAK@SR2021",
+        "meetID": "OAK@SR2021",
+        "teamID": "OAK"
+    },
+    {
+        "participantID": "CH@OH@CH2021",
+        "meetID": "OH@CH2021",
+        "teamID": "CH"
+    },
+    {
+        "participantID": "OH@OH@CH2021",
+        "meetID": "OH@CH2021",
+        "teamID": "OH"
+    },
+    {
+        "participantID": "OH@VAC@OH2021",
+        "meetID": "VAC@OH2021",
+        "teamID": "OH"
+    },
+    {
+        "participantID": "VAC@VAC@OH2021",
+        "meetID": "VAC@OH2021",
+        "teamID": "VAC"
+    },
+    {
+        "participantID": "KG@OAK@KG2021",
+        "meetID": "OAK@KG2021",
+        "teamID": "KG"
+    },
+    {
+        "participantID": "OAK@OAK@KG2021",
+        "meetID": "OAK@KG2021",
+        "teamID": "OAK"
+    },
+    {
+        "participantID": "SR@CH@SR2021",
+        "meetID": "CH@SR2021",
+        "teamID": "SR"
+    },
+    {
+        "participantID": "CH@CH@SR2021",
+        "meetID": "CH@SR2021",
+        "teamID": "CH"
+    },
+    {
+        "participantID": "VAC@CH@VAC2021",
+        "meetID": "CH@VAC2021",
+        "teamID": "VAC"
+    },
+    {
+        "participantID": "CH@CH@VAC2021",
+        "meetID": "CH@VAC2021",
+        "teamID": "CH"
+    },
+    {
+        "participantID": "OAK@OH@OAK2021",
+        "meetID": "OH@OAK2021",
+        "teamID": "OAK"
+    },
+    {
+        "participantID": "OH@OH@OAK2021",
+        "meetID": "OH@OAK2021",
+        "teamID": "OH"
+    },
+    {
+        "participantID": "KG@SR@KG2021",
+        "meetID": "SR@KG2021",
+        "teamID": "KG"
+    },
+    {
+        "participantID": "SR@SR@KG2021",
+        "meetID": "SR@KG2021",
+        "teamID": "SR"
+    },
+    {
+        "participantID": "OAK@D4RC2021",
+        "meetID": "D4RC2021",
+        "teamID": "OAK"
+    },
+    {
+        "participantID": "KG@D4RC2021",
+        "meetID": "D4RC2021",
+        "teamID": "KG"
+    },
+    {
+        "participantID": "VAC@D4RC2021",
+        "meetID": "D4RC2021",
+        "teamID": "VAC"
+    },
+    {
+        "participantID": "CH@D4RC2021",
+        "meetID": "D4RC2021",
+        "teamID": "CH"
+    },
+    {
+        "participantID": "OH@D4RC2021",
+        "meetID": "D4RC2021",
+        "teamID": "OH"
+    },
+    {
+        "participantID": "SR@D4RC2021",
+        "meetID": "D4RC2021",
+        "teamID": "SR"
+    },
+    {
+        "participantID": "SR@VAC@SR2021",
+        "meetID": "VAC@SR2021",
+        "teamID": "SR"
+    },
+    {
+        "participantID": "VAC@VAC@SR2021",
+        "meetID": "VAC@SR2021",
+        "teamID": "VAC"
+    },
+    {
+        "participantID": "OAK@CH@OAK2021",
+        "meetID": "CH@OAK2021",
+        "teamID": "OAK"
+    },
+    {
+        "participantID": "CH@CH@OAK2021",
+        "meetID": "CH@OAK2021",
+        "teamID": "CH"
+    },
+    {
+        "participantID": "OH@KG@OH2021",
+        "meetID": "KG@OH2021",
+        "teamID": "OH"
+    },
+    {
+        "participantID": "KG@KG@OH2021",
+        "meetID": "KG@OH2021",
+        "teamID": "KG"
+    },
+    {
+        "participantID": "VAC@OAK@VAC2021",
+        "meetID": "OAK@VAC2021",
+        "teamID": "VAC"
+    },
+    {
+        "participantID": "OAK@OAK@VAC2021",
+        "meetID": "OAK@VAC2021",
+        "teamID": "OAK"
+    },
+    {
+        "participantID": "CH@KG@CH2021",
+        "meetID": "KG@CH2021",
+        "teamID": "CH"
+    },
+    {
+        "participantID": "KG@KG@CH2021",
+        "meetID": "KG@CH2021",
+        "teamID": "KG"
+    },
+    {
+        "participantID": "OH@SR@OH2021",
+        "meetID": "SR@OH2021",
+        "teamID": "OH"
+    },
+    {
+        "participantID": "SR@SR@OH2021",
+        "meetID": "SR@OH2021",
+        "teamID": "SR"
+    },
+    {
+        "participantID": "HTM@SHR@HTM2021",
+        "meetID": "SHR@HTM2021",
+        "teamID": "HTM"
+    },
+    {
+        "participantID": "SHR@SHR@HTM2021",
+        "meetID": "SHR@HTM2021",
+        "teamID": "SHR"
+    },
+    {
+        "participantID": "OKM@HB@OKM2021",
+        "meetID": "HB@OKM2021",
+        "teamID": "OKM"
+    },
+    {
+        "participantID": "HB@HB@OKM2021",
+        "meetID": "HB@OKM2021",
+        "teamID": "HB"
+    },
+    {
+        "participantID": "B@M@B2021",
+        "meetID": "M@B2021",
+        "teamID": "B"
+    },
+    {
+        "participantID": "M@M@B2021",
+        "meetID": "M@B2021",
+        "teamID": "M"
+    },
+    {
+        "participantID": "B@HTM@B2021",
+        "meetID": "HTM@B2021",
+        "teamID": "B"
+    },
+    {
+        "participantID": "HTM@HTM@B2021",
+        "meetID": "HTM@B2021",
+        "teamID": "HTM"
+    },
+    {
+        "participantID": "SHR@HB@SHR2021",
+        "meetID": "HB@SHR2021",
+        "teamID": "SHR"
+    },
+    {
+        "participantID": "HB@HB@SHR2021",
+        "meetID": "HB@SHR2021",
+        "teamID": "HB"
+    },
+    {
+        "participantID": "M@OKM@M2021",
+        "meetID": "OKM@M2021",
+        "teamID": "M"
+    },
+    {
+        "participantID": "OKM@OKM@M2021",
+        "meetID": "OKM@M2021",
+        "teamID": "OKM"
+    },
+    {
+        "participantID": "HTM@M@HTM2021",
+        "meetID": "M@HTM2021",
+        "teamID": "HTM"
+    },
+    {
+        "participantID": "M@M@HTM2021",
+        "meetID": "M@HTM2021",
+        "teamID": "M"
+    },
+    {
+        "participantID": "HB@B@HB2021",
+        "meetID": "B@HB2021",
+        "teamID": "HB"
+    },
+    {
+        "participantID": "B@B@HB2021",
+        "meetID": "B@HB2021",
+        "teamID": "B"
+    },
+    {
+        "participantID": "OKM@SHR@OKM2021",
+        "meetID": "SHR@OKM2021",
+        "teamID": "OKM"
+    },
+    {
+        "participantID": "SHR@SHR@OKM2021",
+        "meetID": "SHR@OKM2021",
+        "teamID": "SHR"
+    },
+    {
+        "participantID": "OKM@D5RC2021",
+        "meetID": "D5RC2021",
+        "teamID": "OKM"
+    },
+    {
+        "participantID": "M@D5RC2021",
+        "meetID": "D5RC2021",
+        "teamID": "M"
+    },
+    {
+        "participantID": "B@D5RC2021",
+        "meetID": "D5RC2021",
+        "teamID": "B"
+    },
+    {
+        "participantID": "SHR@D5RC2021",
+        "meetID": "D5RC2021",
+        "teamID": "SHR"
+    },
+    {
+        "participantID": "HB@D5RC2021",
+        "meetID": "D5RC2021",
+        "teamID": "HB"
+    },
+    {
+        "participantID": "HTM@D5RC2021",
+        "meetID": "D5RC2021",
+        "teamID": "HTM"
+    },
+    {
+        "participantID": "OKM@HTM@OKM2021",
+        "meetID": "HTM@OKM2021",
+        "teamID": "OKM"
+    },
+    {
+        "participantID": "HTM@HTM@OKM2021",
+        "meetID": "HTM@OKM2021",
+        "teamID": "HTM"
+    },
+    {
+        "participantID": "HB@M@HB2021",
+        "meetID": "M@HB2021",
+        "teamID": "HB"
+    },
+    {
+        "participantID": "M@M@HB2021",
+        "meetID": "M@HB2021",
+        "teamID": "M"
+    },
+    {
+        "participantID": "SHR@B@SHR2021",
+        "meetID": "B@SHR2021",
+        "teamID": "SHR"
+    },
+    {
+        "participantID": "B@B@SHR2021",
+        "meetID": "B@SHR2021",
+        "teamID": "B"
+    },
+    {
+        "participantID": "HB@HTM@HB2021",
+        "meetID": "HTM@HB2021",
+        "teamID": "HB"
+    },
+    {
+        "participantID": "HTM@HTM@HB2021",
+        "meetID": "HTM@HB2021",
+        "teamID": "HTM"
+    },
+    {
+        "participantID": "M@SHR@M2021",
+        "meetID": "SHR@M2021",
+        "teamID": "M"
+    },
+    {
+        "participantID": "SHR@SHR@M2021",
+        "meetID": "SHR@M2021",
+        "teamID": "SHR"
+    },
+    {
+        "participantID": "B@OKM@B2021",
+        "meetID": "OKM@B2021",
+        "teamID": "B"
+    },
+    {
+        "participantID": "OKM@OKM@B2021",
+        "meetID": "OKM@B2021",
+        "teamID": "OKM"
+    },
+    {
+        "participantID": "LV@LG@LV2021",
+        "meetID": "LG@LV2021",
+        "teamID": "LV"
+    },
+    {
+        "participantID": "LG@LG@LV2021",
+        "meetID": "LG@LV2021",
+        "teamID": "LG"
+    },
+    {
+        "participantID": "VH@WG@VH2021",
+        "meetID": "WG@VH2021",
+        "teamID": "VH"
+    },
+    {
+        "participantID": "WG@WG@VH2021",
+        "meetID": "WG@VH2021",
+        "teamID": "WG"
+    },
+    {
+        "participantID": "CCH@FCE@CCH2021",
+        "meetID": "FCE@CCH2021",
+        "teamID": "CCH"
+    },
+    {
+        "participantID": "FCE@FCE@CCH2021",
+        "meetID": "FCE@CCH2021",
+        "teamID": "FCE"
+    },
+    {
+        "participantID": "LG@FCE@LG2021",
+        "meetID": "FCE@LG2021",
+        "teamID": "LG"
+    },
+    {
+        "participantID": "FCE@FCE@LG2021",
+        "meetID": "FCE@LG2021",
+        "teamID": "FCE"
+    },
+    {
+        "participantID": "WG@LV@WG2021",
+        "meetID": "LV@WG2021",
+        "teamID": "WG"
+    },
+    {
+        "participantID": "LV@LV@WG2021",
+        "meetID": "LV@WG2021",
+        "teamID": "LV"
+    },
+    {
+        "participantID": "VH@CCH@VH2021",
+        "meetID": "CCH@VH2021",
+        "teamID": "VH"
+    },
+    {
+        "participantID": "CCH@CCH@VH2021",
+        "meetID": "CCH@VH2021",
+        "teamID": "CCH"
+    },
+    {
+        "participantID": "LG@CCH@LG2021",
+        "meetID": "CCH@LG2021",
+        "teamID": "LG"
+    },
+    {
+        "participantID": "CCH@CCH@LG2021",
+        "meetID": "CCH@LG2021",
+        "teamID": "CCH"
+    },
+    {
+        "participantID": "FCE@WG@FCE2021",
+        "meetID": "WG@FCE2021",
+        "teamID": "FCE"
+    },
+    {
+        "participantID": "WG@WG@FCE2021",
+        "meetID": "WG@FCE2021",
+        "teamID": "WG"
+    },
+    {
+        "participantID": "VH@LV@VH2021",
+        "meetID": "LV@VH2021",
+        "teamID": "VH"
+    },
+    {
+        "participantID": "LV@LV@VH2021",
+        "meetID": "LV@VH2021",
+        "teamID": "LV"
+    },
+    {
+        "participantID": "LG@D6RC2021",
+        "meetID": "D6RC2021",
+        "teamID": "LG"
+    },
+    {
+        "participantID": "LV@D6RC2021",
+        "meetID": "D6RC2021",
+        "teamID": "LV"
+    },
+    {
+        "participantID": "VH@D6RC2021",
+        "meetID": "D6RC2021",
+        "teamID": "VH"
+    },
+    {
+        "participantID": "CCH@D6RC2021",
+        "meetID": "D6RC2021",
+        "teamID": "CCH"
+    },
+    {
+        "participantID": "FCE@D6RC2021",
+        "meetID": "D6RC2021",
+        "teamID": "FCE"
+    },
+    {
+        "participantID": "WG@D6RC2021",
+        "meetID": "D6RC2021",
+        "teamID": "WG"
+    },
+    {
+        "participantID": "LG@VH@LG2021",
+        "meetID": "VH@LG2021",
+        "teamID": "LG"
+    },
+    {
+        "participantID": "VH@VH@LG2021",
+        "meetID": "VH@LG2021",
+        "teamID": "VH"
+    },
+    {
+        "participantID": "CCH@WG@CCH2021",
+        "meetID": "WG@CCH2021",
+        "teamID": "CCH"
+    },
+    {
+        "participantID": "WG@WG@CCH2021",
+        "meetID": "WG@CCH2021",
+        "teamID": "WG"
+    },
+    {
+        "participantID": "LV@FCE@LV2021",
+        "meetID": "FCE@LV2021",
+        "teamID": "LV"
+    },
+    {
+        "participantID": "FCE@FCE@LV2021",
+        "meetID": "FCE@LV2021",
+        "teamID": "FCE"
+    },
+    {
+        "participantID": "WG@LG@WG2021",
+        "meetID": "LG@WG2021",
+        "teamID": "WG"
+    },
+    {
+        "participantID": "LG@LG@WG2021",
+        "meetID": "LG@WG2021",
+        "teamID": "LG"
+    },
+    {
+        "participantID": "CCH@LV@CCH2021",
+        "meetID": "LV@CCH2021",
+        "teamID": "CCH"
+    },
+    {
+        "participantID": "LV@LV@CCH2021",
+        "meetID": "LV@CCH2021",
+        "teamID": "LV"
+    },
+    {
+        "participantID": "FCE@VH@FCE2021",
+        "meetID": "VH@FCE2021",
+        "teamID": "FCE"
+    },
+    {
+        "participantID": "VH@VH@FCE2021",
+        "meetID": "VH@FCE2021",
+        "teamID": "VH"
+    },
+    {
+        "participantID": "R@LE@R2021",
+        "meetID": "LE@R2021",
+        "teamID": "R"
+    },
+    {
+        "participantID": "LE@LE@R2021",
+        "meetID": "LE@R2021",
+        "teamID": "LE"
+    },
+    {
+        "participantID": "SHB@UNKNOWN",
+        "meetID": "UNKNOWN",
+        "teamID": "SHB"
+    },
+    {
+        "participantID": "PC@UNKNOWN",
+        "meetID": "UNKNOWN",
+        "teamID": "PC"
+    },
+    {
+        "participantID": "WW@VA@WW2021",
+        "meetID": "VA@WW2021",
+        "teamID": "WW"
+    },
+    {
+        "participantID": "VA@VA@WW2021",
+        "meetID": "VA@WW2021",
+        "teamID": "VA"
+    },
+    {
+        "participantID": "WW@R@WW2021",
+        "meetID": "R@WW2021",
+        "teamID": "WW"
+    },
+    {
+        "participantID": "R@R@WW2021",
+        "meetID": "R@WW2021",
+        "teamID": "R"
+    },
+    {
+        "participantID": "LE@PC@LE2021",
+        "meetID": "PC@LE2021",
+        "teamID": "LE"
+    },
+    {
+        "participantID": "PC@PC@LE2021",
+        "meetID": "PC@LE2021",
+        "teamID": "PC"
+    },
+    {
+        "participantID": "VA@UNKNOWN",
+        "meetID": "UNKNOWN",
+        "teamID": "VA"
+    },
+    {
+        "participantID": "R@VA@R2021",
+        "meetID": "VA@R2021",
+        "teamID": "R"
+    },
+    {
+        "participantID": "VA@VA@R2021",
+        "meetID": "VA@R2021",
+        "teamID": "VA"
+    },
+    {
+        "participantID": "PC@WW@PC2021",
+        "meetID": "WW@PC2021",
+        "teamID": "PC"
+    },
+    {
+        "participantID": "WW@WW@PC2021",
+        "meetID": "WW@PC2021",
+        "teamID": "WW"
+    },
+    {
+        "participantID": "LE@UNKNOWN",
+        "meetID": "UNKNOWN",
+        "teamID": "LE"
+    },
+    {
+        "participantID": "PC@D7RC2021",
+        "meetID": "D7RC2021",
+        "teamID": "PC"
+    },
+    {
+        "participantID": "VA@D7RC2021",
+        "meetID": "D7RC2021",
+        "teamID": "VA"
+    },
+    {
+        "participantID": "R@D7RC2021",
+        "meetID": "D7RC2021",
+        "teamID": "R"
+    },
+    {
+        "participantID": "SHB@D7RC2021",
+        "meetID": "D7RC2021",
+        "teamID": "SHB"
+    },
+    {
+        "participantID": "WW@D7RC2021",
+        "meetID": "D7RC2021",
+        "teamID": "WW"
+    },
+    {
+        "participantID": "LE@D7RC2021",
+        "meetID": "D7RC2021",
+        "teamID": "LE"
+    },
+    {
+        "participantID": "R@UNKNOWN",
+        "meetID": "UNKNOWN",
+        "teamID": "R"
+    },
+    {
+        "participantID": "VA@PC@VA2021",
+        "meetID": "PC@VA2021",
+        "teamID": "VA"
+    },
+    {
+        "participantID": "PC@PC@VA2021",
+        "meetID": "PC@VA2021",
+        "teamID": "PC"
+    },
+    {
+        "participantID": "WW@LE@WW2021",
+        "meetID": "LE@WW2021",
+        "teamID": "WW"
+    },
+    {
+        "participantID": "LE@LE@WW2021",
+        "meetID": "LE@WW2021",
+        "teamID": "LE"
+    },
+    {
+        "participantID": "PC@R@PC2021",
+        "meetID": "R@PC2021",
+        "teamID": "PC"
+    },
+    {
+        "participantID": "R@R@PC2021",
+        "meetID": "R@PC2021",
+        "teamID": "R"
+    },
+    {
+        "participantID": "LE@VA@LE2021",
+        "meetID": "VA@LE2021",
+        "teamID": "LE"
+    },
+    {
+        "participantID": "VA@VA@LE2021",
+        "meetID": "VA@LE2021",
+        "teamID": "VA"
+    },
+    {
+        "participantID": "WW@UNKNOWN",
+        "meetID": "UNKNOWN",
+        "teamID": "WW"
+    },
+    {
+        "participantID": "G@FMW@G2021",
+        "meetID": "FMW@G2021",
+        "teamID": "G"
+    },
+    {
+        "participantID": "FMW@FMW@G2021",
+        "meetID": "FMW@G2021",
+        "teamID": "FMW"
+    },
+    {
+        "participantID": "DL@SS@DL2021",
+        "meetID": "SS@DL2021",
+        "teamID": "DL"
+    },
+    {
+        "participantID": "SS@SS@DL2021",
+        "meetID": "SS@DL2021",
+        "teamID": "SS"
+    },
+    {
+        "participantID": "DH@HM@DH2021",
+        "meetID": "HM@DH2021",
+        "teamID": "DH"
+    },
+    {
+        "participantID": "HM@HM@DH2021",
+        "meetID": "HM@DH2021",
+        "teamID": "HM"
+    },
+    {
+        "participantID": "HM@G@HM2021",
+        "meetID": "G@HM2021",
+        "teamID": "HM"
+    },
+    {
+        "participantID": "G@G@HM2021",
+        "meetID": "G@HM2021",
+        "teamID": "G"
+    },
+    {
+        "participantID": "FMW@DL@FMW2021",
+        "meetID": "DL@FMW2021",
+        "teamID": "FMW"
+    },
+    {
+        "participantID": "DL@DL@FMW2021",
+        "meetID": "DL@FMW2021",
+        "teamID": "DL"
+    },
+    {
+        "participantID": "SS@DH@SS2021",
+        "meetID": "DH@SS2021",
+        "teamID": "SS"
+    },
+    {
+        "participantID": "DH@DH@SS2021",
+        "meetID": "DH@SS2021",
+        "teamID": "DH"
+    },
+    {
+        "participantID": "DH@G@DH2021",
+        "meetID": "G@DH2021",
+        "teamID": "DH"
+    },
+    {
+        "participantID": "G@G@DH2021",
+        "meetID": "G@DH2021",
+        "teamID": "G"
+    },
+    {
+        "participantID": "HM@DL@HM2021",
+        "meetID": "DL@HM2021",
+        "teamID": "HM"
+    },
+    {
+        "participantID": "DL@DL@HM2021",
+        "meetID": "DL@HM2021",
+        "teamID": "DL"
+    },
+    {
+        "participantID": "SS@FMW@SS2021",
+        "meetID": "FMW@SS2021",
+        "teamID": "SS"
+    },
+    {
+        "participantID": "FMW@FMW@SS2021",
+        "meetID": "FMW@SS2021",
+        "teamID": "FMW"
+    },
+    {
+        "participantID": "DL@D8RC2021",
+        "meetID": "D8RC2021",
+        "teamID": "DL"
+    },
+    {
+        "participantID": "DH@D8RC2021",
+        "meetID": "D8RC2021",
+        "teamID": "DH"
+    },
+    {
+        "participantID": "G@D8RC2021",
+        "meetID": "D8RC2021",
+        "teamID": "G"
+    },
+    {
+        "participantID": "HM@D8RC2021",
+        "meetID": "D8RC2021",
+        "teamID": "HM"
+    },
+    {
+        "participantID": "SS@D8RC2021",
+        "meetID": "D8RC2021",
+        "teamID": "SS"
+    },
+    {
+        "participantID": "FMW@D8RC2021",
+        "meetID": "D8RC2021",
+        "teamID": "FMW"
+    },
+    {
+        "participantID": "G@SS@G2021",
+        "meetID": "SS@G2021",
+        "teamID": "G"
+    },
+    {
+        "participantID": "SS@SS@G2021",
+        "meetID": "SS@G2021",
+        "teamID": "SS"
+    },
+    {
+        "participantID": "DL@DH@DL2021",
+        "meetID": "DH@DL2021",
+        "teamID": "DL"
+    },
+    {
+        "participantID": "DH@DH@DL2021",
+        "meetID": "DH@DL2021",
+        "teamID": "DH"
+    },
+    {
+        "participantID": "FMW@HM@FMW2021",
+        "meetID": "HM@FMW2021",
+        "teamID": "FMW"
+    },
+    {
+        "participantID": "HM@HM@FMW2021",
+        "meetID": "HM@FMW2021",
+        "teamID": "HM"
+    },
+    {
+        "participantID": "DL@G@DL2021",
+        "meetID": "G@DL2021",
+        "teamID": "DL"
+    },
+    {
+        "participantID": "G@G@DL2021",
+        "meetID": "G@DL2021",
+        "teamID": "G"
+    },
+    {
+        "participantID": "DH@FMW@DH2021",
+        "meetID": "FMW@DH2021",
+        "teamID": "DH"
+    },
+    {
+        "participantID": "FMW@FMW@DH2021",
+        "meetID": "FMW@DH2021",
+        "teamID": "FMW"
+    },
+    {
+        "participantID": "HM@SS@HM2021",
+        "meetID": "SS@HM2021",
+        "teamID": "HM"
+    },
+    {
+        "participantID": "SS@SS@HM2021",
+        "meetID": "SS@HM2021",
+        "teamID": "SS"
+    },
+    {
+        "participantID": "MW@GF@MW2021",
+        "meetID": "GF@MW2021",
+        "teamID": "MW"
+    },
+    {
+        "participantID": "GF@GF@MW2021",
+        "meetID": "GF@MW2021",
+        "teamID": "GF"
+    },
+    {
+        "participantID": "AF@LHP@AF2021",
+        "meetID": "LHP@AF2021",
+        "teamID": "AF"
+    },
+    {
+        "participantID": "LHP@LHP@AF2021",
+        "meetID": "LHP@AF2021",
+        "teamID": "LHP"
+    },
+    {
+        "participantID": "FS@SOR@FS2021",
+        "meetID": "SOR@FS2021",
+        "teamID": "FS"
+    },
+    {
+        "participantID": "SOR@SOR@FS2021",
+        "meetID": "SOR@FS2021",
+        "teamID": "SOR"
+    },
+    {
+        "participantID": "SOR@MW@SOR2021",
+        "meetID": "MW@SOR2021",
+        "teamID": "SOR"
+    },
+    {
+        "participantID": "MW@MW@SOR2021",
+        "meetID": "MW@SOR2021",
+        "teamID": "MW"
+    },
+    {
+        "participantID": "GF@AF@GF2021",
+        "meetID": "AF@GF2021",
+        "teamID": "GF"
+    },
+    {
+        "participantID": "AF@AF@GF2021",
+        "meetID": "AF@GF2021",
+        "teamID": "AF"
+    },
+    {
+        "participantID": "LHP@FS@LHP2021",
+        "meetID": "FS@LHP2021",
+        "teamID": "LHP"
+    },
+    {
+        "participantID": "FS@FS@LHP2021",
+        "meetID": "FS@LHP2021",
+        "teamID": "FS"
+    },
+    {
+        "participantID": "FS@MW@FS2021",
+        "meetID": "MW@FS2021",
+        "teamID": "FS"
+    },
+    {
+        "participantID": "MW@MW@FS2021",
+        "meetID": "MW@FS2021",
+        "teamID": "MW"
+    },
+    {
+        "participantID": "AF@SOR@AF2021",
+        "meetID": "SOR@AF2021",
+        "teamID": "AF"
+    },
+    {
+        "participantID": "SOR@SOR@AF2021",
+        "meetID": "SOR@AF2021",
+        "teamID": "SOR"
+    },
+    {
+        "participantID": "LHP@GF@LHP2021",
+        "meetID": "GF@LHP2021",
+        "teamID": "LHP"
+    },
+    {
+        "participantID": "GF@GF@LHP2021",
+        "meetID": "GF@LHP2021",
+        "teamID": "GF"
+    },
+    {
+        "participantID": "SOR@D9RC2021",
+        "meetID": "D9RC2021",
+        "teamID": "SOR"
+    },
+    {
+        "participantID": "FS@D9RC2021",
+        "meetID": "D9RC2021",
+        "teamID": "FS"
+    },
+    {
+        "participantID": "LHP@D9RC2021",
+        "meetID": "D9RC2021",
+        "teamID": "LHP"
+    },
+    {
+        "participantID": "GF@D9RC2021",
+        "meetID": "D9RC2021",
+        "teamID": "GF"
+    },
+    {
+        "participantID": "AF@D9RC2021",
+        "meetID": "D9RC2021",
+        "teamID": "AF"
+    },
+    {
+        "participantID": "MW@D9RC2021",
+        "meetID": "D9RC2021",
+        "teamID": "MW"
+    },
+    {
+        "participantID": "LHP@MW@LHP2021",
+        "meetID": "MW@LHP2021",
+        "teamID": "LHP"
+    },
+    {
+        "participantID": "MW@MW@LHP2021",
+        "meetID": "MW@LHP2021",
+        "teamID": "MW"
+    },
+    {
+        "participantID": "AF@FS@AF2021",
+        "meetID": "FS@AF2021",
+        "teamID": "AF"
+    },
+    {
+        "participantID": "FS@FS@AF2021",
+        "meetID": "FS@AF2021",
+        "teamID": "FS"
+    },
+    {
+        "participantID": "SOR@GF@SOR2021",
+        "meetID": "GF@SOR2021",
+        "teamID": "SOR"
+    },
+    {
+        "participantID": "GF@GF@SOR2021",
+        "meetID": "GF@SOR2021",
+        "teamID": "GF"
+    },
+    {
+        "participantID": "MW@AF@MW2021",
+        "meetID": "AF@MW2021",
+        "teamID": "MW"
+    },
+    {
+        "participantID": "AF@AF@MW2021",
+        "meetID": "AF@MW2021",
+        "teamID": "AF"
+    },
+    {
+        "participantID": "GF@FS@GF2021",
+        "meetID": "FS@GF2021",
+        "teamID": "GF"
+    },
+    {
+        "participantID": "FS@FS@GF2021",
+        "meetID": "FS@GF2021",
+        "teamID": "FS"
+    },
+    {
+        "participantID": "SOR@LHP@SOR2021",
+        "meetID": "LHP@SOR2021",
+        "teamID": "SOR"
+    },
+    {
+        "participantID": "LHP@LHP@SOR2021",
+        "meetID": "LHP@SOR2021",
+        "teamID": "LHP"
+    },
+    {
+        "participantID": "RFD@F@RFD2021",
+        "meetID": "F@RFD2021",
+        "teamID": "RFD"
+    },
+    {
+        "participantID": "F@F@RFD2021",
+        "meetID": "F@RFD2021",
+        "teamID": "F"
+    },
+    {
+        "participantID": "FME@CCC@FME2021",
+        "meetID": "CCC@FME2021",
+        "teamID": "FME"
+    },
+    {
+        "participantID": "CCC@CCC@FME2021",
+        "meetID": "CCC@FME2021",
+        "teamID": "CCC"
+    },
+    {
+        "participantID": "RG@SB@RG2021",
+        "meetID": "SB@RG2021",
+        "teamID": "RG"
+    },
+    {
+        "participantID": "SB@SB@RG2021",
+        "meetID": "SB@RG2021",
+        "teamID": "SB"
+    },
+    {
+        "participantID": "F@SB@F2021",
+        "meetID": "SB@F2021",
+        "teamID": "F"
+    },
+    {
+        "participantID": "SB@SB@F2021",
+        "meetID": "SB@F2021",
+        "teamID": "SB"
+    },
+    {
+        "participantID": "CCC@RFD@CCC2021",
+        "meetID": "RFD@CCC2021",
+        "teamID": "CCC"
+    },
+    {
+        "participantID": "RFD@RFD@CCC2021",
+        "meetID": "RFD@CCC2021",
+        "teamID": "RFD"
+    },
+    {
+        "participantID": "RG@FME@RG2021",
+        "meetID": "FME@RG2021",
+        "teamID": "RG"
+    },
+    {
+        "participantID": "FME@FME@RG2021",
+        "meetID": "FME@RG2021",
+        "teamID": "FME"
+    },
+    {
+        "participantID": "F@RG@F2021",
+        "meetID": "RG@F2021",
+        "teamID": "F"
+    },
+    {
+        "participantID": "RG@RG@F2021",
+        "meetID": "RG@F2021",
+        "teamID": "RG"
+    },
+    {
+        "participantID": "SB@CCC@SB2021",
+        "meetID": "CCC@SB2021",
+        "teamID": "SB"
+    },
+    {
+        "participantID": "CCC@CCC@SB2021",
+        "meetID": "CCC@SB2021",
+        "teamID": "CCC"
+    },
+    {
+        "participantID": "FME@RFD@FME2021",
+        "meetID": "RFD@FME2021",
+        "teamID": "FME"
+    },
+    {
+        "participantID": "RFD@RFD@FME2021",
+        "meetID": "RFD@FME2021",
+        "teamID": "RFD"
+    },
+    {
+        "participantID": "SB@D10RC2021",
+        "meetID": "D10RC2021",
+        "teamID": "SB"
+    },
+    {
+        "participantID": "RFD@D10RC2021",
+        "meetID": "D10RC2021",
+        "teamID": "RFD"
+    },
+    {
+        "participantID": "F@D10RC2021",
+        "meetID": "D10RC2021",
+        "teamID": "F"
+    },
+    {
+        "participantID": "RG@D10RC2021",
+        "meetID": "D10RC2021",
+        "teamID": "RG"
+    },
+    {
+        "participantID": "FME@D10RC2021",
+        "meetID": "D10RC2021",
+        "teamID": "FME"
+    },
+    {
+        "participantID": "CCC@D10RC2021",
+        "meetID": "D10RC2021",
+        "teamID": "CCC"
+    },
+    {
+        "participantID": "F@FME@F2021",
+        "meetID": "FME@F2021",
+        "teamID": "F"
+    },
+    {
+        "participantID": "FME@FME@F2021",
+        "meetID": "FME@F2021",
+        "teamID": "FME"
+    },
+    {
+        "participantID": "RG@CCC@RG2021",
+        "meetID": "CCC@RG2021",
+        "teamID": "RG"
+    },
+    {
+        "participantID": "CCC@CCC@RG2021",
+        "meetID": "CCC@RG2021",
+        "teamID": "CCC"
+    },
+    {
+        "participantID": "SB@RFD@SB2021",
+        "meetID": "RFD@SB2021",
+        "teamID": "SB"
+    },
+    {
+        "participantID": "RFD@RFD@SB2021",
+        "meetID": "RFD@SB2021",
+        "teamID": "RFD"
+    },
+    {
+        "participantID": "CCC@F@CCC2021",
+        "meetID": "F@CCC2021",
+        "teamID": "CCC"
+    },
+    {
+        "participantID": "F@F@CCC2021",
+        "meetID": "F@CCC2021",
+        "teamID": "F"
+    },
+    {
+        "participantID": "RFD@RG@RFD2021",
+        "meetID": "RG@RFD2021",
+        "teamID": "RFD"
+    },
+    {
+        "participantID": "RG@RG@RFD2021",
+        "meetID": "RG@RFD2021",
+        "teamID": "RG"
+    },
+    {
+        "participantID": "FME@SB@FME2021",
+        "meetID": "SB@FME2021",
+        "teamID": "FME"
+    },
+    {
+        "participantID": "SB@SB@FME2021",
+        "meetID": "SB@FME2021",
+        "teamID": "SB"
+    },
+    {
+        "participantID": "BF@SOC@BF2021",
+        "meetID": "SOC@BF2021",
+        "teamID": "BF"
+    },
+    {
+        "participantID": "SOC@SOC@BF2021",
+        "meetID": "SOC@BF2021",
+        "teamID": "SOC"
+    },
+    {
+        "participantID": "SRA@HP@SRA2021",
+        "meetID": "HP@SRA2021",
+        "teamID": "SRA"
+    },
+    {
+        "participantID": "HP@HP@SRA2021",
+        "meetID": "HP@SRA2021",
+        "teamID": "HP"
+    },
+    {
+        "participantID": "PH@CW@PH2021",
+        "meetID": "CW@PH2021",
+        "teamID": "PH"
+    },
+    {
+        "participantID": "CW@CW@PH2021",
+        "meetID": "CW@PH2021",
+        "teamID": "CW"
+    },
+    {
+        "participantID": "CW@SOC@CW2021",
+        "meetID": "SOC@CW2021",
+        "teamID": "CW"
+    },
+    {
+        "participantID": "SOC@SOC@CW2021",
+        "meetID": "SOC@CW2021",
+        "teamID": "SOC"
+    },
+    {
+        "participantID": "HP@BF@HP2021",
+        "meetID": "BF@HP2021",
+        "teamID": "HP"
+    },
+    {
+        "participantID": "BF@BF@HP2021",
+        "meetID": "BF@HP2021",
+        "teamID": "BF"
+    },
+    {
+        "participantID": "PH@SRA@PH2021",
+        "meetID": "SRA@PH2021",
+        "teamID": "PH"
+    },
+    {
+        "participantID": "SRA@SRA@PH2021",
+        "meetID": "SRA@PH2021",
+        "teamID": "SRA"
+    },
+    {
+        "participantID": "SOC@PH@SOC2021",
+        "meetID": "PH@SOC2021",
+        "teamID": "SOC"
+    },
+    {
+        "participantID": "PH@PH@SOC2021",
+        "meetID": "PH@SOC2021",
+        "teamID": "PH"
+    },
+    {
+        "participantID": "HP@CW@HP2021",
+        "meetID": "CW@HP2021",
+        "teamID": "HP"
+    },
+    {
+        "participantID": "CW@CW@HP2021",
+        "meetID": "CW@HP2021",
+        "teamID": "CW"
+    },
+    {
+        "participantID": "SRA@BF@SRA2021",
+        "meetID": "BF@SRA2021",
+        "teamID": "SRA"
+    },
+    {
+        "participantID": "BF@BF@SRA2021",
+        "meetID": "BF@SRA2021",
+        "teamID": "BF"
+    },
+    {
+        "participantID": "CW@D11RC2021",
+        "meetID": "D11RC2021",
+        "teamID": "CW"
+    },
+    {
+        "participantID": "PH@D11RC2021",
+        "meetID": "D11RC2021",
+        "teamID": "PH"
+    },
+    {
+        "participantID": "SOC@D11RC2021",
+        "meetID": "D11RC2021",
+        "teamID": "SOC"
+    },
+    {
+        "participantID": "HP@D11RC2021",
+        "meetID": "D11RC2021",
+        "teamID": "HP"
+    },
+    {
+        "participantID": "SRA@D11RC2021",
+        "meetID": "D11RC2021",
+        "teamID": "SRA"
+    },
+    {
+        "participantID": "BF@D11RC2021",
+        "meetID": "D11RC2021",
+        "teamID": "BF"
+    },
+    {
+        "participantID": "SRA@SOC@SRA2021",
+        "meetID": "SOC@SRA2021",
+        "teamID": "SRA"
+    },
+    {
+        "participantID": "SOC@SOC@SRA2021",
+        "meetID": "SOC@SRA2021",
+        "teamID": "SOC"
+    },
+    {
+        "participantID": "HP@PH@HP2021",
+        "meetID": "PH@HP2021",
+        "teamID": "HP"
+    },
+    {
+        "participantID": "PH@PH@HP2021",
+        "meetID": "PH@HP2021",
+        "teamID": "PH"
+    },
+    {
+        "participantID": "BF@CW@BF2021",
+        "meetID": "CW@BF2021",
+        "teamID": "BF"
+    },
+    {
+        "participantID": "CW@CW@BF2021",
+        "meetID": "CW@BF2021",
+        "teamID": "CW"
+    },
+    {
+        "participantID": "SOC@HP@SOC2021",
+        "meetID": "HP@SOC2021",
+        "teamID": "SOC"
+    },
+    {
+        "participantID": "HP@HP@SOC2021",
+        "meetID": "HP@SOC2021",
+        "teamID": "HP"
+    },
+    {
+        "participantID": "BF@PH@BF2021",
+        "meetID": "PH@BF2021",
+        "teamID": "BF"
+    },
+    {
+        "participantID": "PH@PH@BF2021",
+        "meetID": "PH@BF2021",
+        "teamID": "PH"
+    },
+    {
+        "participantID": "CW@SRA@CW2021",
+        "meetID": "SRA@CW2021",
+        "teamID": "CW"
+    },
+    {
+        "participantID": "SRA@SRA@CW2021",
+        "meetID": "SRA@CW2021",
+        "teamID": "SRA"
+    },
+    {
+        "participantID": "RH@A@RH2021",
+        "meetID": "A@RH2021",
+        "teamID": "RH"
+    },
+    {
+        "participantID": "A@A@RH2021",
+        "meetID": "A@RH2021",
+        "teamID": "A"
+    },
+    {
+        "participantID": "HRA@THA@HRA2021",
+        "meetID": "THA@HRA2021",
+        "teamID": "HRA"
+    },
+    {
+        "participantID": "THA@THA@HRA2021",
+        "meetID": "THA@HRA2021",
+        "teamID": "THA"
+    },
+    {
+        "participantID": "HF@RF@HF2021",
+        "meetID": "RF@HF2021",
+        "teamID": "HF"
+    },
+    {
+        "participantID": "RF@RF@HF2021",
+        "meetID": "RF@HF2021",
+        "teamID": "RF"
+    },
+    {
+        "participantID": "RF@A@RF2021",
+        "meetID": "A@RF2021",
+        "teamID": "RF"
+    },
+    {
+        "participantID": "A@A@RF2021",
+        "meetID": "A@RF2021",
+        "teamID": "A"
+    },
+    {
+        "participantID": "RH@THA@RH2021",
+        "meetID": "THA@RH2021",
+        "teamID": "RH"
+    },
+    {
+        "participantID": "THA@THA@RH2021",
+        "meetID": "THA@RH2021",
+        "teamID": "THA"
+    },
+    {
+        "participantID": "HRA@HF@HRA2021",
+        "meetID": "HF@HRA2021",
+        "teamID": "HRA"
+    },
+    {
+        "participantID": "HF@HF@HRA2021",
+        "meetID": "HF@HRA2021",
+        "teamID": "HF"
+    },
+    {
+        "participantID": "HF@A@HF2021",
+        "meetID": "A@HF2021",
+        "teamID": "HF"
+    },
+    {
+        "participantID": "A@A@HF2021",
+        "meetID": "A@HF2021",
+        "teamID": "A"
+    },
+    {
+        "participantID": "THA@RF@THA2021",
+        "meetID": "RF@THA2021",
+        "teamID": "THA"
+    },
+    {
+        "participantID": "RF@RF@THA2021",
+        "meetID": "RF@THA2021",
+        "teamID": "RF"
+    },
+    {
+        "participantID": "HRA@RH@HRA2021",
+        "meetID": "RH@HRA2021",
+        "teamID": "HRA"
+    },
+    {
+        "participantID": "RH@RH@HRA2021",
+        "meetID": "RH@HRA2021",
+        "teamID": "RH"
+    },
+    {
+        "participantID": "RH@D12RC2021",
+        "meetID": "D12RC2021",
+        "teamID": "RH"
+    },
+    {
+        "participantID": "THA@D12RC2021",
+        "meetID": "D12RC2021",
+        "teamID": "THA"
+    },
+    {
+        "participantID": "HF@D12RC2021",
+        "meetID": "D12RC2021",
+        "teamID": "HF"
+    },
+    {
+        "participantID": "RF@D12RC2021",
+        "meetID": "D12RC2021",
+        "teamID": "RF"
+    },
+    {
+        "participantID": "A@D12RC2021",
+        "meetID": "D12RC2021",
+        "teamID": "A"
+    },
+    {
+        "participantID": "HRA@D12RC2021",
+        "meetID": "D12RC2021",
+        "teamID": "HRA"
+    },
+    {
+        "participantID": "A@HRA@A2021",
+        "meetID": "HRA@A2021",
+        "teamID": "A"
+    },
+    {
+        "participantID": "HRA@HRA@A2021",
+        "meetID": "HRA@A2021",
+        "teamID": "HRA"
+    },
+    {
+        "participantID": "THA@HF@THA2021",
+        "meetID": "HF@THA2021",
+        "teamID": "THA"
+    },
+    {
+        "participantID": "HF@HF@THA2021",
+        "meetID": "HF@THA2021",
+        "teamID": "HF"
+    },
+    {
+        "participantID": "RH@RF@RH2021",
+        "meetID": "RF@RH2021",
+        "teamID": "RH"
+    },
+    {
+        "participantID": "RF@RF@RH2021",
+        "meetID": "RF@RH2021",
+        "teamID": "RF"
+    },
+    {
+        "participantID": "A@THA@A2021",
+        "meetID": "THA@A2021",
+        "teamID": "A"
+    },
+    {
+        "participantID": "THA@THA@A2021",
+        "meetID": "THA@A2021",
+        "teamID": "THA"
+    },
+    {
+        "participantID": "HF@RH@HF2021",
+        "meetID": "RH@HF2021",
+        "teamID": "HF"
+    },
+    {
+        "participantID": "RH@RH@HF2021",
+        "meetID": "RH@HF2021",
+        "teamID": "RH"
+    },
+    {
+        "participantID": "RF@HRA@RF2021",
+        "meetID": "HRA@RF2021",
+        "teamID": "RF"
+    },
+    {
+        "participantID": "HRA@HRA@RF2021",
+        "meetID": "HRA@RF2021",
+        "teamID": "HRA"
+    },
+    {
+        "participantID": "CT@FH@CT2021",
+        "meetID": "FH@CT2021",
+        "teamID": "CT"
+    },
+    {
+        "participantID": "FH@FH@CT2021",
+        "meetID": "FH@CT2021",
+        "teamID": "FH"
+    },
+    {
+        "participantID": "MHC@SV@MHC2021",
+        "meetID": "SV@MHC2021",
+        "teamID": "MHC"
+    },
+    {
+        "participantID": "SV@SV@MHC2021",
+        "meetID": "SV@MHC2021",
+        "teamID": "SV"
+    },
+    {
+        "participantID": "KR@DV@KR2021",
+        "meetID": "DV@KR2021",
+        "teamID": "KR"
+    },
+    {
+        "participantID": "DV@DV@KR2021",
+        "meetID": "DV@KR2021",
+        "teamID": "DV"
+    },
+    {
+        "participantID": "DV@CT@DV2021",
+        "meetID": "CT@DV2021",
+        "teamID": "DV"
+    },
+    {
+        "participantID": "CT@CT@DV2021",
+        "meetID": "CT@DV2021",
+        "teamID": "CT"
+    },
+    {
+        "participantID": "FH@MHC@FH2021",
+        "meetID": "MHC@FH2021",
+        "teamID": "FH"
+    },
+    {
+        "participantID": "MHC@MHC@FH2021",
+        "meetID": "MHC@FH2021",
+        "teamID": "MHC"
+    },
+    {
+        "participantID": "KR@SV@KR2021",
+        "meetID": "SV@KR2021",
+        "teamID": "KR"
+    },
+    {
+        "participantID": "SV@SV@KR2021",
+        "meetID": "SV@KR2021",
+        "teamID": "SV"
+    },
+    {
+        "participantID": "KR@CT@KR2021",
+        "meetID": "CT@KR2021",
+        "teamID": "KR"
+    },
+    {
+        "participantID": "CT@CT@KR2021",
+        "meetID": "CT@KR2021",
+        "teamID": "CT"
+    },
+    {
+        "participantID": "DV@MHC@DV2021",
+        "meetID": "MHC@DV2021",
+        "teamID": "DV"
+    },
+    {
+        "participantID": "MHC@MHC@DV2021",
+        "meetID": "MHC@DV2021",
+        "teamID": "MHC"
+    },
+    {
+        "participantID": "SV@FH@SV2021",
+        "meetID": "FH@SV2021",
+        "teamID": "SV"
+    },
+    {
+        "participantID": "FH@FH@SV2021",
+        "meetID": "FH@SV2021",
+        "teamID": "FH"
+    },
+    {
+        "participantID": "CT@D13RC2021",
+        "meetID": "D13RC2021",
+        "teamID": "CT"
+    },
+    {
+        "participantID": "DV@D13RC2021",
+        "meetID": "D13RC2021",
+        "teamID": "DV"
+    },
+    {
+        "participantID": "FH@D13RC2021",
+        "meetID": "D13RC2021",
+        "teamID": "FH"
+    },
+    {
+        "participantID": "MHC@D13RC2021",
+        "meetID": "D13RC2021",
+        "teamID": "MHC"
+    },
+    {
+        "participantID": "SV@D13RC2021",
+        "meetID": "D13RC2021",
+        "teamID": "SV"
+    },
+    {
+        "participantID": "KR@D13RC2021",
+        "meetID": "D13RC2021",
+        "teamID": "KR"
+    },
+    {
+        "participantID": "CT@SV@CT2021",
+        "meetID": "SV@CT2021",
+        "teamID": "CT"
+    },
+    {
+        "participantID": "SV@SV@CT2021",
+        "meetID": "SV@CT2021",
+        "teamID": "SV"
+    },
+    {
+        "participantID": "MHC@KR@MHC2021",
+        "meetID": "KR@MHC2021",
+        "teamID": "MHC"
+    },
+    {
+        "participantID": "KR@KR@MHC2021",
+        "meetID": "KR@MHC2021",
+        "teamID": "KR"
+    },
+    {
+        "participantID": "DV@FH@DV2021",
+        "meetID": "FH@DV2021",
+        "teamID": "DV"
+    },
+    {
+        "participantID": "FH@FH@DV2021",
+        "meetID": "FH@DV2021",
+        "teamID": "FH"
+    },
+    {
+        "participantID": "CT@MHC@CT2021",
+        "meetID": "MHC@CT2021",
+        "teamID": "CT"
+    },
+    {
+        "participantID": "MHC@MHC@CT2021",
+        "meetID": "MHC@CT2021",
+        "teamID": "MHC"
+    },
+    {
+        "participantID": "FH@KR@FH2021",
+        "meetID": "KR@FH2021",
+        "teamID": "FH"
+    },
+    {
+        "participantID": "KR@KR@FH2021",
+        "meetID": "KR@FH2021",
+        "teamID": "KR"
+    },
+    {
+        "participantID": "SV@DV@SV2021",
+        "meetID": "DV@SV2021",
+        "teamID": "SV"
+    },
+    {
+        "participantID": "DV@DV@SV2021",
+        "meetID": "DV@SV2021",
+        "teamID": "DV"
+    },
+    {
+        "participantID": "SS2@PT@SS22021",
+        "meetID": "PT@SS22021",
+        "teamID": "SS2"
+    },
+    {
+        "participantID": "PT@PT@SS22021",
+        "meetID": "PT@SS22021",
+        "teamID": "PT"
+    },
+    {
+        "participantID": "LH@RV@LH2021",
+        "meetID": "RV@LH2021",
+        "teamID": "LH"
+    },
+    {
+        "participantID": "RV@RV@LH2021",
+        "meetID": "RV@LH2021",
+        "teamID": "RV"
+    },
+    {
+        "participantID": "W@FX@W2021",
+        "meetID": "FX@W2021",
+        "teamID": "W"
+    },
+    {
+        "participantID": "FX@FX@W2021",
+        "meetID": "FX@W2021",
+        "teamID": "FX"
+    },
+    {
+        "participantID": "PT@W@PT2021",
+        "meetID": "W@PT2021",
+        "teamID": "PT"
+    },
+    {
+        "participantID": "W@W@PT2021",
+        "meetID": "W@PT2021",
+        "teamID": "W"
+    },
+    {
+        "participantID": "LH@SS2@LH2021",
+        "meetID": "SS2@LH2021",
+        "teamID": "LH"
+    },
+    {
+        "participantID": "SS2@SS2@LH2021",
+        "meetID": "SS2@LH2021",
+        "teamID": "SS2"
+    },
+    {
+        "participantID": "FX@RV@FX2021",
+        "meetID": "RV@FX2021",
+        "teamID": "FX"
+    },
+    {
+        "participantID": "RV@RV@FX2021",
+        "meetID": "RV@FX2021",
+        "teamID": "RV"
+    },
+    {
+        "participantID": "PT@FX@PT2021",
+        "meetID": "FX@PT2021",
+        "teamID": "PT"
+    },
+    {
+        "participantID": "FX@FX@PT2021",
+        "meetID": "FX@PT2021",
+        "teamID": "FX"
+    },
+    {
+        "participantID": "W@LH@W2021",
+        "meetID": "LH@W2021",
+        "teamID": "W"
+    },
+    {
+        "participantID": "LH@LH@W2021",
+        "meetID": "LH@W2021",
+        "teamID": "LH"
+    },
+    {
+        "participantID": "RV@SS2@RV2021",
+        "meetID": "SS2@RV2021",
+        "teamID": "RV"
+    },
+    {
+        "participantID": "SS2@SS2@RV2021",
+        "meetID": "SS2@RV2021",
+        "teamID": "SS2"
+    },
+    {
+        "participantID": "PT@D14RC2021",
+        "meetID": "D14RC2021",
+        "teamID": "PT"
+    },
+    {
+        "participantID": "RV@D14RC2021",
+        "meetID": "D14RC2021",
+        "teamID": "RV"
+    },
+    {
+        "participantID": "W@D14RC2021",
+        "meetID": "D14RC2021",
+        "teamID": "W"
+    },
+    {
+        "participantID": "FX@D14RC2021",
+        "meetID": "D14RC2021",
+        "teamID": "FX"
+    },
+    {
+        "participantID": "SS2@D14RC2021",
+        "meetID": "D14RC2021",
+        "teamID": "SS2"
+    },
+    {
+        "participantID": "LH@D14RC2021",
+        "meetID": "D14RC2021",
+        "teamID": "LH"
+    },
+    {
+        "participantID": "RV@PT@RV2021",
+        "meetID": "PT@RV2021",
+        "teamID": "RV"
+    },
+    {
+        "participantID": "PT@PT@RV2021",
+        "meetID": "PT@RV2021",
+        "teamID": "PT"
+    },
+    {
+        "participantID": "LH@FX@LH2021",
+        "meetID": "FX@LH2021",
+        "teamID": "LH"
+    },
+    {
+        "participantID": "FX@FX@LH2021",
+        "meetID": "FX@LH2021",
+        "teamID": "FX"
+    },
+    {
+        "participantID": "SS2@W@SS22021",
+        "meetID": "W@SS22021",
+        "teamID": "SS2"
+    },
+    {
+        "participantID": "W@W@SS22021",
+        "meetID": "W@SS22021",
+        "teamID": "W"
+    },
+    {
+        "participantID": "PT@LH@PT2021",
+        "meetID": "LH@PT2021",
+        "teamID": "PT"
+    },
+    {
+        "participantID": "LH@LH@PT2021",
+        "meetID": "LH@PT2021",
+        "teamID": "LH"
+    },
+    {
+        "participantID": "FX@SS2@FX2021",
+        "meetID": "SS2@FX2021",
+        "teamID": "FX"
+    },
+    {
+        "participantID": "SS2@SS2@FX2021",
+        "meetID": "SS2@FX2021",
+        "teamID": "SS2"
+    },
+    {
+        "participantID": "RV@W@RV2021",
+        "meetID": "W@RV2021",
+        "teamID": "RV"
+    },
+    {
+        "participantID": "W@W@RV2021",
+        "meetID": "W@RV2021",
+        "teamID": "W"
+    },
+    {
+        "participantID": "PL@LB@PL2021",
+        "meetID": "LB@PL2021",
+        "teamID": "PL"
+    },
+    {
+        "participantID": "LB@LB@PL2021",
+        "meetID": "LB@PL2021",
+        "teamID": "LB"
+    },
+    {
+        "participantID": "H@IC@H2021",
+        "meetID": "IC@H2021",
+        "teamID": "H"
+    },
+    {
+        "participantID": "IC@IC@H2021",
+        "meetID": "IC@H2021",
+        "teamID": "IC"
+    },
+    {
+        "participantID": "HH@PAR@HH2021",
+        "meetID": "PAR@HH2021",
+        "teamID": "HH"
+    },
+    {
+        "participantID": "PAR@PAR@HH2021",
+        "meetID": "PAR@HH2021",
+        "teamID": "PAR"
+    },
+    {
+        "participantID": "PAR@PL@PAR2021",
+        "meetID": "PL@PAR2021",
+        "teamID": "PAR"
+    },
+    {
+        "participantID": "PL@PL@PAR2021",
+        "meetID": "PL@PAR2021",
+        "teamID": "PL"
+    },
+    {
+        "participantID": "IC@LB@IC2021",
+        "meetID": "LB@IC2021",
+        "teamID": "IC"
+    },
+    {
+        "participantID": "LB@LB@IC2021",
+        "meetID": "LB@IC2021",
+        "teamID": "LB"
+    },
+    {
+        "participantID": "H@HH@H2021",
+        "meetID": "HH@H2021",
+        "teamID": "H"
+    },
+    {
+        "participantID": "HH@HH@H2021",
+        "meetID": "HH@H2021",
+        "teamID": "HH"
+    },
+    {
+        "participantID": "PL@HH@PL2021",
+        "meetID": "HH@PL2021",
+        "teamID": "PL"
+    },
+    {
+        "participantID": "HH@HH@PL2021",
+        "meetID": "HH@PL2021",
+        "teamID": "HH"
+    },
+    {
+        "participantID": "PAR@IC@PAR2021",
+        "meetID": "IC@PAR2021",
+        "teamID": "PAR"
+    },
+    {
+        "participantID": "IC@IC@PAR2021",
+        "meetID": "IC@PAR2021",
+        "teamID": "IC"
+    },
+    {
+        "participantID": "LB@H@LB2021",
+        "meetID": "H@LB2021",
+        "teamID": "LB"
+    },
+    {
+        "participantID": "H@H@LB2021",
+        "meetID": "H@LB2021",
+        "teamID": "H"
+    },
+    {
+        "participantID": "PL@D15RC2021",
+        "meetID": "D15RC2021",
+        "teamID": "PL"
+    },
+    {
+        "participantID": "LB@D15RC2021",
+        "meetID": "D15RC2021",
+        "teamID": "LB"
+    },
+    {
+        "participantID": "PAR@D15RC2021",
+        "meetID": "D15RC2021",
+        "teamID": "PAR"
+    },
+    {
+        "participantID": "HH@D15RC2021",
+        "meetID": "D15RC2021",
+        "teamID": "HH"
+    },
+    {
+        "participantID": "H@D15RC2021",
+        "meetID": "D15RC2021",
+        "teamID": "H"
+    },
+    {
+        "participantID": "IC@D15RC2021",
+        "meetID": "D15RC2021",
+        "teamID": "IC"
+    },
+    {
+        "participantID": "H@PL@H2021",
+        "meetID": "PL@H2021",
+        "teamID": "H"
+    },
+    {
+        "participantID": "PL@PL@H2021",
+        "meetID": "PL@H2021",
+        "teamID": "PL"
+    },
+    {
+        "participantID": "IC@HH@IC2021",
+        "meetID": "HH@IC2021",
+        "teamID": "IC"
+    },
+    {
+        "participantID": "HH@HH@IC2021",
+        "meetID": "HH@IC2021",
+        "teamID": "HH"
+    },
+    {
+        "participantID": "LB@PAR@LB2021",
+        "meetID": "PAR@LB2021",
+        "teamID": "LB"
+    },
+    {
+        "participantID": "PAR@PAR@LB2021",
+        "meetID": "PAR@LB2021",
+        "teamID": "PAR"
+    },
+    {
+        "participantID": "PL@IC@PL2021",
+        "meetID": "IC@PL2021",
+        "teamID": "PL"
+    },
+    {
+        "participantID": "IC@IC@PL2021",
+        "meetID": "IC@PL2021",
+        "teamID": "IC"
+    },
+    {
+        "participantID": "HH@LB@HH2021",
+        "meetID": "LB@HH2021",
+        "teamID": "HH"
+    },
+    {
+        "participantID": "LB@LB@HH2021",
+        "meetID": "LB@HH2021",
+        "teamID": "LB"
+    },
+    {
+        "participantID": "PAR@H@PAR2021",
+        "meetID": "H@PAR2021",
+        "teamID": "PAR"
+    },
+    {
+        "participantID": "H@H@PAR2021",
+        "meetID": "H@PAR2021",
+        "teamID": "H"
+    },
+    {
+        "participantID": "BKS@CSC@BKS2021",
+        "meetID": "CSC@BKS2021",
+        "teamID": "BKS"
+    },
+    {
+        "participantID": "CSC@CSC@BKS2021",
+        "meetID": "CSC@BKS2021",
+        "teamID": "CSC"
+    },
+    {
+        "participantID": "PV@NF@PV2021",
+        "meetID": "NF@PV2021",
+        "teamID": "PV"
+    },
+    {
+        "participantID": "NF@NF@PV2021",
+        "meetID": "NF@PV2021",
+        "teamID": "NF"
+    },
+    {
+        "participantID": "LBR@LP@LBR2021",
+        "meetID": "LP@LBR2021",
+        "teamID": "LBR"
+    },
+    {
+        "participantID": "LP@LP@LBR2021",
+        "meetID": "LP@LBR2021",
+        "teamID": "LP"
+    },
+    {
+        "participantID": "LP@BKS@LP2021",
+        "meetID": "BKS@LP2021",
+        "teamID": "LP"
+    },
+    {
+        "participantID": "BKS@BKS@LP2021",
+        "meetID": "BKS@LP2021",
+        "teamID": "BKS"
+    },
+    {
+        "participantID": "CSC@PV@CSC2021",
+        "meetID": "PV@CSC2021",
+        "teamID": "CSC"
+    },
+    {
+        "participantID": "PV@PV@CSC2021",
+        "meetID": "PV@CSC2021",
+        "teamID": "PV"
+    },
+    {
+        "participantID": "LBR@NF@LBR2021",
+        "meetID": "NF@LBR2021",
+        "teamID": "LBR"
+    },
+    {
+        "participantID": "NF@NF@LBR2021",
+        "meetID": "NF@LBR2021",
+        "teamID": "NF"
+    },
+    {
+        "participantID": "BKS@LBR@BKS2021",
+        "meetID": "LBR@BKS2021",
+        "teamID": "BKS"
+    },
+    {
+        "participantID": "LBR@LBR@BKS2021",
+        "meetID": "LBR@BKS2021",
+        "teamID": "LBR"
+    },
+    {
+        "participantID": "PV@LP@PV2021",
+        "meetID": "LP@PV2021",
+        "teamID": "PV"
+    },
+    {
+        "participantID": "LP@LP@PV2021",
+        "meetID": "LP@PV2021",
+        "teamID": "LP"
+    },
+    {
+        "participantID": "NF@CSC@NF2021",
+        "meetID": "CSC@NF2021",
+        "teamID": "NF"
+    },
+    {
+        "participantID": "CSC@CSC@NF2021",
+        "meetID": "CSC@NF2021",
+        "teamID": "CSC"
+    },
+    {
+        "participantID": "LP@D16RC2021",
+        "meetID": "D16RC2021",
+        "teamID": "LP"
+    },
+    {
+        "participantID": "BKS@D16RC2021",
+        "meetID": "D16RC2021",
+        "teamID": "BKS"
+    },
+    {
+        "participantID": "LBR@D16RC2021",
+        "meetID": "D16RC2021",
+        "teamID": "LBR"
+    },
+    {
+        "participantID": "CSC@D16RC2021",
+        "meetID": "D16RC2021",
+        "teamID": "CSC"
+    },
+    {
+        "participantID": "NF@D16RC2021",
+        "meetID": "D16RC2021",
+        "teamID": "NF"
+    },
+    {
+        "participantID": "PV@D16RC2021",
+        "meetID": "D16RC2021",
+        "teamID": "PV"
+    },
+    {
+        "participantID": "NF@BKS@NF2021",
+        "meetID": "BKS@NF2021",
+        "teamID": "NF"
+    },
+    {
+        "participantID": "BKS@BKS@NF2021",
+        "meetID": "BKS@NF2021",
+        "teamID": "BKS"
+    },
+    {
+        "participantID": "LBR@PV@LBR2021",
+        "meetID": "PV@LBR2021",
+        "teamID": "LBR"
+    },
+    {
+        "participantID": "PV@PV@LBR2021",
+        "meetID": "PV@LBR2021",
+        "teamID": "PV"
+    },
+    {
+        "participantID": "LP@CSC@LP2021",
+        "meetID": "CSC@LP2021",
+        "teamID": "LP"
+    },
+    {
+        "participantID": "CSC@CSC@LP2021",
+        "meetID": "CSC@LP2021",
+        "teamID": "CSC"
+    },
+    {
+        "participantID": "PV@BKS@PV2021",
+        "meetID": "BKS@PV2021",
+        "teamID": "PV"
+    },
+    {
+        "participantID": "BKS@BKS@PV2021",
+        "meetID": "BKS@PV2021",
+        "teamID": "BKS"
+    },
+    {
+        "participantID": "CSC@LBR@CSC2021",
+        "meetID": "LBR@CSC2021",
+        "teamID": "CSC"
+    },
+    {
+        "participantID": "LBR@LBR@CSC2021",
+        "meetID": "LBR@CSC2021",
+        "teamID": "LBR"
+    },
+    {
+        "participantID": "LP@NF@LP2021",
+        "meetID": "NF@LP2021",
+        "teamID": "LP"
+    },
+    {
+        "participantID": "NF@NF@LP2021",
+        "meetID": "NF@LP2021",
+        "teamID": "NF"
+    },
+    {
+        "participantID": "BC@PW@BC2021",
+        "meetID": "PW@BC2021",
+        "teamID": "BC"
+    },
+    {
+        "participantID": "PW@PW@BC2021",
+        "meetID": "PW@BC2021",
+        "teamID": "PW"
+    },
+    {
+        "participantID": "S@V@S2021",
+        "meetID": "V@S2021",
+        "teamID": "S"
+    },
+    {
+        "participantID": "V@V@S2021",
+        "meetID": "V@S2021",
+        "teamID": "V"
+    },
+    {
+        "participantID": "EP@NS@EP2021",
+        "meetID": "NS@EP2021",
+        "teamID": "EP"
+    },
+    {
+        "participantID": "NS@NS@EP2021",
+        "meetID": "NS@EP2021",
+        "teamID": "NS"
+    },
+    {
+        "participantID": "EP@BC@EP2021",
+        "meetID": "BC@EP2021",
+        "teamID": "EP"
+    },
+    {
+        "participantID": "BC@BC@EP2021",
+        "meetID": "BC@EP2021",
+        "teamID": "BC"
+    },
+    {
+        "participantID": "PW@V@PW2021",
+        "meetID": "V@PW2021",
+        "teamID": "PW"
+    },
+    {
+        "participantID": "V@V@PW2021",
+        "meetID": "V@PW2021",
+        "teamID": "V"
+    },
+    {
+        "participantID": "NS@S@NS2021",
+        "meetID": "S@NS2021",
+        "teamID": "NS"
+    },
+    {
+        "participantID": "S@S@NS2021",
+        "meetID": "S@NS2021",
+        "teamID": "S"
+    },
+    {
+        "participantID": "NS@BC@NS2021",
+        "meetID": "BC@NS2021",
+        "teamID": "NS"
+    },
+    {
+        "participantID": "BC@BC@NS2021",
+        "meetID": "BC@NS2021",
+        "teamID": "BC"
+    },
+    {
+        "participantID": "V@EP@V2021",
+        "meetID": "EP@V2021",
+        "teamID": "V"
+    },
+    {
+        "participantID": "EP@EP@V2021",
+        "meetID": "EP@V2021",
+        "teamID": "EP"
+    },
+    {
+        "participantID": "S@PW@S2021",
+        "meetID": "PW@S2021",
+        "teamID": "S"
+    },
+    {
+        "participantID": "PW@PW@S2021",
+        "meetID": "PW@S2021",
+        "teamID": "PW"
+    },
+    {
+        "participantID": "V@D17RC2021",
+        "meetID": "D17RC2021",
+        "teamID": "V"
+    },
+    {
+        "participantID": "BC@D17RC2021",
+        "meetID": "D17RC2021",
+        "teamID": "BC"
+    },
+    {
+        "participantID": "NS@D17RC2021",
+        "meetID": "D17RC2021",
+        "teamID": "NS"
+    },
+    {
+        "participantID": "S@D17RC2021",
+        "meetID": "D17RC2021",
+        "teamID": "S"
+    },
+    {
+        "participantID": "PW@D17RC2021",
+        "meetID": "D17RC2021",
+        "teamID": "PW"
+    },
+    {
+        "participantID": "EP@D17RC2021",
+        "meetID": "D17RC2021",
+        "teamID": "EP"
+    },
+    {
+        "participantID": "BC@S@BC2021",
+        "meetID": "S@BC2021",
+        "teamID": "BC"
+    },
+    {
+        "participantID": "S@S@BC2021",
+        "meetID": "S@BC2021",
+        "teamID": "S"
+    },
+    {
+        "participantID": "V@NS@V2021",
+        "meetID": "NS@V2021",
+        "teamID": "V"
+    },
+    {
+        "participantID": "NS@NS@V2021",
+        "meetID": "NS@V2021",
+        "teamID": "NS"
+    },
+    {
+        "participantID": "PW@EP@PW2021",
+        "meetID": "EP@PW2021",
+        "teamID": "PW"
+    },
+    {
+        "participantID": "EP@EP@PW2021",
+        "meetID": "EP@PW2021",
+        "teamID": "EP"
+    },
+    {
+        "participantID": "V@BC@V2021",
+        "meetID": "BC@V2021",
+        "teamID": "V"
+    },
+    {
+        "participantID": "BC@BC@V2021",
+        "meetID": "BC@V2021",
+        "teamID": "BC"
+    },
+    {
+        "participantID": "NS@PW@NS2021",
+        "meetID": "PW@NS2021",
+        "teamID": "NS"
+    },
+    {
+        "participantID": "PW@PW@NS2021",
+        "meetID": "PW@NS2021",
+        "teamID": "PW"
+    },
+    {
+        "participantID": "S@EP@S2021",
+        "meetID": "EP@S2021",
+        "teamID": "S"
+    },
+    {
+        "participantID": "EP@EP@S2021",
+        "meetID": "EP@S2021",
+        "teamID": "EP"
+    }
+]

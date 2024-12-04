@@ -1,0 +1,2042 @@
+[
+    {
+        "dualMeetID": "HS@CB",
+        "meetID": "HS@CB2021",
+        "homeTeamID": "CB",
+        "awayTeamID": "HS",
+        "homeTeamPoints": "282.0",
+        "awayTeamPoints": "138.0"
+    },
+    {
+        "dualMeetID": "O@DT",
+        "meetID": "O@DT2021",
+        "homeTeamID": "DT",
+        "awayTeamID": "O",
+        "homeTeamPoints": "114.0",
+        "awayTeamPoints": "306.0"
+    },
+    {
+        "dualMeetID": "DR@T",
+        "meetID": "DR@T2021",
+        "homeTeamID": "T",
+        "awayTeamID": "DR",
+        "homeTeamPoints": "250.0",
+        "awayTeamPoints": "170.0"
+    },
+    {
+        "dualMeetID": "CB@DR",
+        "meetID": "CB@DR2021",
+        "homeTeamID": "DR",
+        "awayTeamID": "CB",
+        "homeTeamPoints": "208.0",
+        "awayTeamPoints": "212.0"
+    },
+    {
+        "dualMeetID": "HS@O",
+        "meetID": "HS@O2021",
+        "homeTeamID": "O",
+        "awayTeamID": "HS",
+        "homeTeamPoints": "245.0",
+        "awayTeamPoints": "175.0"
+    },
+    {
+        "dualMeetID": "T@DT",
+        "meetID": "T@DT2021",
+        "homeTeamID": "DT",
+        "awayTeamID": "T",
+        "homeTeamPoints": "142.0",
+        "awayTeamPoints": "277.0"
+    },
+    {
+        "dualMeetID": "CB@T",
+        "meetID": "CB@T2021",
+        "homeTeamID": "T",
+        "awayTeamID": "CB",
+        "homeTeamPoints": "223.5",
+        "awayTeamPoints": "196.5"
+    },
+    {
+        "dualMeetID": "DR@O",
+        "meetID": "DR@O2021",
+        "homeTeamID": "O",
+        "awayTeamID": "DR",
+        "homeTeamPoints": "236.0",
+        "awayTeamPoints": "184.0"
+    },
+    {
+        "dualMeetID": "DT@HS",
+        "meetID": "DT@HS2021",
+        "homeTeamID": "HS",
+        "awayTeamID": "DT",
+        "homeTeamPoints": "243.0",
+        "awayTeamPoints": "176.0"
+    },
+    {
+        "dualMeetID": "CB@DT",
+        "meetID": "CB@DT2021",
+        "homeTeamID": "DT",
+        "awayTeamID": "CB",
+        "homeTeamPoints": "157.0",
+        "awayTeamPoints": "262.0"
+    },
+    {
+        "dualMeetID": "T@O",
+        "meetID": "T@O2021",
+        "homeTeamID": "O",
+        "awayTeamID": "T",
+        "homeTeamPoints": "206.0",
+        "awayTeamPoints": "214.0"
+    },
+    {
+        "dualMeetID": "DR@HS",
+        "meetID": "DR@HS2021",
+        "homeTeamID": "HS",
+        "awayTeamID": "DR",
+        "homeTeamPoints": "172.0",
+        "awayTeamPoints": "248.0"
+    },
+    {
+        "dualMeetID": "O@CB",
+        "meetID": "O@CB2021",
+        "homeTeamID": "CB",
+        "awayTeamID": "O",
+        "homeTeamPoints": "239.0",
+        "awayTeamPoints": "181.0"
+    },
+    {
+        "dualMeetID": "HS@T",
+        "meetID": "HS@T2021",
+        "homeTeamID": "T",
+        "awayTeamID": "HS",
+        "homeTeamPoints": "240.0",
+        "awayTeamPoints": "180.0"
+    },
+    {
+        "dualMeetID": "DT@DR",
+        "meetID": "DT@DR2021",
+        "homeTeamID": "DR",
+        "awayTeamID": "DT",
+        "homeTeamPoints": "292.0",
+        "awayTeamPoints": "128.0"
+    },
+    {
+        "dualMeetID": "ML@L",
+        "meetID": "ML@L2021",
+        "homeTeamID": "L",
+        "awayTeamID": "ML",
+        "homeTeamPoints": "229.0",
+        "awayTeamPoints": "191.0"
+    },
+    {
+        "dualMeetID": "CP@WC",
+        "meetID": "CP@WC2021",
+        "homeTeamID": "WC",
+        "awayTeamID": "CP",
+        "homeTeamPoints": "162.0",
+        "awayTeamPoints": "256.0"
+    },
+    {
+        "dualMeetID": "HSC@MVP",
+        "meetID": "HSC@MVP2021",
+        "homeTeamID": "MVP",
+        "awayTeamID": "HSC",
+        "homeTeamPoints": "181.0",
+        "awayTeamPoints": "239.0"
+    },
+    {
+        "dualMeetID": "MVP@ML",
+        "meetID": "MVP@ML2021",
+        "homeTeamID": "ML",
+        "awayTeamID": "MVP",
+        "homeTeamPoints": "280.0",
+        "awayTeamPoints": "140.0"
+    },
+    {
+        "dualMeetID": "WC@L",
+        "meetID": "WC@L2021",
+        "homeTeamID": "L",
+        "awayTeamID": "WC",
+        "homeTeamPoints": "260.0",
+        "awayTeamPoints": "160.0"
+    },
+    {
+        "dualMeetID": "HSC@CP",
+        "meetID": "HSC@CP2021",
+        "homeTeamID": "CP",
+        "awayTeamID": "HSC",
+        "homeTeamPoints": "229.0",
+        "awayTeamPoints": "191.0"
+    },
+    {
+        "dualMeetID": "ML@HSC",
+        "meetID": "ML@HSC2021",
+        "homeTeamID": "HSC",
+        "awayTeamID": "ML",
+        "homeTeamPoints": "205.0",
+        "awayTeamPoints": "214.0"
+    },
+    {
+        "dualMeetID": "MVP@WC",
+        "meetID": "MVP@WC2021",
+        "homeTeamID": "WC",
+        "awayTeamID": "MVP",
+        "homeTeamPoints": "244.0",
+        "awayTeamPoints": "176.0"
+    },
+    {
+        "dualMeetID": "CP@L",
+        "meetID": "CP@L2021",
+        "homeTeamID": "L",
+        "awayTeamID": "CP",
+        "homeTeamPoints": "215.0",
+        "awayTeamPoints": "205.0"
+    },
+    {
+        "dualMeetID": "ML@CP",
+        "meetID": "ML@CP2021",
+        "homeTeamID": "CP",
+        "awayTeamID": "ML",
+        "homeTeamPoints": "227.0",
+        "awayTeamPoints": "193.0"
+    },
+    {
+        "dualMeetID": "HSC@WC",
+        "meetID": "HSC@WC2021",
+        "homeTeamID": "WC",
+        "awayTeamID": "HSC",
+        "homeTeamPoints": "193.0",
+        "awayTeamPoints": "227.0"
+    },
+    {
+        "dualMeetID": "L@MVP",
+        "meetID": "L@MVP2021",
+        "homeTeamID": "MVP",
+        "awayTeamID": "L",
+        "homeTeamPoints": "135.0",
+        "awayTeamPoints": "285.0"
+    },
+    {
+        "dualMeetID": "WC@ML",
+        "meetID": "WC@ML2021",
+        "homeTeamID": "ML",
+        "awayTeamID": "WC",
+        "homeTeamPoints": "244.0",
+        "awayTeamPoints": "176.0"
+    },
+    {
+        "dualMeetID": "L@HSC",
+        "meetID": "L@HSC2021",
+        "homeTeamID": "HSC",
+        "awayTeamID": "L",
+        "homeTeamPoints": "195.0",
+        "awayTeamPoints": "225.0"
+    },
+    {
+        "dualMeetID": "MVP@CP",
+        "meetID": "MVP@CP2021",
+        "homeTeamID": "CP",
+        "awayTeamID": "MVP",
+        "homeTeamPoints": "289.0",
+        "awayTeamPoints": "131.0"
+    },
+    {
+        "dualMeetID": "HV@VW",
+        "meetID": "HV@VW2021",
+        "homeTeamID": "VW",
+        "awayTeamID": "HV",
+        "homeTeamPoints": "210.0",
+        "awayTeamPoints": "210.0"
+    },
+    {
+        "dualMeetID": "LRR@FO",
+        "meetID": "LRR@FO2021",
+        "homeTeamID": "FO",
+        "awayTeamID": "LRR",
+        "homeTeamPoints": "227.5",
+        "awayTeamPoints": "192.5"
+    },
+    {
+        "dualMeetID": "VR@HPP",
+        "meetID": "VR@HPP2021",
+        "homeTeamID": "HPP",
+        "awayTeamID": "VR",
+        "homeTeamPoints": "244.0",
+        "awayTeamPoints": "176.0"
+    },
+    {
+        "dualMeetID": "VR@HV",
+        "meetID": "VR@HV2021",
+        "homeTeamID": "HV",
+        "awayTeamID": "VR",
+        "homeTeamPoints": "239.0",
+        "awayTeamPoints": "181.0"
+    },
+    {
+        "dualMeetID": "VW@LRR",
+        "meetID": "VW@LRR2021",
+        "homeTeamID": "LRR",
+        "awayTeamID": "VW",
+        "homeTeamPoints": "218.0",
+        "awayTeamPoints": "202.0"
+    },
+    {
+        "dualMeetID": "HPP@FO",
+        "meetID": "HPP@FO2021",
+        "homeTeamID": "FO",
+        "awayTeamID": "HPP",
+        "homeTeamPoints": "248.0",
+        "awayTeamPoints": "172.0"
+    },
+    {
+        "dualMeetID": "HPP@HV",
+        "meetID": "HPP@HV2021",
+        "homeTeamID": "HV",
+        "awayTeamID": "HPP",
+        "homeTeamPoints": "203.0",
+        "awayTeamPoints": "217.0"
+    },
+    {
+        "dualMeetID": "FO@VW",
+        "meetID": "FO@VW2021",
+        "homeTeamID": "VW",
+        "awayTeamID": "FO",
+        "homeTeamPoints": "172.0",
+        "awayTeamPoints": "248.0"
+    },
+    {
+        "dualMeetID": "LRR@VR",
+        "meetID": "LRR@VR2021",
+        "homeTeamID": "VR",
+        "awayTeamID": "LRR",
+        "homeTeamPoints": "193.0",
+        "awayTeamPoints": "227.0"
+    },
+    {
+        "dualMeetID": "HV@FO",
+        "meetID": "HV@FO2021",
+        "homeTeamID": "FO",
+        "awayTeamID": "HV",
+        "homeTeamPoints": "240.0",
+        "awayTeamPoints": "170.0"
+    },
+    {
+        "dualMeetID": "HPP@LRR",
+        "meetID": "HPP@LRR2021",
+        "homeTeamID": "LRR",
+        "awayTeamID": "HPP",
+        "homeTeamPoints": "211.0",
+        "awayTeamPoints": "209.0"
+    },
+    {
+        "dualMeetID": "VR@VW",
+        "meetID": "VR@VW2021",
+        "homeTeamID": "VW",
+        "awayTeamID": "VR",
+        "homeTeamPoints": "241.0",
+        "awayTeamPoints": "178.0"
+    },
+    {
+        "dualMeetID": "LRR@HV",
+        "meetID": "LRR@HV2021",
+        "homeTeamID": "HV",
+        "awayTeamID": "LRR",
+        "homeTeamPoints": "197.0",
+        "awayTeamPoints": "223.0"
+    },
+    {
+        "dualMeetID": "VW@HPP",
+        "meetID": "VW@HPP2021",
+        "homeTeamID": "HPP",
+        "awayTeamID": "VW",
+        "homeTeamPoints": "241.0",
+        "awayTeamPoints": "179.0"
+    },
+    {
+        "dualMeetID": "FO@VR",
+        "meetID": "FO@VR2021",
+        "homeTeamID": "VR",
+        "awayTeamID": "FO",
+        "homeTeamPoints": "158.0",
+        "awayTeamPoints": "262.0"
+    },
+    {
+        "dualMeetID": "VAC@KG",
+        "meetID": "VAC@KG2021",
+        "homeTeamID": "KG",
+        "awayTeamID": "VAC",
+        "homeTeamPoints": "220.0",
+        "awayTeamPoints": "195.0"
+    },
+    {
+        "dualMeetID": "OAK@SR",
+        "meetID": "OAK@SR2021",
+        "homeTeamID": "SR",
+        "awayTeamID": "OAK",
+        "homeTeamPoints": "108.0",
+        "awayTeamPoints": "301.0"
+    },
+    {
+        "dualMeetID": "OH@CH",
+        "meetID": "OH@CH2021",
+        "homeTeamID": "CH",
+        "awayTeamID": "OH",
+        "homeTeamPoints": "233.0",
+        "awayTeamPoints": "187.0"
+    },
+    {
+        "dualMeetID": "VAC@OH",
+        "meetID": "VAC@OH2021",
+        "homeTeamID": "OH",
+        "awayTeamID": "VAC",
+        "homeTeamPoints": "192.0",
+        "awayTeamPoints": "219.0"
+    },
+    {
+        "dualMeetID": "OAK@KG",
+        "meetID": "OAK@KG2021",
+        "homeTeamID": "KG",
+        "awayTeamID": "OAK",
+        "homeTeamPoints": "214.0",
+        "awayTeamPoints": "206.0"
+    },
+    {
+        "dualMeetID": "CH@SR",
+        "meetID": "CH@SR2021",
+        "homeTeamID": "SR",
+        "awayTeamID": "CH",
+        "homeTeamPoints": "145.0",
+        "awayTeamPoints": "273.0"
+    },
+    {
+        "dualMeetID": "CH@VAC",
+        "meetID": "CH@VAC2021",
+        "homeTeamID": "VAC",
+        "awayTeamID": "CH",
+        "homeTeamPoints": "213.5",
+        "awayTeamPoints": "205.5"
+    },
+    {
+        "dualMeetID": "OH@OAK",
+        "meetID": "OH@OAK2021",
+        "homeTeamID": "OAK",
+        "awayTeamID": "OH",
+        "homeTeamPoints": "239.0",
+        "awayTeamPoints": "181.0"
+    },
+    {
+        "dualMeetID": "SR@KG",
+        "meetID": "SR@KG2021",
+        "homeTeamID": "KG",
+        "awayTeamID": "SR",
+        "homeTeamPoints": "281.0",
+        "awayTeamPoints": "137.0"
+    },
+    {
+        "dualMeetID": "VAC@SR",
+        "meetID": "VAC@SR2021",
+        "homeTeamID": "SR",
+        "awayTeamID": "VAC",
+        "homeTeamPoints": "136.0",
+        "awayTeamPoints": "280.0"
+    },
+    {
+        "dualMeetID": "CH@OAK",
+        "meetID": "CH@OAK2021",
+        "homeTeamID": "OAK",
+        "awayTeamID": "CH",
+        "homeTeamPoints": "229.5",
+        "awayTeamPoints": "190.5"
+    },
+    {
+        "dualMeetID": "KG@OH",
+        "meetID": "KG@OH2021",
+        "homeTeamID": "OH",
+        "awayTeamID": "KG",
+        "homeTeamPoints": "182.0",
+        "awayTeamPoints": "238.0"
+    },
+    {
+        "dualMeetID": "OAK@VAC",
+        "meetID": "OAK@VAC2021",
+        "homeTeamID": "VAC",
+        "awayTeamID": "OAK",
+        "homeTeamPoints": "177.0",
+        "awayTeamPoints": "243.0"
+    },
+    {
+        "dualMeetID": "KG@CH",
+        "meetID": "KG@CH2021",
+        "homeTeamID": "CH",
+        "awayTeamID": "KG",
+        "homeTeamPoints": "192.0",
+        "awayTeamPoints": "228.0"
+    },
+    {
+        "dualMeetID": "SR@OH",
+        "meetID": "SR@OH2021",
+        "homeTeamID": "OH",
+        "awayTeamID": "SR",
+        "homeTeamPoints": "270.0",
+        "awayTeamPoints": "149.0"
+    },
+    {
+        "dualMeetID": "SHR@HTM",
+        "meetID": "SHR@HTM2021",
+        "homeTeamID": "HTM",
+        "awayTeamID": "SHR",
+        "homeTeamPoints": "161.0",
+        "awayTeamPoints": "256.0"
+    },
+    {
+        "dualMeetID": "HB@OKM",
+        "meetID": "HB@OKM2021",
+        "homeTeamID": "OKM",
+        "awayTeamID": "HB",
+        "homeTeamPoints": "263.0",
+        "awayTeamPoints": "156.0"
+    },
+    {
+        "dualMeetID": "M@B",
+        "meetID": "M@B2021",
+        "homeTeamID": "B",
+        "awayTeamID": "M",
+        "homeTeamPoints": "216.0",
+        "awayTeamPoints": "199.0"
+    },
+    {
+        "dualMeetID": "HTM@B",
+        "meetID": "HTM@B2021",
+        "homeTeamID": "B",
+        "awayTeamID": "HTM",
+        "homeTeamPoints": "265.0",
+        "awayTeamPoints": "155.0"
+    },
+    {
+        "dualMeetID": "HB@SHR",
+        "meetID": "HB@SHR2021",
+        "homeTeamID": "SHR",
+        "awayTeamID": "HB",
+        "homeTeamPoints": "181.0",
+        "awayTeamPoints": "239.0"
+    },
+    {
+        "dualMeetID": "OKM@M",
+        "meetID": "OKM@M2021",
+        "homeTeamID": "M",
+        "awayTeamID": "OKM",
+        "homeTeamPoints": "171.0",
+        "awayTeamPoints": "249.0"
+    },
+    {
+        "dualMeetID": "M@HTM",
+        "meetID": "M@HTM2021",
+        "homeTeamID": "HTM",
+        "awayTeamID": "M",
+        "homeTeamPoints": "160.0",
+        "awayTeamPoints": "260.0"
+    },
+    {
+        "dualMeetID": "B@HB",
+        "meetID": "B@HB2021",
+        "homeTeamID": "HB",
+        "awayTeamID": "B",
+        "homeTeamPoints": "226.0",
+        "awayTeamPoints": "194.0"
+    },
+    {
+        "dualMeetID": "SHR@OKM",
+        "meetID": "SHR@OKM2021",
+        "homeTeamID": "OKM",
+        "awayTeamID": "SHR",
+        "homeTeamPoints": "262.0",
+        "awayTeamPoints": "158.0"
+    },
+    {
+        "dualMeetID": "HTM@OKM",
+        "meetID": "HTM@OKM2021",
+        "homeTeamID": "OKM",
+        "awayTeamID": "HTM",
+        "homeTeamPoints": "289.0",
+        "awayTeamPoints": "126.0"
+    },
+    {
+        "dualMeetID": "M@HB",
+        "meetID": "M@HB2021",
+        "homeTeamID": "HB",
+        "awayTeamID": "M",
+        "homeTeamPoints": "191.0",
+        "awayTeamPoints": "229.0"
+    },
+    {
+        "dualMeetID": "B@SHR",
+        "meetID": "B@SHR2021",
+        "homeTeamID": "SHR",
+        "awayTeamID": "B",
+        "homeTeamPoints": "218.0",
+        "awayTeamPoints": "202.0"
+    },
+    {
+        "dualMeetID": "HTM@HB",
+        "meetID": "HTM@HB2021",
+        "homeTeamID": "HB",
+        "awayTeamID": "HTM",
+        "homeTeamPoints": "248.0",
+        "awayTeamPoints": "172.0"
+    },
+    {
+        "dualMeetID": "SHR@M",
+        "meetID": "SHR@M2021",
+        "homeTeamID": "M",
+        "awayTeamID": "SHR",
+        "homeTeamPoints": "251.0",
+        "awayTeamPoints": "164.0"
+    },
+    {
+        "dualMeetID": "OKM@B",
+        "meetID": "OKM@B2021",
+        "homeTeamID": "B",
+        "awayTeamID": "OKM",
+        "homeTeamPoints": "164.0",
+        "awayTeamPoints": "256.0"
+    },
+    {
+        "dualMeetID": "LG@LV",
+        "meetID": "LG@LV2021",
+        "homeTeamID": "LV",
+        "awayTeamID": "LG",
+        "homeTeamPoints": "198.0",
+        "awayTeamPoints": "208.0"
+    },
+    {
+        "dualMeetID": "WG@VH",
+        "meetID": "WG@VH2021",
+        "homeTeamID": "VH",
+        "awayTeamID": "WG",
+        "homeTeamPoints": "280.0",
+        "awayTeamPoints": "129.0"
+    },
+    {
+        "dualMeetID": "FCE@CCH",
+        "meetID": "FCE@CCH2021",
+        "homeTeamID": "CCH",
+        "awayTeamID": "FCE",
+        "homeTeamPoints": "203.0",
+        "awayTeamPoints": "193.0"
+    },
+    {
+        "dualMeetID": "FCE@LG",
+        "meetID": "FCE@LG2021",
+        "homeTeamID": "LG",
+        "awayTeamID": "FCE",
+        "homeTeamPoints": "239.0",
+        "awayTeamPoints": "177.0"
+    },
+    {
+        "dualMeetID": "LV@WG",
+        "meetID": "LV@WG2021",
+        "homeTeamID": "WG",
+        "awayTeamID": "LV",
+        "homeTeamPoints": "177.0",
+        "awayTeamPoints": "237.0"
+    },
+    {
+        "dualMeetID": "CCH@VH",
+        "meetID": "CCH@VH2021",
+        "homeTeamID": "VH",
+        "awayTeamID": "CCH",
+        "homeTeamPoints": "257.0",
+        "awayTeamPoints": "163.0"
+    },
+    {
+        "dualMeetID": "CCH@LG",
+        "meetID": "CCH@LG2021",
+        "homeTeamID": "LG",
+        "awayTeamID": "CCH",
+        "homeTeamPoints": "251.0",
+        "awayTeamPoints": "168.0"
+    },
+    {
+        "dualMeetID": "WG@FCE",
+        "meetID": "WG@FCE2021",
+        "homeTeamID": "FCE",
+        "awayTeamID": "WG",
+        "homeTeamPoints": "194.0",
+        "awayTeamPoints": "219.0"
+    },
+    {
+        "dualMeetID": "LV@VH",
+        "meetID": "LV@VH2021",
+        "homeTeamID": "VH",
+        "awayTeamID": "LV",
+        "homeTeamPoints": "232.5",
+        "awayTeamPoints": "186.5"
+    },
+    {
+        "dualMeetID": "VH@LG",
+        "meetID": "VH@LG2021",
+        "homeTeamID": "LG",
+        "awayTeamID": "VH",
+        "homeTeamPoints": "230.0",
+        "awayTeamPoints": "190.0"
+    },
+    {
+        "dualMeetID": "WG@CCH",
+        "meetID": "WG@CCH2021",
+        "homeTeamID": "CCH",
+        "awayTeamID": "WG",
+        "homeTeamPoints": "219.0",
+        "awayTeamPoints": "201.0"
+    },
+    {
+        "dualMeetID": "FCE@LV",
+        "meetID": "FCE@LV2021",
+        "homeTeamID": "LV",
+        "awayTeamID": "FCE",
+        "homeTeamPoints": "238.0",
+        "awayTeamPoints": "182.0"
+    },
+    {
+        "dualMeetID": "LG@WG",
+        "meetID": "LG@WG2021",
+        "homeTeamID": "WG",
+        "awayTeamID": "LG",
+        "homeTeamPoints": "143.5",
+        "awayTeamPoints": "276.5"
+    },
+    {
+        "dualMeetID": "LV@CCH",
+        "meetID": "LV@CCH2021",
+        "homeTeamID": "CCH",
+        "awayTeamID": "LV",
+        "homeTeamPoints": "227.0",
+        "awayTeamPoints": "193.0"
+    },
+    {
+        "dualMeetID": "VH@FCE",
+        "meetID": "VH@FCE2021",
+        "homeTeamID": "FCE",
+        "awayTeamID": "VH",
+        "homeTeamPoints": "179.0",
+        "awayTeamPoints": "241.0"
+    },
+    {
+        "dualMeetID": "LE@R",
+        "meetID": "LE@R2021",
+        "homeTeamID": "R",
+        "awayTeamID": "LE",
+        "homeTeamPoints": "232.0",
+        "awayTeamPoints": "186.0"
+    },
+    {
+        "dualMeetID": "UNK",
+        "meetID": "UNKNOWN",
+        "homeTeamID": "SHB",
+        "awayTeamID": "PC",
+        "homeTeamPoints": "207.5",
+        "awayTeamPoints": "211.5"
+    },
+    {
+        "dualMeetID": "VA@WW",
+        "meetID": "VA@WW2021",
+        "homeTeamID": "WW",
+        "awayTeamID": "VA",
+        "homeTeamPoints": "255.5",
+        "awayTeamPoints": "158.5"
+    },
+    {
+        "dualMeetID": "R@WW",
+        "meetID": "R@WW2021",
+        "homeTeamID": "WW",
+        "awayTeamID": "R",
+        "homeTeamPoints": "224.0",
+        "awayTeamPoints": "196.0"
+    },
+    {
+        "dualMeetID": "PC@LE",
+        "meetID": "PC@LE2021",
+        "homeTeamID": "LE",
+        "awayTeamID": "PC",
+        "homeTeamPoints": "195.0",
+        "awayTeamPoints": "221.0"
+    },
+    {
+        "dualMeetID": "UNK",
+        "meetID": "UNKNOWN",
+        "homeTeamID": "VA",
+        "awayTeamID": "SHB",
+        "homeTeamPoints": "181.0",
+        "awayTeamPoints": "237.0"
+    },
+    {
+        "dualMeetID": "VA@R",
+        "meetID": "VA@R2021",
+        "homeTeamID": "R",
+        "awayTeamID": "VA",
+        "homeTeamPoints": "230.0",
+        "awayTeamPoints": "190.0"
+    },
+    {
+        "dualMeetID": "WW@PC",
+        "meetID": "WW@PC2021",
+        "homeTeamID": "PC",
+        "awayTeamID": "WW",
+        "homeTeamPoints": "233.0",
+        "awayTeamPoints": "183.0"
+    },
+    {
+        "dualMeetID": "UNK",
+        "meetID": "UNKNOWN",
+        "homeTeamID": "LE",
+        "awayTeamID": "SHB",
+        "homeTeamPoints": "219.0",
+        "awayTeamPoints": "201.0"
+    },
+    {
+        "dualMeetID": "UNK",
+        "meetID": "UNKNOWN",
+        "homeTeamID": "R",
+        "awayTeamID": "SHB",
+        "homeTeamPoints": "227.0",
+        "awayTeamPoints": "193.0"
+    },
+    {
+        "dualMeetID": "PC@VA",
+        "meetID": "PC@VA2021",
+        "homeTeamID": "VA",
+        "awayTeamID": "PC",
+        "homeTeamPoints": "174.0",
+        "awayTeamPoints": "239.0"
+    },
+    {
+        "dualMeetID": "LE@WW",
+        "meetID": "LE@WW2021",
+        "homeTeamID": "WW",
+        "awayTeamID": "LE",
+        "homeTeamPoints": "195.0",
+        "awayTeamPoints": "225.0"
+    },
+    {
+        "dualMeetID": "R@PC",
+        "meetID": "R@PC2021",
+        "homeTeamID": "PC",
+        "awayTeamID": "R",
+        "homeTeamPoints": "243.0",
+        "awayTeamPoints": "177.0"
+    },
+    {
+        "dualMeetID": "VA@LE",
+        "meetID": "VA@LE2021",
+        "homeTeamID": "LE",
+        "awayTeamID": "VA",
+        "homeTeamPoints": "234.5",
+        "awayTeamPoints": "185.5"
+    },
+    {
+        "dualMeetID": "UNK",
+        "meetID": "UNKNOWN",
+        "homeTeamID": "SHB",
+        "awayTeamID": "WW",
+        "homeTeamPoints": "179.0",
+        "awayTeamPoints": "240.0"
+    },
+    {
+        "dualMeetID": "FMW@G",
+        "meetID": "FMW@G2021",
+        "homeTeamID": "G",
+        "awayTeamID": "FMW",
+        "homeTeamPoints": "260.0",
+        "awayTeamPoints": "149.0"
+    },
+    {
+        "dualMeetID": "SS@DL",
+        "meetID": "SS@DL2021",
+        "homeTeamID": "DL",
+        "awayTeamID": "SS",
+        "homeTeamPoints": "222.0",
+        "awayTeamPoints": "189.0"
+    },
+    {
+        "dualMeetID": "HM@DH",
+        "meetID": "HM@DH2021",
+        "homeTeamID": "DH",
+        "awayTeamID": "HM",
+        "homeTeamPoints": "248.0",
+        "awayTeamPoints": "166.0"
+    },
+    {
+        "dualMeetID": "G@HM",
+        "meetID": "G@HM2021",
+        "homeTeamID": "HM",
+        "awayTeamID": "G",
+        "homeTeamPoints": "187.0",
+        "awayTeamPoints": "232.0"
+    },
+    {
+        "dualMeetID": "DL@FMW",
+        "meetID": "DL@FMW2021",
+        "homeTeamID": "FMW",
+        "awayTeamID": "DL",
+        "homeTeamPoints": "105.0",
+        "awayTeamPoints": "310.0"
+    },
+    {
+        "dualMeetID": "DH@SS",
+        "meetID": "DH@SS2021",
+        "homeTeamID": "SS",
+        "awayTeamID": "DH",
+        "homeTeamPoints": "192.5",
+        "awayTeamPoints": "222.5"
+    },
+    {
+        "dualMeetID": "G@DH",
+        "meetID": "G@DH2021",
+        "homeTeamID": "DH",
+        "awayTeamID": "G",
+        "homeTeamPoints": "247.0",
+        "awayTeamPoints": "173.0"
+    },
+    {
+        "dualMeetID": "DL@HM",
+        "meetID": "DL@HM2021",
+        "homeTeamID": "HM",
+        "awayTeamID": "DL",
+        "homeTeamPoints": "165.0",
+        "awayTeamPoints": "255.0"
+    },
+    {
+        "dualMeetID": "FMW@SS",
+        "meetID": "FMW@SS2021",
+        "homeTeamID": "SS",
+        "awayTeamID": "FMW",
+        "homeTeamPoints": "276.0",
+        "awayTeamPoints": "132.0"
+    },
+    {
+        "dualMeetID": "SS@G",
+        "meetID": "SS@G2021",
+        "homeTeamID": "G",
+        "awayTeamID": "SS",
+        "homeTeamPoints": "223.0",
+        "awayTeamPoints": "196.0"
+    },
+    {
+        "dualMeetID": "DH@DL",
+        "meetID": "DH@DL2021",
+        "homeTeamID": "DL",
+        "awayTeamID": "DH",
+        "homeTeamPoints": "218.0",
+        "awayTeamPoints": "202.0"
+    },
+    {
+        "dualMeetID": "HM@FMW",
+        "meetID": "HM@FMW2021",
+        "homeTeamID": "FMW",
+        "awayTeamID": "HM",
+        "homeTeamPoints": "188.0",
+        "awayTeamPoints": "231.0"
+    },
+    {
+        "dualMeetID": "G@DL",
+        "meetID": "G@DL2021",
+        "homeTeamID": "DL",
+        "awayTeamID": "G",
+        "homeTeamPoints": "245.0",
+        "awayTeamPoints": "170.0"
+    },
+    {
+        "dualMeetID": "FMW@DH",
+        "meetID": "FMW@DH2021",
+        "homeTeamID": "DH",
+        "awayTeamID": "FMW",
+        "homeTeamPoints": "285.0",
+        "awayTeamPoints": "135.0"
+    },
+    {
+        "dualMeetID": "SS@HM",
+        "meetID": "SS@HM2021",
+        "homeTeamID": "HM",
+        "awayTeamID": "SS",
+        "homeTeamPoints": "210.0",
+        "awayTeamPoints": "207.0"
+    },
+    {
+        "dualMeetID": "GF@MW",
+        "meetID": "GF@MW2021",
+        "homeTeamID": "MW",
+        "awayTeamID": "GF",
+        "homeTeamPoints": "208.0",
+        "awayTeamPoints": "207.0"
+    },
+    {
+        "dualMeetID": "LHP@AF",
+        "meetID": "LHP@AF2021",
+        "homeTeamID": "AF",
+        "awayTeamID": "LHP",
+        "homeTeamPoints": "151.0",
+        "awayTeamPoints": "269.0"
+    },
+    {
+        "dualMeetID": "SOR@FS",
+        "meetID": "SOR@FS2021",
+        "homeTeamID": "FS",
+        "awayTeamID": "SOR",
+        "homeTeamPoints": "202.0",
+        "awayTeamPoints": "213.0"
+    },
+    {
+        "dualMeetID": "MW@SOR",
+        "meetID": "MW@SOR2021",
+        "homeTeamID": "SOR",
+        "awayTeamID": "MW",
+        "homeTeamPoints": "254.0",
+        "awayTeamPoints": "166.0"
+    },
+    {
+        "dualMeetID": "AF@GF",
+        "meetID": "AF@GF2021",
+        "homeTeamID": "GF",
+        "awayTeamID": "AF",
+        "homeTeamPoints": "214.0",
+        "awayTeamPoints": "206.0"
+    },
+    {
+        "dualMeetID": "FS@LHP",
+        "meetID": "FS@LHP2021",
+        "homeTeamID": "LHP",
+        "awayTeamID": "FS",
+        "homeTeamPoints": "213.0",
+        "awayTeamPoints": "206.0"
+    },
+    {
+        "dualMeetID": "MW@FS",
+        "meetID": "MW@FS2021",
+        "homeTeamID": "FS",
+        "awayTeamID": "MW",
+        "homeTeamPoints": "285.0",
+        "awayTeamPoints": "135.0"
+    },
+    {
+        "dualMeetID": "SOR@AF",
+        "meetID": "SOR@AF2021",
+        "homeTeamID": "AF",
+        "awayTeamID": "SOR",
+        "homeTeamPoints": "198.0",
+        "awayTeamPoints": "222.0"
+    },
+    {
+        "dualMeetID": "GF@LHP",
+        "meetID": "GF@LHP2021",
+        "homeTeamID": "LHP",
+        "awayTeamID": "GF",
+        "homeTeamPoints": "263.0",
+        "awayTeamPoints": "157.0"
+    },
+    {
+        "dualMeetID": "MW@LHP",
+        "meetID": "MW@LHP2021",
+        "homeTeamID": "LHP",
+        "awayTeamID": "MW",
+        "homeTeamPoints": "276.0",
+        "awayTeamPoints": "144.0"
+    },
+    {
+        "dualMeetID": "FS@AF",
+        "meetID": "FS@AF2021",
+        "homeTeamID": "AF",
+        "awayTeamID": "FS",
+        "homeTeamPoints": "189.0",
+        "awayTeamPoints": "226.0"
+    },
+    {
+        "dualMeetID": "GF@SOR",
+        "meetID": "GF@SOR2021",
+        "homeTeamID": "SOR",
+        "awayTeamID": "GF",
+        "homeTeamPoints": "228.0",
+        "awayTeamPoints": "188.0"
+    },
+    {
+        "dualMeetID": "AF@MW",
+        "meetID": "AF@MW2021",
+        "homeTeamID": "MW",
+        "awayTeamID": "AF",
+        "homeTeamPoints": "150.0",
+        "awayTeamPoints": "270.0"
+    },
+    {
+        "dualMeetID": "FS@GF",
+        "meetID": "FS@GF2021",
+        "homeTeamID": "GF",
+        "awayTeamID": "FS",
+        "homeTeamPoints": "164.0",
+        "awayTeamPoints": "256.0"
+    },
+    {
+        "dualMeetID": "LHP@SOR",
+        "meetID": "LHP@SOR2021",
+        "homeTeamID": "SOR",
+        "awayTeamID": "LHP",
+        "homeTeamPoints": "205.0",
+        "awayTeamPoints": "215.0"
+    },
+    {
+        "dualMeetID": "F@RFD",
+        "meetID": "F@RFD2021",
+        "homeTeamID": "RFD",
+        "awayTeamID": "F",
+        "homeTeamPoints": "199.0",
+        "awayTeamPoints": "216.0"
+    },
+    {
+        "dualMeetID": "CCC@FME",
+        "meetID": "CCC@FME2021",
+        "homeTeamID": "FME",
+        "awayTeamID": "CCC",
+        "homeTeamPoints": "190.0",
+        "awayTeamPoints": "216.0"
+    },
+    {
+        "dualMeetID": "SB@RG",
+        "meetID": "SB@RG2021",
+        "homeTeamID": "RG",
+        "awayTeamID": "SB",
+        "homeTeamPoints": "162.0",
+        "awayTeamPoints": "245.0"
+    },
+    {
+        "dualMeetID": "SB@F",
+        "meetID": "SB@F2021",
+        "homeTeamID": "F",
+        "awayTeamID": "SB",
+        "homeTeamPoints": "199.0",
+        "awayTeamPoints": "217.0"
+    },
+    {
+        "dualMeetID": "RFD@CCC",
+        "meetID": "RFD@CCC2021",
+        "homeTeamID": "CCC",
+        "awayTeamID": "RFD",
+        "homeTeamPoints": "212.0",
+        "awayTeamPoints": "200.0"
+    },
+    {
+        "dualMeetID": "FME@RG",
+        "meetID": "FME@RG2021",
+        "homeTeamID": "RG",
+        "awayTeamID": "FME",
+        "homeTeamPoints": "261.0",
+        "awayTeamPoints": "158.0"
+    },
+    {
+        "dualMeetID": "RG@F",
+        "meetID": "RG@F2021",
+        "homeTeamID": "F",
+        "awayTeamID": "RG",
+        "homeTeamPoints": "243.0",
+        "awayTeamPoints": "177.0"
+    },
+    {
+        "dualMeetID": "CCC@SB",
+        "meetID": "CCC@SB2021",
+        "homeTeamID": "SB",
+        "awayTeamID": "CCC",
+        "homeTeamPoints": "264.0",
+        "awayTeamPoints": "156.0"
+    },
+    {
+        "dualMeetID": "RFD@FME",
+        "meetID": "RFD@FME2021",
+        "homeTeamID": "FME",
+        "awayTeamID": "RFD",
+        "homeTeamPoints": "186.0",
+        "awayTeamPoints": "214.0"
+    },
+    {
+        "dualMeetID": "FME@F",
+        "meetID": "FME@F2021",
+        "homeTeamID": "F",
+        "awayTeamID": "FME",
+        "homeTeamPoints": "260.0",
+        "awayTeamPoints": "159.0"
+    },
+    {
+        "dualMeetID": "CCC@RG",
+        "meetID": "CCC@RG2021",
+        "homeTeamID": "RG",
+        "awayTeamID": "CCC",
+        "homeTeamPoints": "212.0",
+        "awayTeamPoints": "208.0"
+    },
+    {
+        "dualMeetID": "RFD@SB",
+        "meetID": "RFD@SB2021",
+        "homeTeamID": "SB",
+        "awayTeamID": "RFD",
+        "homeTeamPoints": "260.0",
+        "awayTeamPoints": "156.0"
+    },
+    {
+        "dualMeetID": "F@CCC",
+        "meetID": "F@CCC2021",
+        "homeTeamID": "CCC",
+        "awayTeamID": "F",
+        "homeTeamPoints": "194.0",
+        "awayTeamPoints": "226.0"
+    },
+    {
+        "dualMeetID": "RG@RFD",
+        "meetID": "RG@RFD2021",
+        "homeTeamID": "RFD",
+        "awayTeamID": "RG",
+        "homeTeamPoints": "184.0",
+        "awayTeamPoints": "230.0"
+    },
+    {
+        "dualMeetID": "SB@FME",
+        "meetID": "SB@FME2021",
+        "homeTeamID": "FME",
+        "awayTeamID": "SB",
+        "homeTeamPoints": "155.5",
+        "awayTeamPoints": "260.5"
+    },
+    {
+        "dualMeetID": "SOC@BF",
+        "meetID": "SOC@BF2021",
+        "homeTeamID": "BF",
+        "awayTeamID": "SOC",
+        "homeTeamPoints": "216.0",
+        "awayTeamPoints": "192.0"
+    },
+    {
+        "dualMeetID": "HP@SRA",
+        "meetID": "HP@SRA2021",
+        "homeTeamID": "SRA",
+        "awayTeamID": "HP",
+        "homeTeamPoints": "164.0",
+        "awayTeamPoints": "250.0"
+    },
+    {
+        "dualMeetID": "CW@PH",
+        "meetID": "CW@PH2021",
+        "homeTeamID": "PH",
+        "awayTeamID": "CW",
+        "homeTeamPoints": "184.0",
+        "awayTeamPoints": "231.0"
+    },
+    {
+        "dualMeetID": "SOC@CW",
+        "meetID": "SOC@CW2021",
+        "homeTeamID": "CW",
+        "awayTeamID": "SOC",
+        "homeTeamPoints": "257.5",
+        "awayTeamPoints": "159.5"
+    },
+    {
+        "dualMeetID": "BF@HP",
+        "meetID": "BF@HP2021",
+        "homeTeamID": "HP",
+        "awayTeamID": "BF",
+        "homeTeamPoints": "231.0",
+        "awayTeamPoints": "185.0"
+    },
+    {
+        "dualMeetID": "SRA@PH",
+        "meetID": "SRA@PH2021",
+        "homeTeamID": "PH",
+        "awayTeamID": "SRA",
+        "homeTeamPoints": "250.0",
+        "awayTeamPoints": "170.0"
+    },
+    {
+        "dualMeetID": "PH@SOC",
+        "meetID": "PH@SOC2021",
+        "homeTeamID": "SOC",
+        "awayTeamID": "PH",
+        "homeTeamPoints": "188.5",
+        "awayTeamPoints": "226.5"
+    },
+    {
+        "dualMeetID": "CW@HP",
+        "meetID": "CW@HP2021",
+        "homeTeamID": "HP",
+        "awayTeamID": "CW",
+        "homeTeamPoints": "133.0",
+        "awayTeamPoints": "278.0"
+    },
+    {
+        "dualMeetID": "BF@SRA",
+        "meetID": "BF@SRA2021",
+        "homeTeamID": "SRA",
+        "awayTeamID": "BF",
+        "homeTeamPoints": "228.5",
+        "awayTeamPoints": "190.5"
+    },
+    {
+        "dualMeetID": "SOC@SRA",
+        "meetID": "SOC@SRA2021",
+        "homeTeamID": "SRA",
+        "awayTeamID": "SOC",
+        "homeTeamPoints": "231.5",
+        "awayTeamPoints": "188.5"
+    },
+    {
+        "dualMeetID": "PH@HP",
+        "meetID": "PH@HP2021",
+        "homeTeamID": "HP",
+        "awayTeamID": "PH",
+        "homeTeamPoints": "212.5",
+        "awayTeamPoints": "207.5"
+    },
+    {
+        "dualMeetID": "CW@BF",
+        "meetID": "CW@BF2021",
+        "homeTeamID": "BF",
+        "awayTeamID": "CW",
+        "homeTeamPoints": "145.0",
+        "awayTeamPoints": "275.0"
+    },
+    {
+        "dualMeetID": "HP@SOC",
+        "meetID": "HP@SOC2021",
+        "homeTeamID": "SOC",
+        "awayTeamID": "HP",
+        "homeTeamPoints": "192.0",
+        "awayTeamPoints": "228.0"
+    },
+    {
+        "dualMeetID": "PH@BF",
+        "meetID": "PH@BF2021",
+        "homeTeamID": "BF",
+        "awayTeamID": "PH",
+        "homeTeamPoints": "168.0",
+        "awayTeamPoints": "252.0"
+    },
+    {
+        "dualMeetID": "SRA@CW",
+        "meetID": "SRA@CW2021",
+        "homeTeamID": "CW",
+        "awayTeamID": "SRA",
+        "homeTeamPoints": "249.0",
+        "awayTeamPoints": "170.0"
+    },
+    {
+        "dualMeetID": "A@RH",
+        "meetID": "A@RH2021",
+        "homeTeamID": "RH",
+        "awayTeamID": "A",
+        "homeTeamPoints": "260.0",
+        "awayTeamPoints": "150.0"
+    },
+    {
+        "dualMeetID": "THA@HRA",
+        "meetID": "THA@HRA2021",
+        "homeTeamID": "HRA",
+        "awayTeamID": "THA",
+        "homeTeamPoints": "213.0",
+        "awayTeamPoints": "189.0"
+    },
+    {
+        "dualMeetID": "RF@HF",
+        "meetID": "RF@HF2021",
+        "homeTeamID": "HF",
+        "awayTeamID": "RF",
+        "homeTeamPoints": "192.0",
+        "awayTeamPoints": "226.0"
+    },
+    {
+        "dualMeetID": "A@RF",
+        "meetID": "A@RF2021",
+        "homeTeamID": "RF",
+        "awayTeamID": "A",
+        "homeTeamPoints": "246.0",
+        "awayTeamPoints": "164.0"
+    },
+    {
+        "dualMeetID": "THA@RH",
+        "meetID": "THA@RH2021",
+        "homeTeamID": "RH",
+        "awayTeamID": "THA",
+        "homeTeamPoints": "265.0",
+        "awayTeamPoints": "144.0"
+    },
+    {
+        "dualMeetID": "HF@HRA",
+        "meetID": "HF@HRA2021",
+        "homeTeamID": "HRA",
+        "awayTeamID": "HF",
+        "homeTeamPoints": "219.0",
+        "awayTeamPoints": "191.0"
+    },
+    {
+        "dualMeetID": "A@HF",
+        "meetID": "A@HF2021",
+        "homeTeamID": "HF",
+        "awayTeamID": "A",
+        "homeTeamPoints": "246.0",
+        "awayTeamPoints": "170.0"
+    },
+    {
+        "dualMeetID": "RF@THA",
+        "meetID": "RF@THA2021",
+        "homeTeamID": "THA",
+        "awayTeamID": "RF",
+        "homeTeamPoints": "223.0",
+        "awayTeamPoints": "193.0"
+    },
+    {
+        "dualMeetID": "RH@HRA",
+        "meetID": "RH@HRA2021",
+        "homeTeamID": "HRA",
+        "awayTeamID": "RH",
+        "homeTeamPoints": "182.0",
+        "awayTeamPoints": "228.0"
+    },
+    {
+        "dualMeetID": "HRA@A",
+        "meetID": "HRA@A2021",
+        "homeTeamID": "A",
+        "awayTeamID": "HRA",
+        "homeTeamPoints": "212.0",
+        "awayTeamPoints": "198.0"
+    },
+    {
+        "dualMeetID": "HF@THA",
+        "meetID": "HF@THA2021",
+        "homeTeamID": "THA",
+        "awayTeamID": "HF",
+        "homeTeamPoints": "209.0",
+        "awayTeamPoints": "211.0"
+    },
+    {
+        "dualMeetID": "RF@RH",
+        "meetID": "RF@RH2021",
+        "homeTeamID": "RH",
+        "awayTeamID": "RF",
+        "homeTeamPoints": "247.5",
+        "awayTeamPoints": "172.5"
+    },
+    {
+        "dualMeetID": "THA@A",
+        "meetID": "THA@A2021",
+        "homeTeamID": "A",
+        "awayTeamID": "THA",
+        "homeTeamPoints": "190.0",
+        "awayTeamPoints": "225.0"
+    },
+    {
+        "dualMeetID": "RH@HF",
+        "meetID": "RH@HF2021",
+        "homeTeamID": "HF",
+        "awayTeamID": "RH",
+        "homeTeamPoints": "179.0",
+        "awayTeamPoints": "240.0"
+    },
+    {
+        "dualMeetID": "HRA@RF",
+        "meetID": "HRA@RF2021",
+        "homeTeamID": "RF",
+        "awayTeamID": "HRA",
+        "homeTeamPoints": "247.0",
+        "awayTeamPoints": "169.0"
+    },
+    {
+        "dualMeetID": "FH@CT",
+        "meetID": "FH@CT2021",
+        "homeTeamID": "CT",
+        "awayTeamID": "FH",
+        "homeTeamPoints": "264.0",
+        "awayTeamPoints": "155.0"
+    },
+    {
+        "dualMeetID": "SV@MHC",
+        "meetID": "SV@MHC2021",
+        "homeTeamID": "MHC",
+        "awayTeamID": "SV",
+        "homeTeamPoints": "235.0",
+        "awayTeamPoints": "179.0"
+    },
+    {
+        "dualMeetID": "DV@KR",
+        "meetID": "DV@KR2021",
+        "homeTeamID": "KR",
+        "awayTeamID": "DV",
+        "homeTeamPoints": "170.0",
+        "awayTeamPoints": "245.0"
+    },
+    {
+        "dualMeetID": "CT@DV",
+        "meetID": "CT@DV2021",
+        "homeTeamID": "DV",
+        "awayTeamID": "CT",
+        "homeTeamPoints": "181.5",
+        "awayTeamPoints": "237.5"
+    },
+    {
+        "dualMeetID": "MHC@FH",
+        "meetID": "MHC@FH2021",
+        "homeTeamID": "FH",
+        "awayTeamID": "MHC",
+        "homeTeamPoints": "212.0",
+        "awayTeamPoints": "205.0"
+    },
+    {
+        "dualMeetID": "SV@KR",
+        "meetID": "SV@KR2021",
+        "homeTeamID": "KR",
+        "awayTeamID": "SV",
+        "homeTeamPoints": "155.0",
+        "awayTeamPoints": "256.0"
+    },
+    {
+        "dualMeetID": "CT@KR",
+        "meetID": "CT@KR2021",
+        "homeTeamID": "KR",
+        "awayTeamID": "CT",
+        "homeTeamPoints": "120.0",
+        "awayTeamPoints": "299.0"
+    },
+    {
+        "dualMeetID": "MHC@DV",
+        "meetID": "MHC@DV2021",
+        "homeTeamID": "DV",
+        "awayTeamID": "MHC",
+        "homeTeamPoints": "233.0",
+        "awayTeamPoints": "186.0"
+    },
+    {
+        "dualMeetID": "FH@SV",
+        "meetID": "FH@SV2021",
+        "homeTeamID": "SV",
+        "awayTeamID": "FH",
+        "homeTeamPoints": "208.0",
+        "awayTeamPoints": "211.0"
+    },
+    {
+        "dualMeetID": "SV@CT",
+        "meetID": "SV@CT2021",
+        "homeTeamID": "CT",
+        "awayTeamID": "SV",
+        "homeTeamPoints": "258.0",
+        "awayTeamPoints": "161.0"
+    },
+    {
+        "dualMeetID": "KR@MHC",
+        "meetID": "KR@MHC2021",
+        "homeTeamID": "MHC",
+        "awayTeamID": "KR",
+        "homeTeamPoints": "239.5",
+        "awayTeamPoints": "180.5"
+    },
+    {
+        "dualMeetID": "FH@DV",
+        "meetID": "FH@DV2021",
+        "homeTeamID": "DV",
+        "awayTeamID": "FH",
+        "homeTeamPoints": "194.0",
+        "awayTeamPoints": "225.0"
+    },
+    {
+        "dualMeetID": "MHC@CT",
+        "meetID": "MHC@CT2021",
+        "homeTeamID": "CT",
+        "awayTeamID": "MHC",
+        "homeTeamPoints": "269.0",
+        "awayTeamPoints": "151.0"
+    },
+    {
+        "dualMeetID": "KR@FH",
+        "meetID": "KR@FH2021",
+        "homeTeamID": "FH",
+        "awayTeamID": "KR",
+        "homeTeamPoints": "246.0",
+        "awayTeamPoints": "174.0"
+    },
+    {
+        "dualMeetID": "DV@SV",
+        "meetID": "DV@SV2021",
+        "homeTeamID": "SV",
+        "awayTeamID": "DV",
+        "homeTeamPoints": "200.0",
+        "awayTeamPoints": "220.0"
+    },
+    {
+        "dualMeetID": "PT@SS2",
+        "meetID": "PT@SS22021",
+        "homeTeamID": "SS2",
+        "awayTeamID": "PT",
+        "homeTeamPoints": "176.0",
+        "awayTeamPoints": "224.0"
+    },
+    {
+        "dualMeetID": "RV@LH",
+        "meetID": "RV@LH2021",
+        "homeTeamID": "LH",
+        "awayTeamID": "RV",
+        "homeTeamPoints": "161.0",
+        "awayTeamPoints": "238.0"
+    },
+    {
+        "dualMeetID": "FX@W",
+        "meetID": "FX@W2021",
+        "homeTeamID": "W",
+        "awayTeamID": "FX",
+        "homeTeamPoints": "191.0",
+        "awayTeamPoints": "220.0"
+    },
+    {
+        "dualMeetID": "W@PT",
+        "meetID": "W@PT2021",
+        "homeTeamID": "PT",
+        "awayTeamID": "W",
+        "homeTeamPoints": "210.0",
+        "awayTeamPoints": "196.0"
+    },
+    {
+        "dualMeetID": "SS2@LH",
+        "meetID": "SS2@LH2021",
+        "homeTeamID": "LH",
+        "awayTeamID": "SS2",
+        "homeTeamPoints": "199.0",
+        "awayTeamPoints": "194.0"
+    },
+    {
+        "dualMeetID": "RV@FX",
+        "meetID": "RV@FX2021",
+        "homeTeamID": "FX",
+        "awayTeamID": "RV",
+        "homeTeamPoints": "228.0",
+        "awayTeamPoints": "188.0"
+    },
+    {
+        "dualMeetID": "FX@PT",
+        "meetID": "FX@PT2021",
+        "homeTeamID": "PT",
+        "awayTeamID": "FX",
+        "homeTeamPoints": "219.0",
+        "awayTeamPoints": "201.0"
+    },
+    {
+        "dualMeetID": "LH@W",
+        "meetID": "LH@W2021",
+        "homeTeamID": "W",
+        "awayTeamID": "LH",
+        "homeTeamPoints": "234.0",
+        "awayTeamPoints": "171.0"
+    },
+    {
+        "dualMeetID": "SS2@RV",
+        "meetID": "SS2@RV2021",
+        "homeTeamID": "RV",
+        "awayTeamID": "SS2",
+        "homeTeamPoints": "188.0",
+        "awayTeamPoints": "209.0"
+    },
+    {
+        "dualMeetID": "PT@RV",
+        "meetID": "PT@RV2021",
+        "homeTeamID": "RV",
+        "awayTeamID": "PT",
+        "homeTeamPoints": "211.0",
+        "awayTeamPoints": "207.0"
+    },
+    {
+        "dualMeetID": "FX@LH",
+        "meetID": "FX@LH2021",
+        "homeTeamID": "LH",
+        "awayTeamID": "FX",
+        "homeTeamPoints": "147.0",
+        "awayTeamPoints": "271.0"
+    },
+    {
+        "dualMeetID": "W@SS2",
+        "meetID": "W@SS22021",
+        "homeTeamID": "SS2",
+        "awayTeamID": "W",
+        "homeTeamPoints": "210.0",
+        "awayTeamPoints": "210.0"
+    },
+    {
+        "dualMeetID": "LH@PT",
+        "meetID": "LH@PT2021",
+        "homeTeamID": "PT",
+        "awayTeamID": "LH",
+        "homeTeamPoints": "229.0",
+        "awayTeamPoints": "189.0"
+    },
+    {
+        "dualMeetID": "SS2@FX",
+        "meetID": "SS2@FX2021",
+        "homeTeamID": "FX",
+        "awayTeamID": "SS2",
+        "homeTeamPoints": "240.0",
+        "awayTeamPoints": "176.0"
+    },
+    {
+        "dualMeetID": "W@RV",
+        "meetID": "W@RV2021",
+        "homeTeamID": "RV",
+        "awayTeamID": "W",
+        "homeTeamPoints": "249.0",
+        "awayTeamPoints": "171.0"
+    },
+    {
+        "dualMeetID": "LB@PL",
+        "meetID": "LB@PL2021",
+        "homeTeamID": "PL",
+        "awayTeamID": "LB",
+        "homeTeamPoints": "310.0",
+        "awayTeamPoints": "110.0"
+    },
+    {
+        "dualMeetID": "IC@H",
+        "meetID": "IC@H2021",
+        "homeTeamID": "H",
+        "awayTeamID": "IC",
+        "homeTeamPoints": "229.0",
+        "awayTeamPoints": "164.0"
+    },
+    {
+        "dualMeetID": "PAR@HH",
+        "meetID": "PAR@HH2021",
+        "homeTeamID": "HH",
+        "awayTeamID": "PAR",
+        "homeTeamPoints": "220.0",
+        "awayTeamPoints": "180.0"
+    },
+    {
+        "dualMeetID": "PL@PAR",
+        "meetID": "PL@PAR2021",
+        "homeTeamID": "PAR",
+        "awayTeamID": "PL",
+        "homeTeamPoints": "134.0",
+        "awayTeamPoints": "285.0"
+    },
+    {
+        "dualMeetID": "LB@IC",
+        "meetID": "LB@IC2021",
+        "homeTeamID": "IC",
+        "awayTeamID": "LB",
+        "homeTeamPoints": "136.0",
+        "awayTeamPoints": "273.0"
+    },
+    {
+        "dualMeetID": "HH@H",
+        "meetID": "HH@H2021",
+        "homeTeamID": "H",
+        "awayTeamID": "HH",
+        "homeTeamPoints": "171.0",
+        "awayTeamPoints": "234.0"
+    },
+    {
+        "dualMeetID": "HH@PL",
+        "meetID": "HH@PL2021",
+        "homeTeamID": "PL",
+        "awayTeamID": "HH",
+        "homeTeamPoints": "269.0",
+        "awayTeamPoints": "151.0"
+    },
+    {
+        "dualMeetID": "IC@PAR",
+        "meetID": "IC@PAR2021",
+        "homeTeamID": "PAR",
+        "awayTeamID": "IC",
+        "homeTeamPoints": "232.0",
+        "awayTeamPoints": "177.0"
+    },
+    {
+        "dualMeetID": "H@LB",
+        "meetID": "H@LB2021",
+        "homeTeamID": "LB",
+        "awayTeamID": "H",
+        "homeTeamPoints": "228.0",
+        "awayTeamPoints": "187.0"
+    },
+    {
+        "dualMeetID": "PL@H",
+        "meetID": "PL@H2021",
+        "homeTeamID": "H",
+        "awayTeamID": "PL",
+        "homeTeamPoints": "132.0",
+        "awayTeamPoints": "287.0"
+    },
+    {
+        "dualMeetID": "HH@IC",
+        "meetID": "HH@IC2021",
+        "homeTeamID": "IC",
+        "awayTeamID": "HH",
+        "homeTeamPoints": "180.0",
+        "awayTeamPoints": "216.0"
+    },
+    {
+        "dualMeetID": "PAR@LB",
+        "meetID": "PAR@LB2021",
+        "homeTeamID": "LB",
+        "awayTeamID": "PAR",
+        "homeTeamPoints": "237.0",
+        "awayTeamPoints": "182.0"
+    },
+    {
+        "dualMeetID": "IC@PL",
+        "meetID": "IC@PL2021",
+        "homeTeamID": "PL",
+        "awayTeamID": "IC",
+        "homeTeamPoints": "300.0",
+        "awayTeamPoints": "118.0"
+    },
+    {
+        "dualMeetID": "LB@HH",
+        "meetID": "LB@HH2021",
+        "homeTeamID": "HH",
+        "awayTeamID": "LB",
+        "homeTeamPoints": "217.0",
+        "awayTeamPoints": "202.0"
+    },
+    {
+        "dualMeetID": "H@PAR",
+        "meetID": "H@PAR2021",
+        "homeTeamID": "PAR",
+        "awayTeamID": "H",
+        "homeTeamPoints": "263.0",
+        "awayTeamPoints": "154.0"
+    },
+    {
+        "dualMeetID": "CSC@BKS",
+        "meetID": "CSC@BKS2021",
+        "homeTeamID": "BKS",
+        "awayTeamID": "CSC",
+        "homeTeamPoints": "161.0",
+        "awayTeamPoints": "225.0"
+    },
+    {
+        "dualMeetID": "NF@PV",
+        "meetID": "NF@PV2021",
+        "homeTeamID": "PV",
+        "awayTeamID": "NF",
+        "homeTeamPoints": "133.0",
+        "awayTeamPoints": "232.0"
+    },
+    {
+        "dualMeetID": "LP@LBR",
+        "meetID": "LP@LBR2021",
+        "homeTeamID": "LBR",
+        "awayTeamID": "LP",
+        "homeTeamPoints": "202.0",
+        "awayTeamPoints": "206.0"
+    },
+    {
+        "dualMeetID": "BKS@LP",
+        "meetID": "BKS@LP2021",
+        "homeTeamID": "LP",
+        "awayTeamID": "BKS",
+        "homeTeamPoints": "236.0",
+        "awayTeamPoints": "182.0"
+    },
+    {
+        "dualMeetID": "PV@CSC",
+        "meetID": "PV@CSC2021",
+        "homeTeamID": "CSC",
+        "awayTeamID": "PV",
+        "homeTeamPoints": "242.0",
+        "awayTeamPoints": "159.0"
+    },
+    {
+        "dualMeetID": "NF@LBR",
+        "meetID": "NF@LBR2021",
+        "homeTeamID": "LBR",
+        "awayTeamID": "NF",
+        "homeTeamPoints": "223.0",
+        "awayTeamPoints": "185.0"
+    },
+    {
+        "dualMeetID": "LBR@BKS",
+        "meetID": "LBR@BKS2021",
+        "homeTeamID": "BKS",
+        "awayTeamID": "LBR",
+        "homeTeamPoints": "212.0",
+        "awayTeamPoints": "207.0"
+    },
+    {
+        "dualMeetID": "LP@PV",
+        "meetID": "LP@PV2021",
+        "homeTeamID": "PV",
+        "awayTeamID": "LP",
+        "homeTeamPoints": "144.0",
+        "awayTeamPoints": "271.0"
+    },
+    {
+        "dualMeetID": "CSC@NF",
+        "meetID": "CSC@NF2021",
+        "homeTeamID": "NF",
+        "awayTeamID": "CSC",
+        "homeTeamPoints": "193.0",
+        "awayTeamPoints": "218.0"
+    },
+    {
+        "dualMeetID": "BKS@NF",
+        "meetID": "BKS@NF2021",
+        "homeTeamID": "NF",
+        "awayTeamID": "BKS",
+        "homeTeamPoints": "151.0",
+        "awayTeamPoints": "257.0"
+    },
+    {
+        "dualMeetID": "PV@LBR",
+        "meetID": "PV@LBR2021",
+        "homeTeamID": "LBR",
+        "awayTeamID": "PV",
+        "homeTeamPoints": "259.0",
+        "awayTeamPoints": "150.0"
+    },
+    {
+        "dualMeetID": "CSC@LP",
+        "meetID": "CSC@LP2021",
+        "homeTeamID": "LP",
+        "awayTeamID": "CSC",
+        "homeTeamPoints": "240.0",
+        "awayTeamPoints": "179.0"
+    },
+    {
+        "dualMeetID": "BKS@PV",
+        "meetID": "BKS@PV2021",
+        "homeTeamID": "PV",
+        "awayTeamID": "BKS",
+        "homeTeamPoints": "151.0",
+        "awayTeamPoints": "256.0"
+    },
+    {
+        "dualMeetID": "LBR@CSC",
+        "meetID": "LBR@CSC2021",
+        "homeTeamID": "CSC",
+        "awayTeamID": "LBR",
+        "homeTeamPoints": "213.0",
+        "awayTeamPoints": "201.0"
+    },
+    {
+        "dualMeetID": "NF@LP",
+        "meetID": "NF@LP2021",
+        "homeTeamID": "LP",
+        "awayTeamID": "NF",
+        "homeTeamPoints": "313.0",
+        "awayTeamPoints": "104.0"
+    },
+    {
+        "dualMeetID": "PW@BC",
+        "meetID": "PW@BC2021",
+        "homeTeamID": "BC",
+        "awayTeamID": "PW",
+        "homeTeamPoints": "258.0",
+        "awayTeamPoints": "73.0"
+    },
+    {
+        "dualMeetID": "V@S",
+        "meetID": "V@S2021",
+        "homeTeamID": "S",
+        "awayTeamID": "V",
+        "homeTeamPoints": "152.0",
+        "awayTeamPoints": "223.0"
+    },
+    {
+        "dualMeetID": "NS@EP",
+        "meetID": "NS@EP2021",
+        "homeTeamID": "EP",
+        "awayTeamID": "NS",
+        "homeTeamPoints": "31.0",
+        "awayTeamPoints": "325.0"
+    },
+    {
+        "dualMeetID": "BC@EP",
+        "meetID": "BC@EP2021",
+        "homeTeamID": "EP",
+        "awayTeamID": "BC",
+        "homeTeamPoints": "24.0",
+        "awayTeamPoints": "262.0"
+    },
+    {
+        "dualMeetID": "V@PW",
+        "meetID": "V@PW2021",
+        "homeTeamID": "PW",
+        "awayTeamID": "V",
+        "homeTeamPoints": "86.0",
+        "awayTeamPoints": "286.0"
+    },
+    {
+        "dualMeetID": "S@NS",
+        "meetID": "S@NS2021",
+        "homeTeamID": "NS",
+        "awayTeamID": "S",
+        "homeTeamPoints": "256.0",
+        "awayTeamPoints": "118.0"
+    },
+    {
+        "dualMeetID": "BC@NS",
+        "meetID": "BC@NS2021",
+        "homeTeamID": "NS",
+        "awayTeamID": "BC",
+        "homeTeamPoints": "175.0",
+        "awayTeamPoints": "224.0"
+    },
+    {
+        "dualMeetID": "EP@V",
+        "meetID": "EP@V2021",
+        "homeTeamID": "V",
+        "awayTeamID": "EP",
+        "homeTeamPoints": "344.0",
+        "awayTeamPoints": "18.0"
+    },
+    {
+        "dualMeetID": "PW@S",
+        "meetID": "PW@S2021",
+        "homeTeamID": "S",
+        "awayTeamID": "PW",
+        "homeTeamPoints": "227.0",
+        "awayTeamPoints": "134.0"
+    },
+    {
+        "dualMeetID": "S@BC",
+        "meetID": "S@BC2021",
+        "homeTeamID": "BC",
+        "awayTeamID": "S",
+        "homeTeamPoints": "247.0",
+        "awayTeamPoints": "139.0"
+    },
+    {
+        "dualMeetID": "NS@V",
+        "meetID": "NS@V2021",
+        "homeTeamID": "V",
+        "awayTeamID": "NS",
+        "homeTeamPoints": "221.0",
+        "awayTeamPoints": "189.0"
+    },
+    {
+        "dualMeetID": "EP@PW",
+        "meetID": "EP@PW2021",
+        "homeTeamID": "PW",
+        "awayTeamID": "EP",
+        "homeTeamPoints": "241.0",
+        "awayTeamPoints": "33.0"
+    },
+    {
+        "dualMeetID": "BC@V",
+        "meetID": "BC@V2021",
+        "homeTeamID": "V",
+        "awayTeamID": "BC",
+        "homeTeamPoints": "205.0",
+        "awayTeamPoints": "188.0"
+    },
+    {
+        "dualMeetID": "PW@NS",
+        "meetID": "PW@NS2021",
+        "homeTeamID": "NS",
+        "awayTeamID": "PW",
+        "homeTeamPoints": "296.0",
+        "awayTeamPoints": "100.0"
+    },
+    {
+        "dualMeetID": "EP@S",
+        "meetID": "EP@S2021",
+        "homeTeamID": "S",
+        "awayTeamID": "EP",
+        "homeTeamPoints": "309.0",
+        "awayTeamPoints": "47.0"
+    }
+]
